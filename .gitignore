@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+.next/
+out/
+build/
+dist/
+
+# Environment — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Transformers model cache (downloaded at runtime)
+.cache/
+models/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Test artifacts
+coverage/
+
+# Live demo sandbox — never mix into published corpus
+data/sandbox/**
+!data/sandbox/.gitkeep
+
+# Incomplete writes from the JSON store
+*.tmp

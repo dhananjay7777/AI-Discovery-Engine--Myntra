@@ -1,0 +1,44 @@
+[
+  {
+    "id": "59dcf0f6-722c-404e-8e17-0e8267f57dec",
+    "platform": "play_store",
+    "collection_method": "google-play-scraper npm package (public Play Store pages)",
+    "terms_notes": "Reads publicly listed app reviews via the unofficial google-play-scraper library. No authentication. Myntra and peer fashion apps only.",
+    "created_at": "2026-09-01T19:20:50.633Z"
+  },
+  {
+    "id": "7086fad0-3590-44d4-8703-831231a483bb",
+    "platform": "app_store",
+    "collection_method": "Apple iTunes customer review RSS (public JSON feed)",
+    "terms_notes": "Fetches the public RSS JSON feed for Myntra iOS app reviews. No authentication or HTML scraping.",
+    "created_at": "2026-09-01T19:20:50.633Z"
+  },
+  {
+    "id": "dbb52668-a50a-42a3-a297-b61b86a37ddf",
+    "platform": "reddit",
+    "collection_method": "Reddit public .json search and listing endpoints",
+    "terms_notes": "Uses unauthenticated Reddit JSON endpoints with a descriptive User-Agent. Public posts and comments only; author names hashed on ingest.",
+    "created_at": "2026-09-01T19:20:50.633Z"
+  },
+  {
+    "id": "e8882e3f-7d67-46bb-80b6-6cf0f8c2e0ee",
+    "platform": "youtube",
+    "collection_method": "YouTube Data API v3 (search.list + commentThreads.list)",
+    "terms_notes": "Official YouTube Data API with YOUTUBE_API_KEY. Public video comments only; respects daily search quota.",
+    "created_at": "2026-09-01T19:20:50.633Z"
+  },
+  {
+    "id": "765841ff-e69f-45f6-8916-dc8f650cb242",
+    "platform": "stackexchange_fashion",
+    "collection_method": "Stack Exchange API 2.3 (fashion.stackexchange.com)",
+    "terms_notes": "Public Stack Exchange API for Fashion SE. Questions and answers with CC BY-SA attribution via permalink.",
+    "created_at": "2026-09-01T19:20:50.633Z"
+  },
+  {
+    "id": "e4483393-20c9-40cc-8881-75da388477fd",
+    "platform": "hacker_news",
+    "collection_method": "Hacker News Algolia public search API",
+    "terms_notes": "Uses the public hn.algolia.com API for stories and comments mentioning fashion shopping topics. No authentication.",
+    "created_at": "2026-09-01T19:36:40.586Z"
+  }
+]
