@@ -18,17 +18,20 @@ That writes `<!-- phase-status: complete -->` in that phase's `eval.md` and refr
 
 ## Phase map
 
+<!-- phase-map:start -->
 
-| #   | Phase            | What it does (plain)                                                                                        | LLM?                       | Produces                                             | Eval                                        | Status      |
+| # | Phase            | What it does (plain)                                                                                        | LLM?                       | Produces                                             | Eval                                        | Status      |
 | --- | ---------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------- | ------------------------------------------- | ----------- |
-| 0   | Foundation       | Get an empty site, JSON store, secrets, and a job runner working before any analysis                        | Smoke test only            | Site + JSON schema, secrets, job runner              | [eval](./phases/phase-0-foundation/eval.md) | Complete    |
-| 1   | Corpus           | Collect public comments and reviews from several platforms, then clean and dedupe them                      | No (local embeddings only) | Multi-source public corpus, deduped, with provenance | [eval](./phases/phase-1-corpus/eval.md)     | Not started |
-| 2   | Extraction       | **Analysis pass:** send cleaned documents to Groq — keep relevant ones, pull labeled quotes from the source | Yes — every document       | Relevance gate + verbatim-anchored evidence units    | [eval](./phases/phase-2-extraction/eval.md) | Not started |
-| 3   | Codebook         | Name leftover themes, tag every quote, and check how much of the data is covered                            | Yes — cluster names only   | Hybrid taxonomy, units coded, coverage measured      | [eval](./phases/phase-3-codebook/eval.md)   | Not started |
-| 4   | Scoring          | Rank the themes as opportunities and show which part of wishlist conversion each would move                 | No (arithmetic)            | Ranked opportunities mapped to the metric tree       | [eval](./phases/phase-4-scoring/eval.md)    | Not started |
-| 5   | Web app          | Build the website pages a PM can click through — ranked list, evidence, method                              | No                         | The nine surfaces, drill-down evidence, method page  | [eval](./phases/phase-5-webapp/eval.md)     | Not started |
-| 6   | Deploy & harden  | Put it on a public URL, add a small live demo, and lock down cost and secrets                               | Capped demo sample only    | Public URL, live demo run, caps, cost controls       | [eval](./phases/phase-6-deploy/eval.md)     | Not started |
-| 7   | Research handoff | Turn the top finding into interview questions, a deck slide, and an evidence export                         | Drafts interview questions | Interview guide, deck slide, export                  | [eval](./phases/phase-7-handoff/eval.md)    | Not started |
+| 0 | Foundation       | Get an empty site, JSON store, secrets, and a job runner working before any analysis                        | Smoke test only            | Site + JSON schema, secrets, job runner              | [eval](./phases/phase-0-foundation/eval.md) | Complete    |
+| 1 | Corpus           | Collect public comments and reviews from several platforms, then clean and dedupe them                      | No (local embeddings only) | Multi-source public corpus, deduped, with provenance | [eval](./phases/phase-1-corpus/eval.md)     | Complete    |
+| 2 | Extraction       | **Analysis pass:** send cleaned documents to Groq — keep relevant ones, pull labeled quotes from the source | Yes — every document       | Relevance gate + verbatim-anchored evidence units    | [eval](./phases/phase-2-extraction/eval.md) | Not started |
+| 3 | Codebook         | Name leftover themes, tag every quote, and check how much of the data is covered                            | Yes — cluster names only   | Hybrid taxonomy, units coded, coverage measured      | [eval](./phases/phase-3-codebook/eval.md)   | Not started |
+| 4 | Scoring          | Rank the themes as opportunities and show which part of wishlist conversion each would move                 | No (arithmetic)            | Ranked opportunities mapped to the metric tree       | [eval](./phases/phase-4-scoring/eval.md)    | Not started |
+| 5 | Web app          | Build the website pages a PM can click through — ranked list, evidence, method                              | No                         | The nine surfaces, drill-down evidence, method page  | [eval](./phases/phase-5-webapp/eval.md)     | Not started |
+| 6 | Deploy & harden  | Put it on a public URL, add a small live demo, and lock down cost and secrets                               | Capped demo sample only    | Public URL, live demo run, caps, cost controls       | [eval](./phases/phase-6-deploy/eval.md)     | Not started |
+| 7 | Research handoff | Turn the top finding into interview questions, a deck slide, and an evidence export                         | Drafts interview questions | Interview guide, deck slide, export                  | [eval](./phases/phase-7-handoff/eval.md)    | Not started |
+
+<!-- phase-map:end -->
 
 
 Phases 0–4 are strictly sequential: each consumes the previous phase's output. Phase 5 can start once Phase 3 produces stable coded data, using placeholder scores. Phase 7 depends only on Phase 4.
