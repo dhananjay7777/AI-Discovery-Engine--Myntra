@@ -2,7 +2,6 @@ import { HBarList, RingStat, VBarList } from "@/components/site/Charts";
 import { Shell } from "@/components/site/Shell";
 import { EmptyState } from "@/components/site/ui";
 import {
-  formatPct,
   getCorpusStats,
   getPhase2Metrics,
   getRunMeta,
@@ -67,32 +66,18 @@ export default function CorpusPage() {
               }))}
             />
           </div>
-        </div>
-      </div>
-
-      <section id="sources" className="mt-10">
-        <h2 className="section-title">How much came from each place</h2>
-        <div className="data-panel mt-6 max-w-xl overflow-x-auto px-6 py-6">
-          <HBarList
-            items={sources.map((s) => ({
-              label: platformLabel(s.platform),
-              value: s.share_of_raw,
-            }))}
-            format={(n) => formatPct(n, 0)}
-            max={1}
-          />
-          <p className="mt-4 text-sm text-muted">
+          <p className="mt-4 max-w-3xl text-sm text-muted">
             Public pages anyone can read — not private accounts. This round
             covers App Store, Play Store, Reddit, YouTube, and Hacker News. It
             does not include Instagram or other social feeds, fashion forums, or
             questions on product pages.
           </p>
         </div>
-      </section>
+      </div>
 
       <section className="mt-10">
         <h2 className="section-title">When they were written</h2>
-        <div className="data-panel mt-6 max-w-xl overflow-x-auto px-6 py-6">
+        <div className="data-panel mt-6 w-full overflow-x-auto px-6 py-6 sm:px-8">
           <VBarList
             items={years.map(([year, n]) => ({ label: year, value: n }))}
           />

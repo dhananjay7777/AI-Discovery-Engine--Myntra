@@ -45,7 +45,7 @@ export function ScoreBar({
         <span>{label}</span>
         <span className="tabular-nums text-muted">{Math.round(value * 100)}%</span>
       </div>
-      <div className="h-1.5 overflow-hidden rounded-full bg-white/10" aria-hidden>
+      <div className="h-1.5 overflow-hidden rounded-full bg-foreground/10" aria-hidden>
         <div
           className="h-full rounded-full bg-accent"
           style={{ width: `${pct}%` }}

@@ -195,15 +195,19 @@ function main() {
   );
 
   const navSrc = readFileSync(join(process.cwd(), "src", "components", "site", "Nav.tsx"), "utf-8");
+  const headerSrc = readFileSync(
+    join(process.cwd(), "src", "components", "site", "SiteHeader.tsx"),
+    "utf-8",
+  );
   const layoutSrc = readFileSync(join(process.cwd(), "src", "app", "layout.tsx"), "utf-8");
   checks.push(
     check(
       "T5.15",
-      navSrc.includes("flex-wrap") &&
+      (navSrc.includes("flex-wrap") || headerSrc.includes("site-nav-toggle")) &&
         segs.includes("overflow-x-auto") &&
         readFileSync(join(app, "corpus", "page.tsx"), "utf-8").includes("overflow-x-auto") &&
         layoutSrc.includes("device-width"),
-      "flex-wrap nav, scrollable tables, device-width viewport",
+      "mobile nav, scrollable tables, device-width viewport",
     ),
   );
   checks.push(check("T5.16", shell.includes("Skip to content"), "skip link + real <a> navigation"));

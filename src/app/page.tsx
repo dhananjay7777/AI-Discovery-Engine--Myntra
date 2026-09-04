@@ -149,61 +149,6 @@ export default function OverviewPage() {
         </ol>
       </section>
 
-      <section className="mt-16">
-        <h2 className="section-title">The ideas, in short</h2>
-        {rec.length === 0 ? (
-          <div className="mt-8">
-            <EmptyState
-              title="Nothing published yet"
-              body="The list of ideas has not been posted."
-            />
-          </div>
-        ) : (
-          <>
-            <p className="mt-3 max-w-2xl leading-relaxed text-muted">
-              Tap one to read the actual comments behind it.
-            </p>
-            <div className="data-panel mt-8 px-6 py-6 sm:px-8">
-              <p className="text-xs text-muted">How often each idea showed up</p>
-              <div className="mt-4">
-                <HBarList
-                  items={rec.map((a) => ({
-                    label: ideaTitle(a.slug, a.label),
-                    value: a.prevalence,
-                    href: `/opportunities/${a.slug}`,
-                  }))}
-                  format={(n) => formatPct(n, 0)}
-                  max={1}
-                />
-              </div>
-            </div>
-            <ol className="mt-8 grid gap-6 sm:grid-cols-2">
-              {rec.map((a, i) => (
-                <li key={a.slug} className="h-full">
-                  <Link
-                    href={`/opportunities/${a.slug}`}
-                    className="surface surface-hover flex h-full flex-col px-6 py-7 sm:px-8 sm:py-8"
-                  >
-                    <span className="kicker">Idea {i + 1}</span>
-                    <span className="mt-4 block font-display text-2xl leading-snug sm:text-3xl">
-                      {ideaTitle(a.slug, a.label)}
-                    </span>
-                    <span className="mt-4 block text-base leading-7 text-muted">
-                      {ideaPlain(a.slug, a.hypothesis)}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ol>
-          </>
-        )}
-        <p className="mt-10 text-sm">
-          <Link href="/board" className="text-accent underline underline-offset-4">
-            See why they are in this order
-          </Link>
-        </p>
-      </section>
-
       <section className="mt-16" aria-label="What we read">
         <h2 className="section-title">Where the comments came from</h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
@@ -276,6 +221,61 @@ export default function OverviewPage() {
             </div>
           ) : null}
         </div>
+      </section>
+
+      <section className="mt-16">
+        <h2 className="section-title">The ideas, in short</h2>
+        {rec.length === 0 ? (
+          <div className="mt-8">
+            <EmptyState
+              title="Nothing published yet"
+              body="The list of ideas has not been posted."
+            />
+          </div>
+        ) : (
+          <>
+            <p className="mt-3 max-w-2xl leading-relaxed text-muted">
+              Tap one to read the actual comments behind it.
+            </p>
+            <div className="data-panel mt-8 px-6 py-6 sm:px-8">
+              <p className="text-xs text-muted">How often each idea showed up</p>
+              <div className="mt-4">
+                <HBarList
+                  items={rec.map((a) => ({
+                    label: ideaTitle(a.slug, a.label),
+                    value: a.prevalence,
+                    href: `/opportunities/${a.slug}`,
+                  }))}
+                  format={(n) => formatPct(n, 0)}
+                  max={1}
+                />
+              </div>
+            </div>
+            <ol className="mt-8 grid gap-6 sm:grid-cols-2">
+              {rec.map((a, i) => (
+                <li key={a.slug} className="h-full">
+                  <Link
+                    href={`/opportunities/${a.slug}`}
+                    className="surface surface-hover flex h-full flex-col px-6 py-7 sm:px-8 sm:py-8"
+                  >
+                    <span className="kicker">Idea {i + 1}</span>
+                    <span className="mt-4 block font-display text-2xl leading-snug sm:text-3xl">
+                      {ideaTitle(a.slug, a.label)}
+                    </span>
+                    <span className="mt-4 block text-base leading-7 text-muted">
+                      {ideaPlain(a.slug, a.hypothesis)}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </>
+        )}
+        <p className="mt-10 text-sm">
+          <Link href="/board" className="text-accent underline underline-offset-4">
+            See why they are in this order
+          </Link>
+        </p>
       </section>
 
       <section className="mt-16">

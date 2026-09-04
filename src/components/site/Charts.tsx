@@ -175,7 +175,7 @@ export function RingStat({
             cy="50"
             r={r}
             fill="none"
-            stroke="rgb(255 244 232 / 0.1)"
+            stroke="rgb(28 22 18 / 0.12)"
             strokeWidth="8"
           />
           <circle

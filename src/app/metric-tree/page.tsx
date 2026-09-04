@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { HBarList } from "@/components/site/Charts";
 import { Shell } from "@/components/site/Shell";
 import { EmptyState } from "@/components/site/ui";
 import { getOutcomeTree, getRunMeta } from "@/lib/web/data";
@@ -9,83 +8,159 @@ import { ideaPlain, ideaTitle, metricNodeCopy } from "@/lib/web/plain";
 
 export const dynamic = "force-dynamic";
 
+/** Fixed shopper story order — matches the published outcome tree. */
+const STEP_IDS = [
+  "save_quality",
+  "return_to_wishlist_rate",
+  "decision_resolution_rate",
+  "availability_at_return",
+  "checkout_completion",
+] as const;
+
+const STEP_PLAIN: Record<
+  (typeof STEP_IDS)[number],
+  { ask: string; fail: string }
+> = {
+  save_quality: {
+    ask: "Did they mean to buy this, or only park it for later?",
+    fail: "If it was only a bookmark, the 30-day buy goal never starts.",
+  },
+  return_to_wishlist_rate: {
+    ask: "Do they open the saved list again?",
+    fail: "A save that is never opened again cannot become a purchase.",
+  },
+  decision_resolution_rate: {
+    ask: "When they come back, can they settle what still worries them?",
+    fail: "Fit, fabric, outfit, or other shoppers’ photos — something still blocks yes.",
+  },
+  availability_at_return: {
+    ask: "Is their size still there when they return?",
+    fail: "If the size is gone, the decision never reaches checkout.",
+  },
+  checkout_completion: {
+    ask: "Can they finish buying once they have decided?",
+    fail: "Delivery, returns, or checkout friction can still stop the purchase.",
+  },
+};
+
 export default function MetricTreePage() {
   const run = getRunMeta();
   const { nodes, byParent, opportunitiesByNode } = getOutcomeTree();
   const root = nodes.find((n) => !n.parent_id) ?? nodes[0];
-  const steps = root ? (byParent.get(root.id) ?? []) : [];
-  const rootCopy = root ? metricNodeCopy(root.id) : null;
+  const nodeById = new Map(nodes.map((n) => [n.id, n]));
+  const steps = STEP_IDS.map((id) => nodeById.get(id)).filter(
+    (n): n is OutcomeNode => Boolean(n),
+  );
 
-  const recOnDoubt =
-    steps.find((s) => s.id === "decision_resolution_rate") &&
-    descendantIds("decision_resolution_rate", byParent)
-      .concat("decision_resolution_rate")
-      .flatMap((id) => opportunitiesByNode.get(id) ?? [])
-      .filter((a, i, all) => a.recommended && all.findIndex((x) => x.slug === a.slug) === i)
-      .length;
+  const stepIdeas = steps.map((node) => ({
+    node,
+    areas: areasOn(node.id, opportunitiesByNode, byParent, true).filter(
+      (a) => a.recommended,
+    ),
+  }));
+  const focus = stepIdeas
+    .map((s, i) => ({ ...s, index: i + 1 }))
+    .sort((a, b) => b.areas.length - a.areas.length)[0];
 
   return (
     <Shell current="/metric-tree" run={run}>
-      <h1 className="page-title">How a save becomes a buy</h1>
+      <h1 className="page-title">The path from save to buy</h1>
       <p className="lede mt-5">
-        Myntra wants more people to buy at least one saved item within 30 days.
-        For that to happen, five steps have to go right. Each idea on this site
-        is a guess about which step is stuck — not a measured result.
+        For someone to buy a saved item within 30 days, these five things have
+        to go right in order. This page is a map of that path — not Myntra’s
+        live numbers.
+      </p>
+      <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+        Each idea on Findings is a guess about which step gets stuck. Open a
+        step to see which ideas sit there, then read the real comments before
+        you trust them.
       </p>
 
-      {nodes.length === 0 || !root ? (
+      {nodes.length === 0 || !root || steps.length === 0 ? (
         <div className="mt-8">
-          <EmptyState title="Metric not published" body="The breakdown has not been written yet." />
+          <EmptyState
+            title="Path not published"
+            body="The save-to-buy steps have not been written yet."
+          />
         </div>
       ) : (
         <>
-          <section id={root.id} className="surface mt-10 scroll-mt-24 px-8 py-8 sm:px-10 sm:py-10">
-            <p className="kicker">The 30-day goal</p>
-            <h2 className="mt-3 font-display text-3xl leading-relaxed sm:text-4xl">
-              {rootCopy?.title ?? root.name}
-            </h2>
-            <p className="mt-4 max-w-2xl leading-relaxed text-muted">
-              {rootCopy?.shopper ?? root.definition}
+          <section className="mt-12" aria-label="The five steps">
+            <h2 className="section-title">The five steps</h2>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+              Read top to bottom. If any step fails, the purchase usually does
+              not happen.
             </p>
-            {typeof recOnDoubt === "number" && recOnDoubt > 0 ? (
-              <p className="mt-5 max-w-2xl text-sm leading-relaxed">
-                Most of the ideas sit on step 3 — leftover doubt after someone
-                comes back to the list. Start talks with shoppers there, then
-                check the other steps so you do not miss a different stuck point.
+            <ol className="path-rail mt-8">
+              {steps.map((node, i) => {
+                const plain = STEP_PLAIN[node.id as (typeof STEP_IDS)[number]];
+                const copy = metricNodeCopy(node.id);
+                const count = stepIdeas[i]?.areas.length ?? 0;
+                return (
+                  <li key={node.id} className="path-rail-item">
+                    <a href={`#${node.id}`} className="path-rail-link">
+                      <span className="path-rail-num" aria-hidden="true">
+                        {i + 1}
+                      </span>
+                      <span className="path-rail-copy">
+                        <span className="path-rail-title">
+                          {copy?.title ?? node.name}
+                        </span>
+                        <span className="path-rail-ask">
+                          {plain?.ask ?? copy?.shopper ?? node.definition}
+                        </span>
+                        {count > 0 ? (
+                          <span className="path-rail-meta">
+                            {count} idea{count === 1 ? "" : "s"} from comments
+                          </span>
+                        ) : (
+                          <span className="path-rail-meta is-empty">
+                            No idea mapped here yet
+                          </span>
+                        )}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ol>
+            {focus && focus.areas.length > 0 ? (
+              <p className="mt-6 max-w-2xl text-sm leading-relaxed text-muted">
+                Most of the ranked ideas sit on step {focus.index}
+                {" — "}
+                {(metricNodeCopy(focus.node.id)?.title ?? focus.node.name).toLowerCase()}
+                . Start shopper talks there, then check the empty steps so you
+                do not miss another stuck point.
               </p>
             ) : null}
           </section>
 
-          <div className="data-panel mt-8 px-6 py-6 sm:px-8">
-            <p className="text-xs text-muted">How many top ideas sit on each step</p>
-            <div className="mt-4">
-              <HBarList
-                items={steps.map((node, i) => ({
-                  label: `${i + 1}. ${metricNodeCopy(node.id)?.title ?? node.name}`,
-                  value: areasOn(
-                    node.id,
-                    opportunitiesByNode,
-                    byParent,
-                    true,
-                  ).filter((a) => a.recommended).length,
-                  href: `#${node.id}`,
-                }))}
-              />
-            </div>
-          </div>
+          <section className="mt-16" aria-label="Each step in detail">
+            <h2 className="section-title">Each step, with the ideas on it</h2>
+            <ol className="mt-8 space-y-8">
+              {steps.map((node, i) => (
+                <StepDetail
+                  key={node.id}
+                  index={i + 1}
+                  total={steps.length}
+                  node={node}
+                  byParent={byParent}
+                  opportunitiesByNode={opportunitiesByNode}
+                />
+              ))}
+            </ol>
+          </section>
 
-          <ol className="mt-10 space-y-8">
-            {steps.map((node, i) => (
-              <StepCard
-                key={node.id}
-                index={i + 1}
-                total={steps.length}
-                node={node}
-                byParent={byParent}
-                opportunitiesByNode={opportunitiesByNode}
-              />
-            ))}
-          </ol>
+          <p className="mt-14 max-w-2xl text-sm leading-relaxed text-muted">
+            Ready to pick where to look first?{" "}
+            <Link href="/board" className="text-accent underline underline-offset-4">
+              Open findings
+            </Link>
+            {" · "}
+            <Link href="/method" className="text-accent underline underline-offset-4">
+              What this path cannot prove
+            </Link>
+          </p>
         </>
       )}
     </Shell>
@@ -121,20 +196,7 @@ function areasOn(
   return unique(ids.flatMap((id) => opportunitiesByNode.get(id) ?? []));
 }
 
-function areasOnlyHere(
-  nodeId: string,
-  opportunitiesByNode: Map<string, Area[]>,
-  byParent: Map<string | null, OutcomeNode[]>,
-): Area[] {
-  const childMapped = new Set(
-    descendantIds(nodeId, byParent).flatMap((id) =>
-      (opportunitiesByNode.get(id) ?? []).map((a) => a.slug),
-    ),
-  );
-  return unique(opportunitiesByNode.get(nodeId) ?? []).filter((a) => !childMapped.has(a.slug));
-}
-
-function StepCard({
+function StepDetail({
   index,
   total,
   node,
@@ -148,68 +210,98 @@ function StepCard({
   opportunitiesByNode: Map<string, Area[]>;
 }) {
   const copy = metricNodeCopy(node.id);
+  const plain = STEP_PLAIN[node.id as (typeof STEP_IDS)[number]];
   const children = byParent.get(node.id) ?? [];
-  const leftover = areasOnlyHere(node.id, opportunitiesByNode, byParent);
-  const allHere = areasOn(node.id, opportunitiesByNode, byParent, true);
-  const recCount = allHere.filter((a) => a.recommended).length;
+  const ideas = areasOn(node.id, opportunitiesByNode, byParent, true)
+    .filter((a) => a.recommended)
+    .sort((a, b) => b.score - a.score);
+  const noted = areasOn(node.id, opportunitiesByNode, byParent, true)
+    .filter((a) => !a.recommended)
+    .sort((a, b) => b.score - a.score);
 
   return (
-    <li id={node.id} className="surface scroll-mt-24 px-8 py-8 sm:px-10 sm:py-10">
+    <li id={node.id} className="surface scroll-mt-24 px-7 py-8 sm:px-9 sm:py-9">
       <p className="kicker">
         Step {index} of {total}
-        {recCount > 0 ? ` · ${recCount} ranked idea${recCount === 1 ? "" : "s"}` : ""}
       </p>
-      <h2 className="mt-3 font-display text-3xl leading-relaxed">{copy?.title ?? node.name}</h2>
-      <p className="mt-4 max-w-2xl leading-relaxed">{copy?.shopper ?? node.definition}</p>
+      <h3 className="mt-3 font-display text-2xl leading-snug sm:text-3xl">
+        {copy?.title ?? node.name}
+      </h3>
+      <p className="mt-4 max-w-2xl text-base leading-relaxed">
+        {plain?.ask ?? copy?.shopper ?? node.definition}
+      </p>
+      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+        {plain?.fail ?? copy?.shopper}
+      </p>
 
       {children.length > 0 ? (
-        <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-          {children.map((child) => (
-            <li key={child.id} id={child.id} className="scroll-mt-24 rounded-2xl border border-border/80 bg-background/40 p-5">
-              <h3 className="font-medium">{metricNodeCopy(child.id)?.title ?? child.name}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-muted">
-                {metricNodeCopy(child.id)?.shopper ?? child.definition}
-              </p>
-              <IdeaList areas={unique(opportunitiesByNode.get(child.id) ?? [])} />
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <IdeaList areas={leftover} />
-      )}
-
-      {children.length > 0 && leftover.length > 0 ? (
-        <div className="mt-6">
-          <p className="text-sm text-muted">Also sitting on this step as a whole</p>
-          <IdeaList areas={leftover} />
+        <div className="mt-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">
+            Kinds of leftover doubt
+          </p>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+            {children.map((child) => {
+              const childCopy = metricNodeCopy(child.id);
+              const childIdeas = unique(
+                opportunitiesByNode.get(child.id) ?? [],
+              ).filter((a) => a.recommended);
+              return (
+                <li
+                  key={child.id}
+                  id={child.id}
+                  className="scroll-mt-24 border-l-2 border-accent/50 pl-4"
+                >
+                  <p className="font-medium">
+                    {childCopy?.title ?? child.name}
+                  </p>
+                  <p className="mt-1 text-sm leading-relaxed text-muted">
+                    {childCopy?.shopper ?? child.definition}
+                  </p>
+                  {childIdeas.length > 0 ? (
+                    <ul className="mt-3 space-y-1.5">
+                      {childIdeas.map((a) => (
+                        <li key={a.slug}>
+                          <Link
+                            href={`/opportunities/${a.slug}`}
+                            className="text-sm text-accent underline underline-offset-4"
+                          >
+                            {ideaTitle(a.slug, a.label)}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-3 text-sm text-muted">
+                      No ranked idea sits here yet.
+                    </p>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
         </div>
       ) : null}
 
-      {allHere.length === 0 ? (
-        <p className="mt-6 text-sm text-muted">
-          No idea on this site sits here yet. Public comments also cannot see
-          stock or checkout well — talks with shoppers still need to check this
-          step.
-        </p>
+      {ideas.length > 0 && children.length === 0 ? (
+        <div className="mt-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">
+            Ideas that sit here
+          </p>
+          <ul className="mt-4 space-y-3">
+            {ideas.map((a) => (
+              <li key={a.slug}>
+                <IdeaLink area={a} />
+              </li>
+            ))}
+          </ul>
+        </div>
       ) : null}
-    </li>
-  );
-}
 
-function IdeaList({ areas }: { areas: Area[] }) {
-  const rec = areas.filter((a) => a.recommended).sort((a, b) => b.score - a.score);
-  const other = areas.filter((a) => !a.recommended).sort((a, b) => b.score - a.score);
-  if (rec.length === 0 && other.length === 0) return null;
-  return (
-    <div className="mt-4 space-y-3">
-      {rec.map((a) => (
-        <IdeaLink key={a.slug} area={a} />
-      ))}
-      {other.length > 0 ? (
-        <div>
-          <p className="mt-2 text-xs text-muted">Noted, not in the top list</p>
+      {noted.length > 0 ? (
+        <div className="mt-6">
+          <p className="text-xs text-muted">Also noted, not in the top list</p>
           <ul className="mt-2 space-y-2">
-            {other.map((a) => (
+            {noted.map((a) => (
               <li key={a.slug}>
                 <IdeaLink area={a} muted />
               </li>
@@ -217,7 +309,15 @@ function IdeaList({ areas }: { areas: Area[] }) {
           </ul>
         </div>
       ) : null}
-    </div>
+
+      {ideas.length === 0 && noted.length === 0 ? (
+        <p className="mt-8 text-sm leading-relaxed text-muted">
+          Public comments did not point to a clear idea on this step. It still
+          matters — talks with shoppers should check it, especially stock and
+          checkout, which comments barely show.
+        </p>
+      ) : null}
+    </li>
   );
 }
 
@@ -225,8 +325,8 @@ function IdeaLink({ area, muted = false }: { area: Area; muted?: boolean }) {
   return (
     <Link
       href={`/opportunities/${area.slug}`}
-      className={`block rounded-xl border px-4 py-3 transition-colors hover:border-accent/50 ${
-        muted ? "border-border/60 text-muted" : "border-border bg-card/40"
+      className={`block border-b border-border/70 pb-3 transition-colors hover:border-accent/50 ${
+        muted ? "text-muted" : ""
       }`}
     >
       <span className="block font-medium text-foreground">
