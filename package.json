@@ -20,7 +20,18 @@
     "phase1:stats": "tsx src/scripts/refresh-corpus-stats.ts",
     "phase1:rebuild-dedupe": "tsx src/scripts/rebuild-dedupe.ts",
     "phase1:permalink-audit": "tsx src/scripts/generate-permalink-audit.ts",
-    "phase1:migrate-layout": "tsx src/scripts/migrate-corpus-layout.ts"
+    "phase1:migrate-layout": "tsx src/scripts/migrate-corpus-layout.ts",
+    "phase2:plan": "tsx src/scripts/phase2-plan.ts",
+    "phase2:extract": "tsx src/scripts/phase2-extract.ts",
+    "phase2:eval": "tsx src/scripts/phase2-eval.ts",
+    "phase2:metrics": "tsx src/scripts/phase2-metrics-export.ts",
+    "phase2:gold-sample": "tsx src/scripts/phase2-gold-sample.ts",
+    "phase2:gold-import": "tsx src/scripts/phase2-gold-import.ts",
+    "phase3:codebook": "tsx src/scripts/phase3-codebook.ts",
+    "phase3:eval": "tsx src/scripts/phase3-eval.ts",
+    "phase4:score": "tsx src/scripts/phase4-score.ts",
+    "phase4:eval": "tsx src/scripts/phase4-eval.ts",
+    "phase5:eval": "tsx src/scripts/phase5-eval.ts"
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.2",

@@ -67,13 +67,15 @@ Ids live in `.env` / `src/config/models.ts`, not in call sites (`T0.8`).
 
 | Stage | Env | Default |
 | --- | --- | --- |
-| Relevance gate | `GROQ_GATE_MODEL` | `openai/gpt-oss-20b` |
-| Extraction | `GROQ_EXTRACTION_MODEL` | `openai/gpt-oss-120b` |
+| Relevance gate (preferred) | `GROQ_GATE_MODEL` | `openai/gpt-oss-20b` |
+| Gate pool (independent TPD) | `GROQ_GATE_MODEL_POOL` | `20b`, `qwen3.8-27b`, `safeguard-20b`, `120b` |
+| Extraction (preferred) | `GROQ_EXTRACTION_MODEL` | `openai/gpt-oss-120b` |
+| Extract fallbacks | `GROQ_EXTRACT_MODEL_POOL` | `120b`, `20b`, `qwen3.8-27b` |
 | Agreement slice | `GROQ_AGREEMENT_MODEL` | `qwen/qwen3.8-27b` |
 
-All three support `strict: true` JSON schema. Do not swap in Llama 3.3 70B for pipeline calls — it has no native schema mode (`D-017`).
+Only models with `strict: true` JSON schema. Do not swap in Llama 3.3 70B (`D-017`). **Do not set the gate pool to a single model** — each model’s 200k TPD is separate, and one model cannot finish the corpus in 2 days (`D-021`).
 
-Rate-limit defaults in `.env` (`GROQ_REQUESTS_PER_MINUTE`, `GROQ_TOKENS_PER_MINUTE`, `GROQ_DAILY_REQUEST_BUDGET`) match a conservative free-tier allowance. Raise them if you are on a paid developer plan (`O-05`).
+Rate-limit defaults in `.env` match the published caps: **30 RPM, 8k TPM, 1k requests/day, 200k tokens/day per model**. Jobs use 80% of each cap (`GROQ_BUDGET_HEADROOM`). See [Phase 2 quota plan](./phases/phase-2-extraction/quota-plan.md) and `npm run phase2:plan`.
 
 ---
 

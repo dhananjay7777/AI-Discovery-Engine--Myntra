@@ -23,7 +23,7 @@ data/
     runs.json                       # Phase 0+ analysis run metadata
     evidence_units.json             # Phase 2+
     ...                             # Other analysis collections
-  sandbox/                          # Live demo output only (gitignored)
+  sandbox/                          # Live demo output + groq_daily_budget.json (gitignored)
 ```
 
 ## Corpus quality rules (Phase 1)
@@ -40,5 +40,6 @@ Counting (prevalence, source mix, scores) is done in TypeScript over these array
 npm run phase1:collect          # Collect + normalize into corpus/
 npm run phase1:stats            # Regenerate corpus/meta/corpus_stats.json from disk
 npm run phase1:eval             # Run Phase 1 eval checks
+npm run phase2:plan             # Print Phase 2 Groq call calendar vs quota
 npm run phase1:migrate-layout   # One-time migration from legacy flat JSON
 ```

@@ -1,1 +1,6051 @@
-[]
+[
+  {
+    "id": "637f0f71-a263-472b-9d88-ea26efa6e1c5",
+    "unit_id": "5ccffcac-d325-427c-b205-faa1171b961a",
+    "document_id": "13690c76-42d5-4f39-9c13-ca6dede79fba",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:26.614Z"
+  },
+  {
+    "id": "d8f4dc93-71d6-479a-8e13-ab6aa92d54e4",
+    "unit_id": "df331236-fbbd-4892-99b5-ff671c721142",
+    "document_id": "7a7a0236-939b-4783-9c64-396869bf13af",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:27.224Z"
+  },
+  {
+    "id": "e74daca7-64ae-4d6f-a1c7-65fef6d9e853",
+    "unit_id": "12394761-dcae-48eb-99b7-37d5f5059a11",
+    "document_id": "cda2d2f1-5f9a-44df-b777-d6a72f3048bd",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:27.692Z"
+  },
+  {
+    "id": "05f1b62e-bfae-4842-9d51-9f09befd6275",
+    "unit_id": "dc428b94-913c-4796-a2f0-fb5860a46a2b",
+    "document_id": "3f69e8b9-80df-4a1c-85d9-ee6b124c4cbe",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:28.160Z"
+  },
+  {
+    "id": "2989d22f-0bfd-4ca0-a517-501f06e43ac3",
+    "unit_id": "b610e1e7-fada-4f8b-8f75-b7cbdc3b070b",
+    "document_id": "e51a7e1d-b3b1-49f8-968f-28dc9f48b16a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:28.702Z"
+  },
+  {
+    "id": "e62a527c-79cf-40dd-bbf7-2df96b29a753",
+    "unit_id": "6ca0a672-436f-4746-8579-12dd1c5be372",
+    "document_id": "e26dc355-41c6-4ccf-9f96-a20031c169c6",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value_seeker",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:34.956Z"
+  },
+  {
+    "id": "940b289e-b8ba-402a-a9e3-87f8afbf8c72",
+    "unit_id": "81531058-9508-42ee-bab5-ae0ccb9db776",
+    "document_id": "ce351815-6e9c-45c1-8124-3af6b400a3a8",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:45.650Z"
+  },
+  {
+    "id": "afd0b744-daf3-49db-912e-94dbb8bb8678",
+    "unit_id": "c8e3ebf1-ee52-4036-ba53-b96435744265",
+    "document_id": "5b9ec8d9-e7fe-4b50-b52d-18c8667cbdf0",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "price_watch",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:11:57.146Z"
+  },
+  {
+    "id": "216117e1-e91f-41bb-9506-09e63ac07759",
+    "unit_id": "123d9835-edd2-44da-b74e-44b68758a2dc",
+    "document_id": "ed9f0af3-dc24-46d9-aeb3-637bd3bd649c",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "social_validation",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:12:09.417Z"
+  },
+  {
+    "id": "9b877407-4ef0-4ba3-8124-f9f5f351fd9c",
+    "unit_id": "a59de5ea-ec86-46d5-8bd6-984d3c393feb",
+    "document_id": "b849694f-d763-4ce5-bb0e-463ec97af30a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:12:19.451Z"
+  },
+  {
+    "id": "ef17b12f-634b-4aa7-a736-4e8ec5fbb081",
+    "unit_id": "ba459f07-bb89-456c-ae1c-4836f80e6460",
+    "document_id": "98cfc64d-04e0-4b6c-89ad-253cae6abdf7",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:12:31.410Z"
+  },
+  {
+    "id": "f7958c89-c079-4be1-a5a6-a57a3f4acc0d",
+    "unit_id": "a87b92b3-500a-4c9b-bfd8-afba1ed74aa6",
+    "document_id": "25d10230-98a0-421a-a488-aa4a5896f11d",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:12:42.415Z"
+  },
+  {
+    "id": "d2786fc8-6024-4812-8126-6769d2252c43",
+    "unit_id": "0bbf63e0-9e41-4d35-8814-8bdfcf6bb8b5",
+    "document_id": "be01d217-16c7-4e9a-886d-407fa27efc6a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "size",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:12:53.210Z"
+  },
+  {
+    "id": "82a8faba-e908-4d02-ab69-1bac448db8d5",
+    "unit_id": "f4ef7c69-9c07-4ccd-916c-c8b1f103fadb",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:13:04.425Z"
+  },
+  {
+    "id": "3f533cdd-a702-413d-a366-8cf968a3c35c",
+    "unit_id": "2e0a9e43-98bd-44c0-a5b8-8903caf4a70c",
+    "document_id": "902768f2-213c-41e5-a0b2-8e430c439324",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:13:15.640Z"
+  },
+  {
+    "id": "6dba30e4-e87a-417f-9f12-f7302f06baf7",
+    "unit_id": "1c42a8be-9abd-4662-babc-58bd07d7b946",
+    "document_id": "5e2290b5-f5d9-4e40-b8fc-9354e1fbdd76",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fabric_quality",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:13:26.649Z"
+  },
+  {
+    "id": "77688255-cf9e-4e86-ad65-276af063b8b3",
+    "unit_id": "3bb137a7-f453-4d07-bf95-ce46d7a7a021",
+    "document_id": "71e05ba2-2612-46f5-abf3-66dad142f73c",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "size",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:13:38.255Z"
+  },
+  {
+    "id": "5a4bd5c3-db78-4379-9859-7a6c34c8d5f9",
+    "unit_id": "fb25f644-9b49-4947-bc8b-4f6e7145b6d6",
+    "document_id": "64e595df-8217-451e-9771-8a6e99567312",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fabric_quality",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:13:49.229Z"
+  },
+  {
+    "id": "805b2df4-2534-485c-beed-e6d3a752e314",
+    "unit_id": "f5cf047c-342f-4546-99d0-267980027372",
+    "document_id": "2c2499e0-6a14-467c-930b-f79043dd9feb",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:14:01.137Z"
+  },
+  {
+    "id": "5f05ea8f-cfc2-4f53-a170-c30d077d1064",
+    "unit_id": "baa296fe-d182-4365-beaa-33573b130e79",
+    "document_id": "902768f2-213c-41e5-a0b2-8e430c439324",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:14:11.929Z"
+  },
+  {
+    "id": "e16bb2e6-ef5c-4721-9c66-019dd45a48eb",
+    "unit_id": "ea0780d6-d360-412b-b13d-359a27fcdf44",
+    "document_id": "33a50aa1-f7ca-455d-bd90-7ad2da4c8e71",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value_seeker",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:14:23.326Z"
+  },
+  {
+    "id": "a16168bd-db9f-4e28-8230-19147b8dfb6e",
+    "unit_id": "04297c94-a239-4962-abf4-757ab0fee00e",
+    "document_id": "6e8238e6-0b94-4315-998d-f640234a643a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "fit",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:14:35.627Z"
+  },
+  {
+    "id": "7c3f11f3-cdb5-4b67-91b5-f957b2055b8a",
+    "unit_id": "561e6177-81d1-4475-9298-887ad9b36890",
+    "document_id": "44d11050-b2a7-40ea-a838-e18fb23f0b0f",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "size",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:14:45.837Z"
+  },
+  {
+    "id": "8b773782-72f9-45c1-a676-482ff1578925",
+    "unit_id": "b07ba7fe-3f5e-4935-ab83-22d7dfe84ebb",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "social_validation",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:14:57.945Z"
+  },
+  {
+    "id": "ea46be10-009d-4c03-a2da-97998fb3ff55",
+    "unit_id": "920c31ef-05a3-4c1b-84c2-7d25c09264ad",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "size",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:15:08.192Z"
+  },
+  {
+    "id": "65fbbe93-ffbe-4916-a8f3-34ab067d319f",
+    "unit_id": "b0ef97f3-0d5b-4cad-99a0-aa5cf87d565a",
+    "document_id": "e51a7e1d-b3b1-49f8-968f-28dc9f48b16a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:15:21.346Z"
+  },
+  {
+    "id": "c0539a5a-5b42-4474-a8c0-9801f54a0601",
+    "unit_id": "e5ade810-c14d-4ab7-b5c9-17f100be7929",
+    "document_id": "71e05ba2-2612-46f5-abf3-66dad142f73c",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "price",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:15:30.421Z"
+  },
+  {
+    "id": "28959672-cad0-427c-8449-9fcc27f0ba51",
+    "unit_id": "8d035ed2-d014-4753-81a6-82d6e4daf0f3",
+    "document_id": "3b318b47-ea2f-4ff8-84a2-c35bd8360fef",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "price",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:15:41.961Z"
+  },
+  {
+    "id": "daea81a7-4c3e-47aa-8323-e4d6adc947c1",
+    "unit_id": "42f2987a-6273-4d2d-afb4-efddbc829ea7",
+    "document_id": "5347ee42-21e6-4339-8d7b-aedf9150ce7b",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "returns_risk",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:15:54.621Z"
+  },
+  {
+    "id": "393c03e5-11ff-48eb-8648-ab3e1e723873",
+    "unit_id": "fd9b3922-5566-4360-af7a-1ed6cd6180ba",
+    "document_id": "5d5149cb-47ab-4a8c-89ca-039a570c2eb0",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "size",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:16:04.312Z"
+  },
+  {
+    "id": "e64e512e-8e52-4d00-82a1-aa1450185543",
+    "unit_id": "7bfff801-1c8d-4dfe-a2f4-2f93ac025f18",
+    "document_id": "ff002ff3-0935-48c4-bc72-d45d32dfca36",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:16:15.647Z"
+  },
+  {
+    "id": "7a51c160-71b0-4e16-9f03-9922a4035826",
+    "unit_id": "eae570a6-de56-4cf2-aa31-062d7ad368bf",
+    "document_id": "64e595df-8217-451e-9771-8a6e99567312",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:16:28.559Z"
+  },
+  {
+    "id": "1947b55d-3b86-450b-8f02-87217e7c0c12",
+    "unit_id": "c5e43488-fa56-400e-abd0-c1eaede4fc6a",
+    "document_id": "ce351815-6e9c-45c1-8124-3af6b400a3a8",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "gift_occasion",
+      "decision_factor": "fit",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:16:38.276Z"
+  },
+  {
+    "id": "936a434f-45bd-4b49-bf8c-f155b0c9cd91",
+    "unit_id": "8fb6da2b-5b09-428a-9abc-1e7a0107c25f",
+    "document_id": "9f9fb821-3a5e-4faa-9a02-136787d100db",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:16:49.435Z"
+  },
+  {
+    "id": "7bc209fa-d0a5-4727-af40-e5987f17bae6",
+    "unit_id": "31c67e6f-9f43-498f-88b8-451af4f703db",
+    "document_id": "5747ebef-e175-4140-81c8-ae1fd951c01e",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:17:03.852Z"
+  },
+  {
+    "id": "59f633a9-eec5-481b-b585-9bfce903865a",
+    "unit_id": "09160e70-4c60-48c2-9a37-7d2fe9a98687",
+    "document_id": "16ea4af2-6acb-40bc-972f-c1ad03b948c2",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "size",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:17:11.734Z"
+  },
+  {
+    "id": "7ead4e5b-3c92-4ad0-acdb-0250a6dc198e",
+    "unit_id": "c3dd06c6-7950-48b0-83fa-5a534cf035c9",
+    "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:17:24.406Z"
+  },
+  {
+    "id": "1fc77ed7-f434-4742-a82d-11df65fdefef",
+    "unit_id": "ebce6f22-256f-4de8-87eb-2bee8d5fd7ae",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "labels": {
+      "unit_type": "trigger",
+      "intent_type": "price_watch",
+      "decision_factor": "fabric_quality",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:17:34.832Z"
+  },
+  {
+    "id": "ea046326-a423-4b00-aa74-809e762aa042",
+    "unit_id": "b2598aaf-6702-4eeb-acc9-78acaa9e0dcf",
+    "document_id": "b4b08c00-b59e-432c-95fa-50607459e5ff",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "delivery_timing",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:17:46.254Z"
+  },
+  {
+    "id": "4f76ef0a-ace8-475e-b4e2-9bc59f2f1700",
+    "unit_id": "a8825674-e30b-4879-be74-7a6e1dfaae5b",
+    "document_id": "14f2c788-0596-4aad-a4fb-6e7fdd697001",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "size",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:18:00.071Z"
+  },
+  {
+    "id": "f5ad2a48-43f6-4011-bd34-54bbb9883bc5",
+    "unit_id": "f7eba81d-df84-4e64-9d14-3bb474094a20",
+    "document_id": "565b89c6-402b-4a97-8e67-7728937cd464",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:18:11.683Z"
+  },
+  {
+    "id": "7fa65702-2ca4-466c-9f18-4f985df44523",
+    "unit_id": "71606e29-1f5f-46cd-875a-1b6c8c58c79c",
+    "document_id": "4b89fc35-635c-4ced-b6f8-20e6c2735497",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:18:19.244Z"
+  },
+  {
+    "id": "2f7fbea4-a4c7-4b6b-98c2-02aa96fae975",
+    "unit_id": "7a2ca5f1-465e-457c-923f-c1cf52061ca4",
+    "document_id": "7cfdfeb8-70f2-4a17-86ef-56968a18a3a1",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:18:32.781Z"
+  },
+  {
+    "id": "db007967-f1e6-4e3b-890a-3b78ba2c1d78",
+    "unit_id": "53489b61-7789-4788-b0aa-b7099ac70bbf",
+    "document_id": "5f7167d6-0f69-4cd8-b566-a6a8c3e0efb1",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "gift_occasion",
+      "decision_factor": "occasion",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": "birthday",
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": "23"
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:18:41.939Z"
+  },
+  {
+    "id": "21a90326-557c-4a5a-9a47-853bdd409c41",
+    "unit_id": "0176ccd3-ba26-496c-8a70-600c1ac7b39c",
+    "document_id": "b849694f-d763-4ce5-bb0e-463ec97af30a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:18:53.932Z"
+  },
+  {
+    "id": "00a8daa7-2e52-4189-83b4-adea9ce9614b",
+    "unit_id": "dc098e94-02d5-40c2-bc85-cbf610ba110e",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "price",
+      "journey_stage": "none",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:19:04.431Z"
+  },
+  {
+    "id": "0a8de193-a423-40ef-a87a-d04b8bc06154",
+    "unit_id": "a060d6fa-bd95-4513-a16e-71e5abe767c6",
+    "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:19:17.685Z"
+  },
+  {
+    "id": "ffc1a487-aeaa-434e-8146-b09336f4c9a0",
+    "unit_id": "6aa4c3c4-7629-41d8-bd85-56d89b3306c9",
+    "document_id": "334a7bfc-ae81-49f8-9986-3dc3f9fc0b91",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "gift_occasion",
+      "decision_factor": "price",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value_oriented",
+        "occasion_shopper": "birthday",
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:19:26.918Z"
+  },
+  {
+    "id": "e617a63b-1b24-45ac-894c-d650f9930487",
+    "unit_id": "a509fc73-9a96-409d-acec-d2755ba5b45e",
+    "document_id": "00b6d3d9-cea1-419c-9847-9abe8ada842c",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:19:38.211Z"
+  },
+  {
+    "id": "55e8c33f-b3d6-43b6-99c7-bbef9e0b04b0",
+    "unit_id": "47379637-532f-4588-8efe-a2ab8e266e3f",
+    "document_id": "186b5aca-7877-40be-8f0a-048660a5e7c4",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "delivery_timing",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:19:49.443Z"
+  },
+  {
+    "id": "345dfe48-8684-45e0-82c5-1e4ff3e95a75",
+    "unit_id": "4a0d7612-0ff4-485d-b7c2-88103456a16d",
+    "document_id": "5198dd1d-5573-4c73-9d85-4b6864870314",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:20:00.526Z"
+  },
+  {
+    "id": "0cb306b1-d120-4e1f-857f-2bbdbd4238c7",
+    "unit_id": "5e698f62-4863-447a-88b2-327be35e7ae8",
+    "document_id": "0062a4bb-f577-4534-96e6-213b7634153e",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:20:11.860Z"
+  },
+  {
+    "id": "eff2277f-4f7c-4db9-9280-ec0b2a91cf45",
+    "unit_id": "9c63e9f5-00a2-45a4-84e9-8e270c9bf4ee",
+    "document_id": "25d10230-98a0-421a-a488-aa4a5896f11d",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:20:24.273Z"
+  },
+  {
+    "id": "5585e1c8-9186-46cd-8aa1-b96df177a6e7",
+    "unit_id": "91031de9-c0c7-46a5-9f72-e88897130c3d",
+    "document_id": "c88b5eb0-b8e1-4723-b83d-2b30ea4449f6",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:20:38.822Z"
+  },
+  {
+    "id": "84841fe2-7d4c-4844-8b49-22e8e55f3edc",
+    "unit_id": "963a10f0-828f-42b4-8fda-9ad27998497d",
+    "document_id": "a7f4b763-a01b-46f6-a200-0e18e5384607",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "still_deferring",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value_seeker",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:20:50.281Z"
+  },
+  {
+    "id": "8e9248f6-b02c-47c0-8e6c-000a81535088",
+    "unit_id": "39efe1e1-38df-4c33-ba9c-e72e71309690",
+    "document_id": "148efd19-7049-4630-bdd2-35e78a084ac3",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:20:58.891Z"
+  },
+  {
+    "id": "be4134d5-159d-4827-b6be-2f68715965ac",
+    "unit_id": "680309fe-469c-4297-90c4-9dd573bf83d6",
+    "document_id": "79760717-878d-40a0-9266-3396f89980f7",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:21:09.781Z"
+  },
+  {
+    "id": "ccd364f9-c855-4dff-9094-a574d4d4bfcb",
+    "unit_id": "d7363650-323b-4bc1-988d-509a58406d79",
+    "document_id": "149447c2-cad1-4e51-9cab-6934c20dfe95",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "genuine_intent",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:21:19.251Z"
+  },
+  {
+    "id": "9f265197-905e-45ea-ad44-9ccecf12499b",
+    "unit_id": "a64b09e2-f338-4713-8a86-8edc6da3af76",
+    "document_id": "de7e94ae-baf4-40f3-a09f-68476d6d934a",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:21:36.069Z"
+  },
+  {
+    "id": "24806425-03b4-49e1-bac5-fc1b0f8c5f32",
+    "unit_id": "a46cd931-f7ef-4dab-9241-9bd602bbcef8",
+    "document_id": "c702beec-0dde-4c6c-9539-74d6e5bc6ddd",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:21:43.704Z"
+  },
+  {
+    "id": "b06ef5a5-c3c9-45b2-8212-c9b391ba8bba",
+    "unit_id": "0bbe534a-2648-4838-bca1-6b10849412f5",
+    "document_id": "89fc5b62-b6d7-4a1b-b800-d3c95e6bf2cb",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "occasion",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:21:54.765Z"
+  },
+  {
+    "id": "418893c6-0b88-4372-b74e-fb9b6a7ff771",
+    "unit_id": "d6c4c49e-6c26-4367-bd3f-85e3301e7afb",
+    "document_id": "68f666a6-45d2-45f7-b8f6-28c6dd3f505b",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value_seeker",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:22:04.435Z"
+  },
+  {
+    "id": "751c5620-4202-4029-b4cc-f124f6559834",
+    "unit_id": "df32a984-73e2-4885-9f7a-590670e87c79",
+    "document_id": "75d6f1a4-a7ce-4c0e-89ee-6218aa7b5ce0",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:22:15.835Z"
+  },
+  {
+    "id": "eb90a716-4869-47ee-972d-d77031acdfa6",
+    "unit_id": "a45fc74d-4a6a-4e2c-a7ad-1f7f731a0169",
+    "document_id": "c978fea5-a5d5-46ee-9cc4-4ef221d647f3",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fabric_quality",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:22:28.253Z"
+  },
+  {
+    "id": "4afa7ac1-c10e-479c-8cc9-5fd620197119",
+    "unit_id": "7509b34a-ebc0-43db-8528-2828da89b967",
+    "document_id": "9ae8f593-addb-47b7-9b15-1f970cbeac5f",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "size",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:22:38.380Z"
+  },
+  {
+    "id": "707bff5e-6885-4ca0-b154-5567b3e727dd",
+    "unit_id": "415fe17e-79f4-4e49-994e-f984b407e962",
+    "document_id": "03961bc1-ecb0-4dfa-913f-628a88c45f66",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "genuine_intent",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:22:49.311Z"
+  },
+  {
+    "id": "6a436b38-9d0d-445d-8401-24947c3e4fe9",
+    "unit_id": "4d64dd5d-acae-4535-8494-5e6beef76c4e",
+    "document_id": "c232e773-e66f-44ed-92c5-ef7d242cd872",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:23:00.600Z"
+  },
+  {
+    "id": "4a6ca539-14ec-43ee-bbc7-52d05cf670c5",
+    "unit_id": "96df9f45-ca37-4754-a6ef-5d4837831546",
+    "document_id": "d5fc8079-81a8-4b83-a768-556d85551511",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "gift_occasion",
+      "decision_factor": "styling",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:23:13.740Z"
+  },
+  {
+    "id": "8ebaabde-9527-4047-b694-02084423108a",
+    "unit_id": "02b83978-fd5c-4e7e-bf3b-701c56f85a27",
+    "document_id": "820ae93c-db8b-4082-b532-4efb81f54223",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:23:24.771Z"
+  },
+  {
+    "id": "c24a2629-3b8f-4834-9dda-3ed04dfef6ec",
+    "unit_id": "591f4c19-0e40-4809-b847-c8302e975a82",
+    "document_id": "61eda797-661d-47c9-8b52-6b5a4ecf40b9",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:23:34.382Z"
+  },
+  {
+    "id": "5a8d885f-f7c6-4168-81cd-b9606280daca",
+    "unit_id": "adad4e57-9da0-48da-92ee-faa28f6641e5",
+    "document_id": "5c99aa9c-36f5-45c6-ac04-8e76780cd7c2",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:23:45.595Z"
+  },
+  {
+    "id": "161f7da0-a4ef-4b05-a2fb-5241420e5f14",
+    "unit_id": "b3ce8361-e146-4cd7-90cb-359302d6dfc2",
+    "document_id": "c232e773-e66f-44ed-92c5-ef7d242cd872",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": "male",
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:23:57.416Z"
+  },
+  {
+    "id": "85e8296f-34c6-4142-9bd8-b5e94e242cb0",
+    "unit_id": "8328e4e3-f22b-4b2e-88d5-2b5601a719eb",
+    "document_id": "67a54544-c394-470e-8ffb-a521c50bf156",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:24:11.152Z"
+  },
+  {
+    "id": "6fc8553c-5e50-4c5a-b3b8-230cf6288ce3",
+    "unit_id": "f9b5fa46-bdcc-4f1c-a1b7-ef1f3a3cf5a3",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": "repeat",
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:24:19.958Z"
+  },
+  {
+    "id": "43a9104e-a8bb-4900-a0ae-02cd7ad9e04a",
+    "unit_id": "ba8929fd-c566-409a-bb4a-d860cd85676c",
+    "document_id": "4ae3d44f-d379-4733-bbd7-b61adfde5cb6",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:24:30.951Z"
+  },
+  {
+    "id": "16378ef9-a7de-4c89-996a-f766bb3f3453",
+    "unit_id": "e39db58c-d485-4c86-8c2e-6e3ee466fd48",
+    "document_id": "bd643401-1802-4e5d-8503-3263119ae104",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "genuine_intent",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:24:43.070Z"
+  },
+  {
+    "id": "1ad8c5bf-8b97-462e-be02-81ebf733c322",
+    "unit_id": "f5763188-208c-4ae3-87bb-7a313ff27b5b",
+    "document_id": "8937d6ee-4489-44bd-af83-26b5a3666c9b",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:24:55.783Z"
+  },
+  {
+    "id": "daa11d5c-d6ce-4f12-972b-dfee9f76669c",
+    "unit_id": "b6cccf69-fb0a-491f-8a03-e7a1c829bda2",
+    "document_id": "ea3bc260-1f02-4ad4-8083-a63575147485",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:25:05.102Z"
+  },
+  {
+    "id": "06f25b98-e32e-4331-81d6-b67ca5069786",
+    "unit_id": "92d829ce-9c67-4177-8e0f-000c9579fec8",
+    "document_id": "7d6b0f58-58d2-4159-9310-c9d8c80e479e",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "delivery_timing",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:25:17.540Z"
+  },
+  {
+    "id": "622cd3f3-b129-4000-9b68-fe241f2b16d0",
+    "unit_id": "46c67b16-3d06-4946-906e-80502ad03359",
+    "document_id": "93b14ff2-a13b-4bc5-bd1f-d1434111f052",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:25:31.139Z"
+  },
+  {
+    "id": "22170127-6304-4411-a855-5943b3003b8f",
+    "unit_id": "8de7fc9e-05c2-4391-abd1-87a0f063fefa",
+    "document_id": "60c4cfd0-b642-4bed-ad49-49323824e7da",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:25:43.238Z"
+  },
+  {
+    "id": "13399499-097a-4909-ae8f-a5b5b8afcb67",
+    "unit_id": "8b9b4381-8e87-4b7f-864b-c6646804fc5f",
+    "document_id": "25e6d13d-ea38-4051-ad38-2bbaa0b1f57e",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:25:51.410Z"
+  },
+  {
+    "id": "7a9acabf-d69b-4a80-b3f9-3fef642eacd4",
+    "unit_id": "4c3dd923-ec42-46fe-aad0-bc4448fc9b63",
+    "document_id": "5c99aa9c-36f5-45c6-ac04-8e76780cd7c2",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:26:02.692Z"
+  },
+  {
+    "id": "cd3aa9d4-d198-4cc1-be58-898e34edee0f",
+    "unit_id": "a6babd42-1c53-437c-be44-83e032ee73c3",
+    "document_id": "73e35376-165f-4b98-b223-2ee701e72e60",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:26:13.582Z"
+  },
+  {
+    "id": "558c66cd-107c-4f10-b617-841b791d7aa2",
+    "unit_id": "b2997d44-ba7f-4520-9906-7439fb279933",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:26:24.125Z"
+  },
+  {
+    "id": "f7063f83-387d-477b-9621-6008ee1466c5",
+    "unit_id": "c182b71d-b5cc-4d08-b307-f8c00c9129ff",
+    "document_id": "d0b3347d-c8e6-4ffc-b39c-2f8be835d4d9",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:26:36.444Z"
+  },
+  {
+    "id": "5b04df94-4a72-4c22-a2d3-ea9b2e3beafa",
+    "unit_id": "368acdfa-4fc4-4591-a83a-a9142269b228",
+    "document_id": "feed70b3-8a49-4f9a-b2a6-c8c544c96a93",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "fit",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:26:47.948Z"
+  },
+  {
+    "id": "42b138fc-35d5-441e-bdb9-a529330e961e",
+    "unit_id": "d8f47a77-1d68-4a72-a628-9c1c0f68499e",
+    "document_id": "64c849fa-12bb-4319-b517-1d1d672daef2",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "fit",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:26:58.446Z"
+  },
+  {
+    "id": "dbef36a3-01ad-4ca4-a50f-1910daa5dc67",
+    "unit_id": "74244e45-08b5-4d8d-b9f3-360451b64556",
+    "document_id": "0e93a6a7-9ef2-4f43-9483-0e5e266cda5a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value_seeker",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:27:10.015Z"
+  },
+  {
+    "id": "fd5c6c52-ead4-426c-ba8d-7f31979a8105",
+    "unit_id": "62a536f6-804d-411b-8b18-ea90dfa68e7b",
+    "document_id": "bb14725d-b14d-463a-a0ef-5d77c73a7b35",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "genuine_intent",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:27:20.965Z"
+  },
+  {
+    "id": "8ba30b8a-3267-4a9c-ac7f-027b3a9ec9ee",
+    "unit_id": "ad2c75d1-21c5-46d3-acda-f64ee3ca3736",
+    "document_id": "36e3a029-e6db-4cbd-aa63-f137eb0b3257",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:27:32.321Z"
+  },
+  {
+    "id": "eff600c6-d7f7-4cd6-9df4-e27ede3414c0",
+    "unit_id": "0ccce01c-9b78-4dfb-baba-64e0d191faad",
+    "document_id": "9f4089c5-cbce-4249-8a29-099c3e8164ad",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "genuine_intent",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "mild_annoyance",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:27:43.501Z"
+  },
+  {
+    "id": "d1c157b5-5035-419c-8651-f7a22ff43b0a",
+    "unit_id": "148fce3b-00a8-43da-a6e1-30b73e81e588",
+    "document_id": "acada195-e529-4b46-a6d1-e05e0923e8f7",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "reviews",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:27:54.935Z"
+  },
+  {
+    "id": "964b56c2-c1fc-45e3-9451-9e42d0144104",
+    "unit_id": "795c6d24-18e5-40e2-b740-25624d398abe",
+    "document_id": "e01e340e-a456-4ecd-98de-133dce65b3fa",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "genuine_intent",
+      "decision_factor": "social_validation",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:28:06.150Z"
+  },
+  {
+    "id": "5f8d67ee-654d-43cb-9480-48b5742170ff",
+    "unit_id": "6b835db5-9ada-47d0-b035-2e0ab735e6a2",
+    "document_id": "b1d3ae62-c849-4071-ac36-be9292e8b26e",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "price",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": "value",
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:28:17.955Z"
+  },
+  {
+    "id": "f6021a75-2f28-43eb-ae52-95b5dd5d98f5",
+    "unit_id": "de8e44e6-ca13-49cd-9c8f-fe133e3827b4",
+    "document_id": "4f47587d-7135-4f63-96a5-7b96bcca8643",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "price_watch",
+      "decision_factor": "fit",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:28:28.470Z"
+  },
+  {
+    "id": "b0cf2cec-f1cf-4f7f-b88d-80eca642fe99",
+    "unit_id": "342a43ea-7e9d-40d5-9079-6b7ec8f836bf",
+    "document_id": "c52167d8-25a7-4697-bd23-307d71b26481",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "fit",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:28:40.189Z"
+  },
+  {
+    "id": "2365eb12-e0da-46f0-9fdf-4a2a80fe3dbf",
+    "unit_id": "0dcbb1ae-7872-4f6e-b32f-f865ede1ae8b",
+    "document_id": "56119fc0-34cf-4880-b569-a3594eb43061",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:28:51.364Z"
+  },
+  {
+    "id": "82ac4dad-e1b7-4191-b457-ef482f48e60a",
+    "unit_id": "eef60027-64b9-46a5-a89a-225092217762",
+    "document_id": "35c105a4-b0db-4417-8acc-624d7c4cb464",
+    "labels": {
+      "unit_type": "uncertainty",
+      "intent_type": "none",
+      "decision_factor": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:29:02.399Z"
+  },
+  {
+    "id": "aaccbb6a-ae77-4e86-9217-b728af767039",
+    "unit_id": "856dcf26-4606-4abc-94c9-25e711037d1f",
+    "document_id": "e51a7e1d-b3b1-49f8-968f-28dc9f48b16a",
+    "labels": {
+      "unit_type": "comparison",
+      "intent_type": "none",
+      "decision_factor": "size",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "segment_signals": {
+        "first_time_vs_repeat": null,
+        "value_vs_premium": null,
+        "occasion_shopper": null,
+        "tier_2_3_cues": null,
+        "gender_cues": null,
+        "age_cues": null
+      },
+      "source": "agreement_slice"
+    },
+    "coder": "qwen/qwen3.8-27b",
+    "coded_at": "2026-09-03T14:29:13.872Z"
+  },
+  {
+    "id": "b0fe85a4-43ac-4b97-930e-b74d5803bded",
+    "unit_id": null,
+    "document_id": "faeebe88-7304-4af9-bd0a-46d24728b1dc",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a28f1c06-7d15-4e63-8e70-44236939d46b",
+    "unit_id": null,
+    "document_id": "d02664ef-c15a-4f48-9d93-c075428ec7bb",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ac36309f-3242-49e0-9eb8-59fe15f27dd0",
+    "unit_id": null,
+    "document_id": "cd96134b-7b86-46f9-abba-9b8d1e0d91a2",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "2dbeb751-96b0-46c0-baf2-ba73e2593664",
+    "unit_id": null,
+    "document_id": "82d1f9bf-6973-4205-ad6b-538a95a5aef5",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6b805bbd-7fbf-4286-abd3-445f7e32b754",
+    "unit_id": null,
+    "document_id": "8fc9f6b5-042d-436d-8e32-c3839a0415be",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "58965db4-5138-478b-8ead-ebad624a9eab",
+    "unit_id": null,
+    "document_id": "88e234f8-4668-4797-9497-a5520dec2d8f",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7db55315-1e48-4045-95c7-66e6a7693cb2",
+    "unit_id": null,
+    "document_id": "ceb15e63-d58b-4a19-8e2e-79243fa142cd",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "795ecd56-4b65-44ce-b5cd-4981f979e5cf",
+    "unit_id": null,
+    "document_id": "baa80236-fd7f-49c5-945a-a8bcec3be764",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3e0a61fc-7aaf-4fa4-83df-39f3806b34cb",
+    "unit_id": null,
+    "document_id": "da9d3cb8-12c6-47bc-bbb5-1635f5f32ad8",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a932d7bc-598e-43e1-aeeb-b33ccb159fcf",
+    "unit_id": null,
+    "document_id": "7a862155-f9d9-42d6-90be-18a5230fbac1",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ddf2e5c5-2907-4806-badc-30962886db25",
+    "unit_id": null,
+    "document_id": "088a54ab-9344-422e-84d4-c8331f1f3933",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "30720c6b-7efd-4344-be82-2cafb3d82780",
+    "unit_id": null,
+    "document_id": "8375f6d5-e9b6-48c8-bac5-c7a2a35e85cd",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b4c8cd9e-4dce-4aba-a166-aeadbad3ac1d",
+    "unit_id": null,
+    "document_id": "18e299e8-d5ea-4707-9472-6b8c454446e3",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "69c2673f-2e3b-4106-856e-3fca97ca76d0",
+    "unit_id": null,
+    "document_id": "b4a45ebd-11ce-4eec-8780-dcc2c7a6dcde",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "50b26a41-a0f4-4ad3-a021-dc31c2ea88ab",
+    "unit_id": null,
+    "document_id": "2771232a-f174-49ce-b70b-2149c78108b3",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6270a188-998f-41a3-ab38-5d028d6deeeb",
+    "unit_id": null,
+    "document_id": "977184db-5b16-44f1-bba7-17b11b5a52dd",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "dbf5cc63-0991-4fc5-8a6e-1a07ed617eda",
+    "unit_id": null,
+    "document_id": "e26dc355-41c6-4ccf-9f96-a20031c169c6",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "849674aa-2e6d-4036-a4f0-4437192bec34",
+    "unit_id": null,
+    "document_id": "eb713fe3-13c3-4a79-b1bf-187be7230d84",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1a2e441d-364a-411c-9e8f-295a8f27b6b6",
+    "unit_id": null,
+    "document_id": "caac2ac3-41a6-4847-8068-be3d5b981a32",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c5afec45-c6e3-4f7f-a09c-94520820b13d",
+    "unit_id": null,
+    "document_id": "537cf58b-2917-47aa-9d18-52ba46a09562",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "67765b10-2f2f-41dd-b179-cd816888da04",
+    "unit_id": null,
+    "document_id": "a91ba93c-84be-40dd-a8cd-fb8b22ad2d20",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "054aa0db-477e-44f4-b976-dbb866bbf9fc",
+    "unit_id": null,
+    "document_id": "e95cb553-6cbb-408b-aef9-a3de561c0f2b",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ae74c09c-ddb4-4e9e-86e7-b91aa5dc1ceb",
+    "unit_id": null,
+    "document_id": "c267c976-8705-46fa-9617-3b78de85d83b",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c32b0b7a-36a2-4a6b-a5ef-3347506b8d33",
+    "unit_id": null,
+    "document_id": "00e59b2f-0b92-4458-82d8-9e8d8d0daccc",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "008504a7-c8ed-46fb-a111-92a4489028ab",
+    "unit_id": null,
+    "document_id": "9ee564ac-d2a6-433d-8bad-0cfa50b916c0",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b9cd7936-a7d0-4c1c-bc53-0e62ddb6e8d0",
+    "unit_id": null,
+    "document_id": "132089c1-bf09-4689-a85f-973d07fcf0cf",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7d011e0c-8c29-46c2-9f8f-b45fba6f2ae3",
+    "unit_id": null,
+    "document_id": "9e1ee3a4-60c1-4ae2-b786-638218f6e85a",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "4689e1ed-3f23-4070-870c-0a9d8a2e98de",
+    "unit_id": null,
+    "document_id": "06917b76-57ae-4d5e-b92d-2a01eb371162",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7edc4296-bc46-4dfe-808e-b1ad04ef547e",
+    "unit_id": null,
+    "document_id": "12ba531b-af3f-4a85-acd0-963d76fee4aa",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "66b3d97f-cdcc-4761-8a5a-7ef585cf9cf4",
+    "unit_id": null,
+    "document_id": "800799cf-776f-497d-9901-fa735a42176e",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c805a18d-6661-474c-9e48-9e866af41537",
+    "unit_id": null,
+    "document_id": "0fe64758-6f23-4c67-aa47-2577d037d7c6",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "353df795-11d1-4dd7-a8a8-decb0290b00e",
+    "unit_id": null,
+    "document_id": "1b03a7b9-04e6-4609-a6ac-65890a3dcedf",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6a1169cd-9944-47fd-932e-ad15cfd0b48d",
+    "unit_id": null,
+    "document_id": "e8558d5a-6d09-49cb-8445-08d5c0231e8e",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "fcfb38b2-ec20-4dc1-954b-01b502e257f3",
+    "unit_id": null,
+    "document_id": "30d1caf8-da79-4739-98d3-6113bdd40220",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d6f152aa-c9cb-427d-8f83-f6aba0166de8",
+    "unit_id": null,
+    "document_id": "148efd19-7049-4630-bdd2-35e78a084ac3",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "75b01929-d2b1-470d-a905-161f41766fe3",
+    "unit_id": null,
+    "document_id": "b2a5486d-ced6-48c0-81a5-05403f9477db",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c9c0aeff-99da-448e-a0dd-d881c7ae2662",
+    "unit_id": null,
+    "document_id": "ec34caa1-3ae2-4b49-9862-2d9614a1e1b7",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a7a30afe-83ad-43b5-8fa8-f5d47cc68e7a",
+    "unit_id": null,
+    "document_id": "5aaeb32d-cbc1-4060-aac9-04139abc82ac",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d10f3b59-75ca-4c75-8e8a-72950abea824",
+    "unit_id": null,
+    "document_id": "fae7a07e-961b-4876-a65d-26205fbae801",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5d1087fd-ee76-49d1-a6ab-f94b9f25864b",
+    "unit_id": null,
+    "document_id": "9f531bed-db07-47a0-a95a-5d1e1357454d",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "aba3451f-cda1-4ad1-acb7-20416869cd7e",
+    "unit_id": null,
+    "document_id": "ef52a359-ef34-436e-99a1-5aaedcfcdcfc",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f7a34a18-5672-4b8b-8be9-036956e2e11f",
+    "unit_id": null,
+    "document_id": "dac20ff2-5740-4336-9be3-287fb0359563",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "17187160-afb2-4e6d-9be4-3f7606502a7b",
+    "unit_id": null,
+    "document_id": "c063efa5-47e6-4e56-874f-1f1ec9600959",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7524716d-72c6-4c14-9481-52d5602806e9",
+    "unit_id": null,
+    "document_id": "62fa74a4-da51-42ae-98e2-2d2a2ed497b9",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "4ee22e74-eaee-41da-9038-560a2687b9d2",
+    "unit_id": null,
+    "document_id": "e7f3281b-0217-4c60-8757-24c97350048b",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "71c979e9-b55a-460c-949c-efc3211486de",
+    "unit_id": null,
+    "document_id": "c92a91b2-527f-4e9b-90ae-b31da735007e",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ab0b374d-7637-4c53-9ecf-fbb52dcb8362",
+    "unit_id": null,
+    "document_id": "2d9b4be3-ae79-4b71-b0be-a3fe3b9621e3",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "95b330c2-fcf7-4c4e-888b-83d1e59b8ad2",
+    "unit_id": null,
+    "document_id": "0cca48c2-0204-4431-9e36-db723062cb66",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "33a2db6e-5eaf-41fa-b114-416bafe1497e",
+    "unit_id": null,
+    "document_id": "de2d6b9b-cf18-458e-a625-9d2a7eb846be",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ecb7576c-dad8-44e8-a0bb-68a4228b7618",
+    "unit_id": null,
+    "document_id": "d3a5292d-0f68-44d8-9c13-f15d4e479289",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c793bf08-180b-48e4-a74b-076426d27042",
+    "unit_id": null,
+    "document_id": "d0d5007f-e6a4-45c3-b463-dbc3fd37726c",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e5885b72-e691-4a0d-b199-69905911dbd3",
+    "unit_id": null,
+    "document_id": "5b6f05a3-315d-4ee4-8d87-4647954011f8",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c263980c-50ce-4ec2-a464-7ee3802b6881",
+    "unit_id": null,
+    "document_id": "bb14725d-b14d-463a-a0ef-5d77c73a7b35",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "0a7b88ad-720a-49a8-aaa4-b123282169d5",
+    "unit_id": null,
+    "document_id": "7e86a334-0b08-465d-97b1-47c1b324c025",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5cffe307-4d65-4c03-ab56-2e37fc46c044",
+    "unit_id": null,
+    "document_id": "c10a79e1-7801-4657-817a-36041f0ba74d",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b79ab569-0ea4-4446-9e90-13a3bf5a8696",
+    "unit_id": null,
+    "document_id": "18086b18-5482-4e85-816e-0e72e2ba96dc",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "be16b8fa-1538-4755-96ae-2c12f035099b",
+    "unit_id": null,
+    "document_id": "8586ca59-965c-4338-b6cd-69ea356c9ba8",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "bd3715d1-1da9-466d-b68e-953a993451b3",
+    "unit_id": null,
+    "document_id": "3f69e8b9-80df-4a1c-85d9-ee6b124c4cbe",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e4a6e108-74b7-4093-9bfc-aa22488c2fea",
+    "unit_id": null,
+    "document_id": "5a0b93dc-511e-4941-80ad-5cc1694bccf3",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5bbf2657-5545-471b-a686-4b0a2e41155a",
+    "unit_id": null,
+    "document_id": "bedbd3b9-f032-40d0-9614-f6b555c87d45",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a2d7b29a-dd59-45da-bdc4-2cdccac15c5d",
+    "unit_id": null,
+    "document_id": "234cd9f0-c126-4c16-aed9-b34a6b09e8d5",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ae0aceae-4c72-4e72-af5a-c6f3f93565ce",
+    "unit_id": null,
+    "document_id": "3bb5f1c1-15d0-4e01-8de1-b043d6c93ccc",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "59cc76eb-c28a-49c3-b609-e95a93ab6807",
+    "unit_id": null,
+    "document_id": "009db244-5fd4-40fb-bbf1-28f4d87b868e",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b5948c43-210c-4772-82cc-70ed83b064c6",
+    "unit_id": null,
+    "document_id": "1909fd56-90a6-42c5-adac-77fa8f51ccc1",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b736494d-4de3-4975-b2f7-b7b0af0e1338",
+    "unit_id": null,
+    "document_id": "d2f9b4ab-1e51-404a-bbf3-75c2047b2b01",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "07fdc8e6-c951-4cf8-a5c5-65fb7d288990",
+    "unit_id": null,
+    "document_id": "5593c262-3a03-4c27-9030-5d01109f8fd5",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3f9560d2-f5b8-4c60-bb9a-c5613d338df4",
+    "unit_id": null,
+    "document_id": "51d47bc9-af13-4a9e-a54b-276836fdac8e",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e10509b5-b699-4e7a-ab2f-7ddf4bc55269",
+    "unit_id": null,
+    "document_id": "8abde67d-9e33-4e4b-8182-230f653b9830",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7d3ee69b-bce4-46d5-9152-e6f81a0eb5ae",
+    "unit_id": null,
+    "document_id": "ff002ff3-0935-48c4-bc72-d45d32dfca36",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "2f79f069-50e1-4fe3-b9e7-e98c56ef578c",
+    "unit_id": null,
+    "document_id": "80ac7f35-041a-4a88-8de8-71d787d58e66",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e2521de4-6eb8-4c98-a293-a160435917d9",
+    "unit_id": null,
+    "document_id": "f469d283-8309-4a03-b05b-ec7e96afa540",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6c5c4e33-809a-4479-8ecc-0f6e8b732c55",
+    "unit_id": null,
+    "document_id": "1940173e-8e31-446c-b93a-ff0310e3b58e",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "73f85335-c052-429e-8fe8-145050796e07",
+    "unit_id": null,
+    "document_id": "39d2beb3-3a7e-437c-abe5-2c5744883be8",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "87729946-557c-4992-bacf-2e5693175ec9",
+    "unit_id": null,
+    "document_id": "5bda6d2c-a21d-4ccf-86b7-fc7a7b95f158",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "21b6a3cf-9411-4f96-aefb-6f43f332410d",
+    "unit_id": null,
+    "document_id": "a0e78c83-5c7c-4b21-9e85-f13eba27c144",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "df47fc6c-3884-437a-bb11-9b9322d13428",
+    "unit_id": null,
+    "document_id": "ac95e34e-e108-4c9b-bdc5-9afa1f81be91",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "218a652d-efaa-4992-af39-5282e3ac7831",
+    "unit_id": null,
+    "document_id": "09cf3bfa-d309-476c-a9bd-8dc255f846a8",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "fe8a081e-3665-4f8e-9141-26db996feda5",
+    "unit_id": null,
+    "document_id": "261040e0-62b9-413a-a3d1-2e8d01ee3522",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7e9baac1-3a31-490a-ae71-d557a49fe956",
+    "unit_id": null,
+    "document_id": "a4cd6e7b-dc2c-426b-b6a3-676c26f370d0",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "dbef299a-07f4-4056-94d3-ee3afa517766",
+    "unit_id": null,
+    "document_id": "02be05de-8f0e-4f87-a32f-f71373bf293b",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1ca3ab17-d816-4374-938f-9ebef5eaa88d",
+    "unit_id": null,
+    "document_id": "334a6e2d-0703-4f68-9a0f-5870f052e956",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e0d0a02b-6ff1-4544-a473-bde4dc741677",
+    "unit_id": null,
+    "document_id": "4fc6fe18-6ae3-41e0-ad74-d377fbd9aec5",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6965a9bb-8e2f-4824-9fa8-cafc917fab88",
+    "unit_id": null,
+    "document_id": "a576d8d3-2976-4030-94a6-6c9d985d87cd",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "4dcc899e-5539-4346-9b34-a6536af2f749",
+    "unit_id": null,
+    "document_id": "6c76bec2-f160-43c2-940e-2426def966a9",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "34a3ca98-8184-4c1d-a143-4dd2b43eb2b1",
+    "unit_id": null,
+    "document_id": "61e969d6-dc13-4649-85de-cc3a7ff59827",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "2d73fbb1-2515-4081-9672-9f3dc3e74a03",
+    "unit_id": null,
+    "document_id": "9560a88c-69b4-4240-8826-5db302c3bd84",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f8ae6695-dff7-4aa2-8c2a-1cbe38dafb7a",
+    "unit_id": null,
+    "document_id": "6990a542-add8-459f-9c8e-74ae6b1276be",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1a61cb7e-901d-4ca6-85ae-43b8c557d70a",
+    "unit_id": null,
+    "document_id": "5347ee42-21e6-4339-8d7b-aedf9150ce7b",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "87cea629-4668-439d-a1b3-98a5c86e06f6",
+    "unit_id": null,
+    "document_id": "a7e5e01c-238c-4ea1-93a0-e7b9bf8abf4f",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "466c025e-cc2b-4a54-ad64-90d92e72fa15",
+    "unit_id": null,
+    "document_id": "96cccb60-052a-4ca3-8173-847d8da8a256",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d1fe615e-a56e-41eb-930d-1a3138ebf953",
+    "unit_id": null,
+    "document_id": "4455f5af-b56e-493c-9b67-c35942e599e7",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5e3fb804-46de-4ccf-9f0b-a1f4a08f9424",
+    "unit_id": null,
+    "document_id": "2e56c26b-3e96-4923-a15a-99dc47232676",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "09a7b4c2-dccb-4463-8df8-4128882a8c7b",
+    "unit_id": null,
+    "document_id": "351516ef-f8d8-47f0-9d1f-70e41d83f534",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "37aaa86a-778a-4524-931f-23fa0525bff2",
+    "unit_id": null,
+    "document_id": "9b215666-f751-44da-b706-ba6ead51d18d",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d8ceb887-5070-4947-8936-6b6a64e49e14",
+    "unit_id": null,
+    "document_id": "a1f741bd-b6a7-4782-adf0-04aed16f90e9",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "0e5e88b2-e880-485a-95a3-020fe9764e3d",
+    "unit_id": null,
+    "document_id": "f9aa8f55-8f6a-468c-bded-0a7c7a31115a",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5853b7d8-21c5-431a-bf68-94c015d7f4fd",
+    "unit_id": null,
+    "document_id": "0cb65ee9-669a-4216-bec2-f5d58f5c516a",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "fcae9537-c203-4f19-af58-5a8b11305348",
+    "unit_id": null,
+    "document_id": "af0d7cac-2b44-402b-a9d2-559fd20bf544",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "482dd7f0-d7f3-47a2-877a-e0a9d160a2d5",
+    "unit_id": null,
+    "document_id": "7a243d47-400a-47d7-ab67-7bedd3a75de9",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7ffd6464-6063-41e2-9dda-d4dba88c5e76",
+    "unit_id": null,
+    "document_id": "31b5f8bd-e79d-4f71-9d8f-ab477e6e96cf",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ed1cd727-8476-4bb0-a813-a1784cb45d3e",
+    "unit_id": null,
+    "document_id": "65999c74-5369-4d99-a07a-b69ee58b6e74",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3b656ca2-dda1-46ea-94c2-3f2d9bcf638d",
+    "unit_id": null,
+    "document_id": "3c72ae8c-4434-4454-ade9-bc5331d67a29",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3fb9de85-b9ca-4407-8643-3f5aa9ddc1e6",
+    "unit_id": null,
+    "document_id": "86ddf1eb-e5d9-4c01-b40c-64eae946ae16",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "223678ff-d77c-419b-acb7-bac76cdff533",
+    "unit_id": null,
+    "document_id": "0f995313-e4c8-47fd-bd1e-3abafac7623b",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "eaa6b9ac-6c2a-46b6-aa09-09c4ab28a221",
+    "unit_id": null,
+    "document_id": "f42c1f8e-fab2-4e10-a4c2-9fe4243fd936",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5313f4a5-c699-4316-aebf-34a4b2959dae",
+    "unit_id": null,
+    "document_id": "f9bb7df1-0ed6-4264-b1a7-b697077146eb",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "59f53fcc-3ba8-43c9-84f7-a29e489c1200",
+    "unit_id": null,
+    "document_id": "89f6105f-a460-45cf-92bf-c1075aba7539",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e627bdeb-87bb-41db-9449-155e01a00b96",
+    "unit_id": null,
+    "document_id": "4b6173c4-edb0-46d3-af77-4290418cc520",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7258675c-1131-45b8-b758-a44d38c467d8",
+    "unit_id": null,
+    "document_id": "3ab1f164-a501-4910-8ca1-76fc93ca52d2",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "af948b77-4019-4dae-8cf8-fed63778ddb8",
+    "unit_id": null,
+    "document_id": "2f4da0e9-8c38-49f2-ad69-b9ef8653834b",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1bb30b3a-ee37-4bdb-8744-2b76a4220ee4",
+    "unit_id": null,
+    "document_id": "faa22521-810b-424e-b54e-c1af67c7f051",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "0a4ad4ec-7447-49f4-a7f1-a33d04da126a",
+    "unit_id": null,
+    "document_id": "ee905519-107f-4188-bad9-e2abb56cc0e3",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a2f81fd7-df37-43cd-bf64-0da70886954e",
+    "unit_id": null,
+    "document_id": "6d6dcb49-cbc6-401e-a85d-fe04216878c4",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "95e06c72-7b9b-45ad-9b29-124603e8af72",
+    "unit_id": null,
+    "document_id": "f0f2330f-683d-4f77-b762-24f1161b700f",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "54761b88-6053-4694-99ba-37a4cdbb5f75",
+    "unit_id": null,
+    "document_id": "52d22364-89c5-4f6c-b50a-4fd584b2a049",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5cd45bc9-20a4-4695-a690-01f1933b5dbb",
+    "unit_id": null,
+    "document_id": "a4436b66-dbf4-4678-aa2c-3ae3b7ae3a74",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "81bfdd94-3198-412f-bafd-b48c44087006",
+    "unit_id": null,
+    "document_id": "dd9aa317-b2cf-4194-bc26-a9cc1484e27c",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e4a35f11-cee0-41f5-a5ea-fa44cca66736",
+    "unit_id": null,
+    "document_id": "f52f1073-d68b-4a56-9de2-74ac21cb9ba6",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c05387fa-04b8-4cd2-91f6-81996b7265bd",
+    "unit_id": null,
+    "document_id": "8f31169f-3ec7-4fd4-b186-e740f17674b7",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "29847960-8447-4546-9f62-70cbdee4bd41",
+    "unit_id": null,
+    "document_id": "08ea6323-98d6-415f-9208-ff9a9b5e6092",
+    "labels": {
+      "is_relevant": false,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "48df2735-a362-4428-bbf4-f5e316b5d758",
+    "unit_id": null,
+    "document_id": "4f47587d-7135-4f63-96a5-7b96bcca8643",
+    "labels": {
+      "is_relevant": true,
+      "unit_type": null,
+      "decision_factor": null,
+      "intent_type": null,
+      "source": "relevance_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5b1a527a-4eb2-4a04-8d18-961cab75b50c",
+    "unit_id": "0176ccd3-ba26-496c-8a70-600c1ac7b39c",
+    "document_id": "b849694f-d763-4ce5-bb0e-463ec97af30a",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "8dc381f6-efc1-4222-aa11-a9e2ef955687",
+    "unit_id": "123d9835-edd2-44da-b74e-44b68758a2dc",
+    "document_id": "ed9f0af3-dc24-46d9-aeb3-637bd3bd649c",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6ff0eb6b-2663-45ac-a939-d605902a3204",
+    "unit_id": "fd9b3922-5566-4360-af7a-1ed6cd6180ba",
+    "document_id": "5d5149cb-47ab-4a8c-89ca-039a570c2eb0",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6bc6b196-5a77-4a36-8cc9-3094cbdd35ae",
+    "unit_id": "a509fc73-9a96-409d-acec-d2755ba5b45e",
+    "document_id": "00b6d3d9-cea1-419c-9847-9abe8ada842c",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ccacda36-18fe-45b4-9533-6d2233f44443",
+    "unit_id": "7ccff3b4-18a5-4c41-a55a-daf7c258b285",
+    "document_id": "5d0b8e8d-4646-47cb-9597-94514390fdac",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "reviews",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b4ee6632-2d1d-4a3c-92ea-b73a92f47a94",
+    "unit_id": "f9b5fa46-bdcc-4f1c-a1b7-ef1f3a3cf5a3",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ca58528c-4784-4a93-bd6c-cc0a63f7f272",
+    "unit_id": "680309fe-469c-4297-90c4-9dd573bf83d6",
+    "document_id": "79760717-878d-40a0-9266-3396f89980f7",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "abandoned",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5cde8679-2b51-4d99-8162-50cb8814ea91",
+    "unit_id": "e5ade810-c14d-4ab7-b5c9-17f100be7929",
+    "document_id": "71e05ba2-2612-46f5-abf3-66dad142f73c",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "29599e85-a56e-4b5d-a99e-57a94d634b5e",
+    "unit_id": "b7e27c0c-4d1b-4c4a-8076-82dc276a0e98",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "resolved_by_workaround",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "debe2df0-b7c1-4866-a648-b4351dcf9d0c",
+    "unit_id": "ddc3c42f-3d93-4317-b4a4-fdbb0043ff27",
+    "document_id": "fccc4f39-1819-430c-b846-5aae8ac27413",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "36c60782-65ba-48bb-a954-69dc05f5ce18",
+    "unit_id": "def358d8-f2c3-47a0-b7a7-de2a3b841f62",
+    "document_id": "3b318b47-ea2f-4ff8-84a2-c35bd8360fef",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "social_validation",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "69dfda2c-6c48-494e-bb4c-c1a9fbe0bf45",
+    "unit_id": "c182b71d-b5cc-4d08-b307-f8c00c9129ff",
+    "document_id": "d0b3347d-c8e6-4ffc-b39c-2f8be835d4d9",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f1205389-3d1e-497a-b25d-34de753ce6d9",
+    "unit_id": "ea0780d6-d360-412b-b13d-359a27fcdf44",
+    "document_id": "33a50aa1-f7ca-455d-bd90-7ad2da4c8e71",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "25d7539d-fc91-4d53-a14c-0ef58ef06ff0",
+    "unit_id": "01a37e23-b7ff-4eb1-b09a-a849c054b75e",
+    "document_id": "89fc5b62-b6d7-4a1b-b800-d3c95e6bf2cb",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c97183ea-043f-4714-a1e7-5570fb7762cd",
+    "unit_id": "027738a3-256c-4d23-81ae-2068ccaada5d",
+    "document_id": "5d0b8e8d-4646-47cb-9597-94514390fdac",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "471c4c7f-fa63-4c85-9b87-1a76c96ffa6c",
+    "unit_id": "4619c6d5-be79-483e-a3aa-5fb937472fdf",
+    "document_id": "e37a7ff3-a4ed-4323-ab40-183d5504d9f9",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6eb30f58-a8e2-4723-b1db-b4b10352d6d5",
+    "unit_id": "f5763188-208c-4ae3-87bb-7a313ff27b5b",
+    "document_id": "8937d6ee-4489-44bd-af83-26b5a3666c9b",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1aa9e941-a97b-4fac-89f2-859d5b714544",
+    "unit_id": "2e0a9e43-98bd-44c0-a5b8-8903caf4a70c",
+    "document_id": "902768f2-213c-41e5-a0b2-8e430c439324",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "09ab4207-229e-4afd-a3ce-730b00ac2aa2",
+    "unit_id": "444a9db8-79be-4b7e-8d85-88d0a9eadcf6",
+    "document_id": "03961bc1-ecb0-4dfa-913f-628a88c45f66",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "28d74873-bb70-4af7-aa2c-bf6f92eb97d7",
+    "unit_id": "ced90b90-c860-4766-b1d5-4eedb0c83e73",
+    "document_id": "c52167d8-25a7-4697-bd23-307d71b26481",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5a5fb1b2-7d92-464b-b9aa-a701e0529a65",
+    "unit_id": "dc098e94-02d5-40c2-bc85-cbf610ba110e",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "81ee4d34-2f59-4ba8-87e7-982e9672918a",
+    "unit_id": "9c63e9f5-00a2-45a4-84e9-8e270c9bf4ee",
+    "document_id": "25d10230-98a0-421a-a488-aa4a5896f11d",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e5c5a618-47dd-46d8-8234-6e281073c1f5",
+    "unit_id": "a64b09e2-f338-4713-8a86-8edc6da3af76",
+    "document_id": "de7e94ae-baf4-40f3-a09f-68476d6d934a",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "953b392c-506f-4035-a57d-a8d6ed3f15b3",
+    "unit_id": "40b4136c-3b14-4b2f-9df5-61a7800a5f30",
+    "document_id": "d9415dd9-997d-490f-8d84-2c43e14e1ddc",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "65554629-daf2-4dbb-82de-8822004674aa",
+    "unit_id": "12394761-dcae-48eb-99b7-37d5f5059a11",
+    "document_id": "cda2d2f1-5f9a-44df-b777-d6a72f3048bd",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "650fe80b-7589-4bf5-9552-7db9ca2cc0e9",
+    "unit_id": "42f2987a-6273-4d2d-afb4-efddbc829ea7",
+    "document_id": "5347ee42-21e6-4339-8d7b-aedf9150ce7b",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a8b28db0-828d-407f-87aa-8c79fa6b6ba9",
+    "unit_id": "ebce6f22-256f-4de8-87eb-2bee8d5fd7ae",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "094f2258-c8a7-43e1-92ef-62ca305c2b68",
+    "unit_id": "4a0d7612-0ff4-485d-b7c2-88103456a16d",
+    "document_id": "5198dd1d-5573-4c73-9d85-4b6864870314",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ac052ade-7795-476b-8a38-3ee000499734",
+    "unit_id": "2206f33b-de29-44d0-b106-39a544090d30",
+    "document_id": "d4f9f086-c069-4e22-8f29-e560bfccbaab",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ca9e8c74-1ff0-42a0-944a-3d07fdca1792",
+    "unit_id": "c30be5c6-0004-463a-a873-8f7d324e360c",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "delivery_timing",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "abandoned",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6b44e138-e565-4690-b47f-53440f753f1e",
+    "unit_id": "c44ee9cd-d2f3-4a4f-9e91-028f8f5912cb",
+    "document_id": "40569440-1236-4c85-9be5-b12b16bdd14a",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1abbcd73-caeb-445d-8ead-fb09b16acd07",
+    "unit_id": "1723784d-2daa-408e-a749-cf830edeb1bd",
+    "document_id": "800799cf-776f-497d-9901-fa735a42176e",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "64cbd419-b6c3-410d-8401-071a5c212ed0",
+    "unit_id": "4e9b041c-c494-4f80-8c44-ff4afc46b177",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "mild_annoyance",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e772026e-08ff-4b7b-a86c-d6d82ae73edb",
+    "unit_id": "51fa46fc-f8d7-4baa-b48a-f8b99b68b283",
+    "document_id": "e4668ef9-b02d-422f-9398-9df6eda2976e",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "6c1a0527-07aa-4398-b3d3-f7cd0d084f3d",
+    "unit_id": "88904caa-5de7-4d9d-a380-aaf3b017fa7a",
+    "document_id": "7838babd-7bc6-4884-b238-f73557904426",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e4cc6835-97e0-4bcd-8c44-ebb21b801557",
+    "unit_id": "d36b594d-4053-4461-b7dc-47ded21122b2",
+    "document_id": "ce351815-6e9c-45c1-8124-3af6b400a3a8",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a609fc52-569f-427f-a31d-9d17e3d76b49",
+    "unit_id": "6f7b9073-7b3a-4273-bd3e-415ac10d24c2",
+    "document_id": "b4a45ebd-11ce-4eec-8780-dcc2c7a6dcde",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "fdb63691-a33f-4c95-8d3e-dd204c12bb4a",
+    "unit_id": "c67534ee-dc9d-499b-a7c6-fc74a0a69c6e",
+    "document_id": "61eda797-661d-47c9-8b52-6b5a4ecf40b9",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "83ef5bac-f6b6-4322-a7f9-6bac011fdb47",
+    "unit_id": "5e2921d0-0a51-49a5-9267-5beb2125dd74",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1b1f7d0e-5a35-469a-86f8-89f51aa07953",
+    "unit_id": "7f3ee459-674e-495c-a96f-40179f0af457",
+    "document_id": "2c2499e0-6a14-467c-930b-f79043dd9feb",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "38c83ae1-456b-4641-8a46-664799aac6ea",
+    "unit_id": "7baa093a-2afb-416a-adfd-c792386d0f61",
+    "document_id": "b6294d64-2cca-4ac0-96e7-ae2e38435371",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ddd33322-7def-464e-aa60-1cd7ccfe3026",
+    "unit_id": "816c219d-1510-474b-a56a-eb39f3c4728e",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d0788eda-84a8-43ca-94e5-d2e109971f96",
+    "unit_id": "603af219-a8c3-40ec-b4ca-2c01404f91d9",
+    "document_id": "902768f2-213c-41e5-a0b2-8e430c439324",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b402ff5c-d2c6-447b-861c-daac58c0a620",
+    "unit_id": "ab855c5a-1d32-419a-ae72-f9b4650c907d",
+    "document_id": "0788be14-debe-43a3-8f61-6fb988ad7405",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "0d645a22-9330-4cfe-b44e-e18f6442af89",
+    "unit_id": "ba8929fd-c566-409a-bb4a-d860cd85676c",
+    "document_id": "4ae3d44f-d379-4733-bbd7-b61adfde5cb6",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "062be2da-2673-4a06-ae64-a7662e335fd4",
+    "unit_id": "8b9b4381-8e87-4b7f-864b-c6646804fc5f",
+    "document_id": "25e6d13d-ea38-4051-ad38-2bbaa0b1f57e",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "9ec07d60-389b-4ec4-931b-c5d5412432b3",
+    "unit_id": "0c2b3745-208a-49ab-ab98-2726eca57adf",
+    "document_id": "fc4386eb-1e15-49df-8410-6467bc73efeb",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a23e80a7-3247-4a97-9802-548977acedcc",
+    "unit_id": "b85d5920-8a26-4687-909b-2be107495f0f",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a7b4a685-16df-47c8-a96c-a13c9dee734c",
+    "unit_id": "f4ef7c69-9c07-4ccd-916c-c8b1f103fadb",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1023804f-5b5c-4964-8d03-5754102d442a",
+    "unit_id": "5ab8b6b4-cf71-4fac-8be5-547e76faf471",
+    "document_id": "bd643401-1802-4e5d-8503-3263119ae104",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3312c5a1-533d-4bfe-90f5-07fa98690553",
+    "unit_id": "81531058-9508-42ee-bab5-ae0ccb9db776",
+    "document_id": "ce351815-6e9c-45c1-8124-3af6b400a3a8",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e9b73c3f-ba11-4469-9603-e3e1cba89938",
+    "unit_id": "74244e45-08b5-4d8d-b9f3-360451b64556",
+    "document_id": "0e93a6a7-9ef2-4f43-9483-0e5e266cda5a",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f7080768-cddb-48c0-a326-07d5606c4b72",
+    "unit_id": "d003fe8a-27ec-4166-9fa0-91179ce166e4",
+    "document_id": "83e214ae-cca9-4750-a9fd-b2ffba0006d1",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "70c80a26-b3fc-4353-a4de-58d75e32de60",
+    "unit_id": "636a011e-72bc-4df5-a174-31cebb03d173",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "44e5cd16-bd4f-454c-987b-4b63965c3786",
+    "unit_id": "5e698f62-4863-447a-88b2-327be35e7ae8",
+    "document_id": "0062a4bb-f577-4534-96e6-213b7634153e",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3701beb0-9fcf-466a-98d8-4997ab471983",
+    "unit_id": "0c2cf97f-1ad1-4878-8eee-bbf515376904",
+    "document_id": "0f4a4a69-7ca0-46ff-b685-779a8c997cb1",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ef3fb668-62da-490d-80aa-0a67bd70f379",
+    "unit_id": "a6babd42-1c53-437c-be44-83e032ee73c3",
+    "document_id": "73e35376-165f-4b98-b223-2ee701e72e60",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "9b098c09-7b86-4ea5-88ba-16383758974f",
+    "unit_id": "eb01d244-61ce-4959-8182-46617ac25ce7",
+    "document_id": "6e8238e6-0b94-4315-998d-f640234a643a",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "72065bf6-fed6-4d1f-9591-5fb12addb599",
+    "unit_id": "f6751588-51e5-4c16-b9b3-da303055abf6",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1e41865f-3309-4f0d-b059-92299eaf9b09",
+    "unit_id": "ad2c75d1-21c5-46d3-acda-f64ee3ca3736",
+    "document_id": "36e3a029-e6db-4cbd-aa63-f137eb0b3257",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "07c765e7-fbae-446c-9ea8-d9c90c362c54",
+    "unit_id": "47379637-532f-4588-8efe-a2ab8e266e3f",
+    "document_id": "186b5aca-7877-40be-8f0a-048660a5e7c4",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "delivery_timing",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5a027f50-7b72-4101-b7b4-f5eb01eb8c19",
+    "unit_id": "b303379e-c724-4048-a22e-a36e85be561d",
+    "document_id": "f0980c2d-64b1-41bd-85b9-5d3625f3a85d",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c1afbd59-43db-4cad-b178-cdda2c224cb7",
+    "unit_id": "512fb647-8653-48cf-b434-e149cf02ce1e",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d9216018-dfa5-446e-92f6-8d8c3ddc20ba",
+    "unit_id": "cabc5251-143b-4dda-a141-bee237a30157",
+    "document_id": "defe1315-e66a-492c-a969-6b8eccd8b75d",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3d08fce2-3107-4886-9d97-bff095d14d81",
+    "unit_id": "e0f1b3a8-b597-471f-8241-d1a79c9248f4",
+    "document_id": "89fc5b62-b6d7-4a1b-b800-d3c95e6bf2cb",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "227df62d-6d3b-40cf-b508-cbddc8d117c4",
+    "unit_id": "7a2ca5f1-465e-457c-923f-c1cf52061ca4",
+    "document_id": "7cfdfeb8-70f2-4a17-86ef-56968a18a3a1",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d45840ba-afc4-4796-ab32-2aff749b327a",
+    "unit_id": "d2f27b94-c0f8-44f9-a42c-f1b3826f2c68",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "resolved_by_workaround",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "2ae6c080-ec70-40af-9178-457877cf45af",
+    "unit_id": "05fec51a-058b-462c-b6e3-504ff09eb5de",
+    "document_id": "51d47bc9-af13-4a9e-a54b-276836fdac8e",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "29d103a4-fc4c-4a29-a210-97a455de424e",
+    "unit_id": "201152db-85c4-422e-a9fd-536778b0c433",
+    "document_id": "0f6810a0-ed73-469c-a076-3c0ac66adf19",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "72540128-f5f7-43ea-91e4-fecb02365c33",
+    "unit_id": "20aa484b-5f40-4f4b-b825-33aff0a13cab",
+    "document_id": "337c7889-1189-4b23-b7da-f3fbe936c5f1",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "4c128f00-4378-4c98-83b2-4a2a75522357",
+    "unit_id": "8fb6da2b-5b09-428a-9abc-1e7a0107c25f",
+    "document_id": "9f9fb821-3a5e-4faa-9a02-136787d100db",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f8145466-a484-4cd9-8ee3-7accd75fa4ee",
+    "unit_id": "0f7f5701-de78-40c7-aee0-7f7b6e0d410a",
+    "document_id": "800799cf-776f-497d-9901-fa735a42176e",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "28aa762d-e72a-4aa2-80a1-abdf0ed5056f",
+    "unit_id": "0fe5c8ba-c359-4c2d-9857-ec0f4a88b4f9",
+    "document_id": "1ff964fd-1a5f-49c6-bddf-4fc411b3b76d",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7b19f72d-db5f-4007-a8e8-0785e3f51632",
+    "unit_id": "ef3f67b6-2eb6-45ea-8a05-716bfbcab7a6",
+    "document_id": "03961bc1-ecb0-4dfa-913f-628a88c45f66",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ecbc0d13-bb0e-42c9-80ef-96ef7dbab976",
+    "unit_id": "fefefa02-5ee4-4fa0-8928-00632cde8e53",
+    "document_id": "a1bd820e-69c3-4be3-907b-31f1afc6d495",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "fe8858c9-f568-451b-a7bd-548cf29cc0cc",
+    "unit_id": "34cedc13-4bf8-4c54-971f-69abeb33ee13",
+    "document_id": "acada195-e529-4b46-a6d1-e05e0923e8f7",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "social_validation",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1dde108f-4b12-406f-a322-2b4a1c2bb6dc",
+    "unit_id": "7bf6b0c9-3791-4d29-868e-01df966ee9eb",
+    "document_id": "44d11050-b2a7-40ea-a838-e18fb23f0b0f",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "fd3b8996-54ba-4ecf-be33-b43eb59c63c7",
+    "unit_id": "707a412d-8530-4b85-912b-54b52dd73161",
+    "document_id": "e4668ef9-b02d-422f-9398-9df6eda2976e",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3777af84-acde-40de-8575-b2e99bdea614",
+    "unit_id": "d61fc127-38d6-4f3b-b7c8-58eabb2b7802",
+    "document_id": "5747ebef-e175-4140-81c8-ae1fd951c01e",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "650d81a7-c1f6-4dc6-a164-bfe344d51a9c",
+    "unit_id": "fb2911a4-203c-4bed-b16a-87c532652bd0",
+    "document_id": "ef481c01-7e57-4bf6-9629-65f8a1f623f2",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d9102459-e804-42fe-8137-b47c0202c9c5",
+    "unit_id": "67cc7cb5-af80-4ab1-a2e4-387b798eac1b",
+    "document_id": "6e8238e6-0b94-4315-998d-f640234a643a",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1c2fe646-7ce3-49bd-8515-19675e0c8b04",
+    "unit_id": "0bbf63e0-9e41-4d35-8814-8bdfcf6bb8b5",
+    "document_id": "be01d217-16c7-4e9a-886d-407fa27efc6a",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "1404810d-d6af-4406-809c-63d75cac5138",
+    "unit_id": "943edd5f-a7e6-4062-a0b1-865a47bf63fc",
+    "document_id": "a51865b5-d1de-4bc2-a306-92cc564281ff",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ed24dfd8-efa5-4d16-a493-16c23755e93d",
+    "unit_id": "2ce95787-bf29-4dda-977a-4efe6d63b6bb",
+    "document_id": "68f666a6-45d2-45f7-b8f6-28c6dd3f505b",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c0ce4ba0-d93f-49a0-b5d5-eccb8c87f47e",
+    "unit_id": "a87b92b3-500a-4c9b-bfd8-afba1ed74aa6",
+    "document_id": "25d10230-98a0-421a-a488-aa4a5896f11d",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f9b8eb90-39bc-4d78-988a-392cbcb85629",
+    "unit_id": "2263ec0b-3311-4678-8baa-e67e6e7ba651",
+    "document_id": "5b9ec8d9-e7fe-4b50-b52d-18c8667cbdf0",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "returns_risk",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "314c01f2-b9a3-4565-b4b0-1e68c10d0dc9",
+    "unit_id": "d6c4c49e-6c26-4367-bd3f-85e3301e7afb",
+    "document_id": "68f666a6-45d2-45f7-b8f6-28c6dd3f505b",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "daf44308-69c0-4029-b08e-2e910dcc108d",
+    "unit_id": "1522fc20-0bcc-4b92-afce-f3cb4dc18b71",
+    "document_id": "408af659-76f7-46b6-a57e-feda9ef5f08a",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "62495fc2-d174-44ff-afa2-ef42b0df13be",
+    "unit_id": "50b7da1f-b897-40ea-8fd3-314797a724e1",
+    "document_id": "43821eeb-7735-4839-88a1-3d09269452e0",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "7f5dbef3-b198-4396-b6b1-764f5e107bf6",
+    "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+    "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "a01cac59-df20-42b9-aa7f-d471a7c863a3",
+    "unit_id": "0e82cde5-d063-495f-8b88-dd1f2557987d",
+    "document_id": "08cd7db2-8a27-413e-94e5-1d225152993a",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f2a9705f-a38d-48ab-b9d7-018e9a08409a",
+    "unit_id": "a8825674-e30b-4879-be74-7a6e1dfaae5b",
+    "document_id": "14f2c788-0596-4aad-a4fb-6e7fdd697001",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "812643a1-df1b-4488-9a43-0544b7f334c0",
+    "unit_id": "c8e3ebf1-ee52-4036-ba53-b96435744265",
+    "document_id": "5b9ec8d9-e7fe-4b50-b52d-18c8667cbdf0",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "252ee131-9e7e-4f93-a65f-4696d1aa7cb2",
+    "unit_id": "62a536f6-804d-411b-8b18-ea90dfa68e7b",
+    "document_id": "bb14725d-b14d-463a-a0ef-5d77c73a7b35",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e0da4e07-b599-4401-8cfb-64c0fcdcfc17",
+    "unit_id": "a59de5ea-ec86-46d5-8bd6-984d3c393feb",
+    "document_id": "b849694f-d763-4ce5-bb0e-463ec97af30a",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ac594f81-e40e-4768-9100-98008612004b",
+    "unit_id": "8fa93ecc-90a1-403f-81b2-114580171aeb",
+    "document_id": "148efd19-7049-4630-bdd2-35e78a084ac3",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e57fbc31-d55d-454c-98b4-066c5be89b34",
+    "unit_id": "ac5472c6-6850-4aa4-8591-0e971c5ef157",
+    "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "017daebb-2eaa-4326-9669-7b9b1e3e2ac3",
+    "unit_id": "b2997d44-ba7f-4520-9906-7439fb279933",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "96880d15-4a2f-4407-8c5f-6d214db31987",
+    "unit_id": "6ca0a672-436f-4746-8579-12dd1c5be372",
+    "document_id": "e26dc355-41c6-4ccf-9f96-a20031c169c6",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f3f3d199-159c-4184-948b-8018b09acce8",
+    "unit_id": "d1072824-91f0-4f76-866d-e6d281456ea4",
+    "document_id": "88fbd3fa-87ca-4cc2-ba22-cfdf62be2dc5",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b65f6303-6d4f-4f65-ad03-e83ca5198ff0",
+    "unit_id": "da076d62-ecdb-4422-a551-3b506debed41",
+    "document_id": "40569440-1236-4c85-9be5-b12b16bdd14a",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "02f96bfb-2c8e-4ef1-adb8-66f17d44c727",
+    "unit_id": "ba459f07-bb89-456c-ae1c-4836f80e6460",
+    "document_id": "98cfc64d-04e0-4b6c-89ad-253cae6abdf7",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3ec0cb22-2bff-47df-ad56-c99cada78c6d",
+    "unit_id": "4d64dd5d-acae-4535-8494-5e6beef76c4e",
+    "document_id": "c232e773-e66f-44ed-92c5-ef7d242cd872",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d453e15b-f013-4a66-a336-6271ad889278",
+    "unit_id": "3bb137a7-f453-4d07-bf95-ce46d7a7a021",
+    "document_id": "71e05ba2-2612-46f5-abf3-66dad142f73c",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "bae1281c-2806-4249-8107-026607fe3cd4",
+    "unit_id": "09669486-13dd-4766-a0b5-9823f4ddcaf1",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "841f2f20-1d9d-4bc4-af08-3e055d046def",
+    "unit_id": "9ba4bb71-a2e2-4f18-a40c-edf2c26cde7f",
+    "document_id": "66303260-da4a-4940-ba7c-c0b24cddc882",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e8425ef9-a31b-45c1-80ee-994e9ff00e83",
+    "unit_id": "cc35a30f-1d0a-4397-8751-eecaabb51609",
+    "document_id": "c52167d8-25a7-4697-bd23-307d71b26481",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "40916330-45f7-4600-b254-9cfe2b3713c1",
+    "unit_id": "1d915d9c-3427-4409-b182-20adf208aca5",
+    "document_id": "de858adb-a584-4e77-a775-0bf09db28528",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "ad518255-4b51-4b4d-8bb9-4638fad54d59",
+    "unit_id": "963a10f0-828f-42b4-8fda-9ad27998497d",
+    "document_id": "a7f4b763-a01b-46f6-a200-0e18e5384607",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "11fee13a-8af3-4469-ac20-edece4b1cb13",
+    "unit_id": "4496f76c-2147-4f74-8de4-195c7c5515e4",
+    "document_id": "5e2290b5-f5d9-4e40-b8fc-9354e1fbdd76",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fabric_quality",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "61d99d96-6198-47a2-970f-b83ae4c3407d",
+    "unit_id": "f9ec853b-4154-499c-b2ca-c4f2bfaa460a",
+    "document_id": "974c6f7f-3da1-4934-9d59-c64c9a23bca7",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d4d80d3c-c503-4564-95f9-594a1ae7d06f",
+    "unit_id": "6e7a0d4c-fc60-441f-abe9-f9cd8c2bd57c",
+    "document_id": "e2397547-a43b-4e73-a586-5cdfad185045",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "3d0827a5-aa90-4989-bbba-7ec1fb94740e",
+    "unit_id": "6324e90f-422e-4d32-b12b-6aa639b0b329",
+    "document_id": "b4a45ebd-11ce-4eec-8780-dcc2c7a6dcde",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "743ea412-bd68-4fc5-91c3-99ef5bd9a918",
+    "unit_id": "43516724-3fd8-46e0-97d4-362bce13f2ac",
+    "document_id": "4ae3d44f-d379-4733-bbd7-b61adfde5cb6",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d4168c74-15aa-43c7-af57-6ca1f1616ad0",
+    "unit_id": "df32a984-73e2-4885-9f7a-590670e87c79",
+    "document_id": "75d6f1a4-a7ce-4c0e-89ee-6218aa7b5ce0",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "e2db1052-9863-4c95-b933-69f4d9bdb5f1",
+    "unit_id": "561e6177-81d1-4475-9298-887ad9b36890",
+    "document_id": "44d11050-b2a7-40ea-a838-e18fb23f0b0f",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "28ccdd6d-2777-4d05-b100-55c7723ab9a6",
+    "unit_id": "f7eba81d-df84-4e64-9d14-3bb474094a20",
+    "document_id": "565b89c6-402b-4a97-8e67-7728937cd464",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "846d6686-d999-4749-8201-f456ed23a5f9",
+    "unit_id": "f74b5e4d-eb50-46ea-9a2c-02b338f31a62",
+    "document_id": "c67a4e0e-ad8f-4fe3-b20f-27dca065c2cd",
+    "labels": {
+      "unit_type": "workaround",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "32e253d1-4d4b-4e60-9514-809f0bcfcc63",
+    "unit_id": "39efe1e1-38df-4c33-ba9c-e72e71309690",
+    "document_id": "148efd19-7049-4630-bdd2-35e78a084ac3",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "05799f99-d54f-456b-8edc-467e95add201",
+    "unit_id": "c2106f7f-1e65-4ada-b213-4035bdb1fe50",
+    "document_id": "d1b0327e-da0a-4663-a25f-084a4d3cae15",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f1257914-4428-41fa-8c3c-0071cb28a217",
+    "unit_id": "deb5bf2b-76c3-4367-b313-ab1a2a63abda",
+    "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "21b82594-95ae-4c30-9f33-7935859acdd7",
+    "unit_id": "09160e70-4c60-48c2-9a37-7d2fe9a98687",
+    "document_id": "16ea4af2-6acb-40bc-972f-c1ad03b948c2",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "80532cef-35f9-4874-82d7-950d9f68b850",
+    "unit_id": "24b79ac5-9a5e-405c-880f-225112fc1503",
+    "document_id": "14f2c788-0596-4aad-a4fb-6e7fdd697001",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "0ce5f2b8-ec8c-48ff-91f8-404453515356",
+    "unit_id": "c38a64db-a07d-4523-8163-1741cfd44017",
+    "document_id": "08cd7db2-8a27-413e-94e5-1d225152993a",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "29b9e2e0-0334-4c1a-8fd3-184beec51108",
+    "unit_id": "67f92a93-0be8-48b2-ad00-603cd57d34f1",
+    "document_id": "7a7a0236-939b-4783-9c64-396869bf13af",
+    "labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "57ae01ad-907e-42fe-ad13-6081aa3c533b",
+    "unit_id": "09110d21-d287-45ee-96ba-a60dfcea2c1c",
+    "document_id": "e51a7e1d-b3b1-49f8-968f-28dc9f48b16a",
+    "labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "d65276b7-a474-49bf-a96a-c1a95f90d955",
+    "unit_id": "77952d54-b1a3-40e2-a691-4e5103ccc994",
+    "document_id": "cd157b9d-fbee-4066-af10-a5c1632b6482",
+    "labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "still_deferring",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c0475cf8-4fd9-45ab-93d4-6512a4b05113",
+    "unit_id": "dc428b94-913c-4796-a2f0-fb5860a46a2b",
+    "document_id": "3f69e8b9-80df-4a1c-85d9-ee6b124c4cbe",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "aabfb6e5-7b84-4ab0-bd2a-d06dc9b734b2",
+    "unit_id": "a46cd931-f7ef-4dab-9241-9bd602bbcef8",
+    "document_id": "c702beec-0dde-4c6c-9539-74d6e5bc6ddd",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "c0729524-160c-46ba-b726-9b01981f33b1",
+    "unit_id": "93ccfaa6-b9ba-4ec3-8a31-39c6fb523c14",
+    "document_id": "f52f1073-d68b-4a56-9de2-74ac21cb9ba6",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "occasion",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "8ca82540-6d52-4594-8902-33cc3ab1ca80",
+    "unit_id": "ebeb3ee3-6912-47de-88b1-5163480446a8",
+    "document_id": "cda2d2f1-5f9a-44df-b777-d6a72f3048bd",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "mild_annoyance",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "02c199fe-defc-46a2-80c2-94248055b7dc",
+    "unit_id": "b898feff-32d4-4476-8475-c33675d842f3",
+    "document_id": "3b318b47-ea2f-4ff8-84a2-c35bd8360fef",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "75e163d1-b471-4b39-bfb9-8b3ad7dfa6a9",
+    "unit_id": "e319545e-4025-4e23-837d-5e555523d066",
+    "document_id": "8583ad1f-c7b8-42aa-9206-a2e782be29d0",
+    "labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "b2dc9ba5-c608-4481-8f82-0401972c3101",
+    "unit_id": "68d125db-1a6e-4c05-914f-d0cabbea935a",
+    "document_id": "1f472ef7-08df-44c8-b329-12847a865079",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "5920f8f4-92dd-4558-9cbf-c4167cbd1d87",
+    "unit_id": "56856d19-4739-4f20-ae0c-e1289e3a3b66",
+    "document_id": "79760717-878d-40a0-9266-3396f89980f7",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "f05f7442-8d25-4c0c-9b11-57399cb752c6",
+    "unit_id": "2635347c-7dc3-43b9-977d-096bc0558854",
+    "document_id": "80f18b96-b6fe-47f3-8ccf-e0c0433fe836",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  },
+  {
+    "id": "67dfe9ce-eb9b-44eb-ac77-b675eeeaf0f6",
+    "unit_id": "cfc1e0ed-bbda-4e47-b83d-06b200ec17a1",
+    "document_id": "08cd7db2-8a27-413e-94e5-1d225152993a",
+    "labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none",
+      "source": "extraction_gold"
+    },
+    "coder": "model-autofill-v1",
+    "coded_at": "2026-09-03T15:13:27.845Z"
+  }
+]

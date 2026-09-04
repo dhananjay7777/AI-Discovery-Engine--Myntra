@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "wishlist_purchase_rate",
+    "parent_id": null,
+    "name": "30-day wishlist purchase rate",
+    "definition": "Share of users who purchase at least one wishlisted item within 30 days of adding it.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "save_quality",
+    "parent_id": "wishlist_purchase_rate",
+    "name": "Save quality",
+    "definition": "Share of saves that are real purchase intent, not bookmarking or inspiration.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "return_to_wishlist_rate",
+    "parent_id": "wishlist_purchase_rate",
+    "name": "Return-to-wishlist rate",
+    "definition": "Whether users come back to the wishlist after the original save.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "decision_resolution_rate",
+    "parent_id": "wishlist_purchase_rate",
+    "name": "Decision resolution rate",
+    "definition": "Of returners, who resolves remaining doubt and proceeds.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "fit_size_confidence",
+    "parent_id": "decision_resolution_rate",
+    "name": "Fit/size confidence",
+    "definition": "Ability to tell whether the saved item will fit.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "quality_fabric_confidence",
+    "parent_id": "decision_resolution_rate",
+    "name": "Quality/fabric confidence",
+    "definition": "Ability to tell whether material and construction match the listing.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "styling_occasion_confidence",
+    "parent_id": "decision_resolution_rate",
+    "name": "Styling/occasion confidence",
+    "definition": "Ability to picture wearing the item for a real occasion or outfit.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "social_validation",
+    "parent_id": "decision_resolution_rate",
+    "name": "Social validation",
+    "definition": "Peer reviews, photos, and comparison proof that reduce decision risk.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "availability_at_return",
+    "parent_id": "wishlist_purchase_rate",
+    "name": "Availability at return",
+    "definition": "Size and stock still there when the user comes back.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  },
+  {
+    "id": "checkout_completion",
+    "parent_id": "wishlist_purchase_rate",
+    "name": "Checkout completion",
+    "definition": "Ability to finish purchase once the product decision is made.",
+    "created_at": "2026-09-03T17:17:09.224Z"
+  }
+]

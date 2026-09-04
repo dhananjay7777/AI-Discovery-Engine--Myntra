@@ -26,6 +26,7 @@ Every material technical or business decision for the AI-Powered Discovery Engin
 | [D-018](#d-018) | Embeddings computed locally, not via an API | Tech | Accepted |
 | [D-019](#d-019) | Jobs are rate-limit aware, checkpointed, and resumable | Tech | Accepted |
 | [D-020](#d-020) | JSON file store; no hosted database | Tech | Accepted |
+| [D-021](#d-021) | Phase 2 gates across every strict-schema Groq model’s TPD | Tech | Accepted |
 
 ---
 
@@ -196,7 +197,7 @@ Every material technical or business decision for the AI-Powered Discovery Engin
 
 **Rationale.** A public URL with an LLM behind it is an open invoice. Caps make the demo safe to leave online.
 
-**Amendment (2026-09-01).** With Groq as the provider (`D-017`), the dollar ceiling is rarely what binds first — request and token quotas are. The budget check therefore governs both, per `D-019`.
+**Amendment (2026-09-02).** On the current `gpt-oss-20b` / `gpt-oss-120b` plan the published caps are 30 RPM, 8k TPM, 1k requests/day, **200k tokens/day**. Tokens-per-day is the binding constraint. The limiter therefore also tracks a daily token budget (per model, UTC day), spends at most 80% of each cap, and truncates document text so actual tokens stay near the Phase 2 estimate. Schedule: [quota-plan.md](./phases/phase-2-extraction/quota-plan.md).
 
 ---
 
@@ -290,7 +291,9 @@ Every material technical or business decision for the AI-Powered Discovery Engin
 
 **Rationale.** The classic failure here is not a surprise invoice — it is a run that cannot finish before a deadline because the allowance was spent on retries. Checkpointing plus throttling converts that from a crisis into a longer wall-clock time.
 
-**Consequences.** A full production run may span more than one day on a low tier; the plan front-loads it accordingly. Every `run` record stores requests used, so quota consumption is observable rather than guessed at.
+**Consequences.** A full production run spans multiple calendar days on this tier; the Phase 2 quota plan front-loads it. Every `run` record stores requests and tokens used, and `data/sandbox/groq_daily_budget.json` tracks per-model UTC-day spend.
+
+**Amendment (2026-09-02).** Published caps on `gpt-oss-20b` and `gpt-oss-120b` are 30 RPM, 8k TPM, 1k RPD, 200k TPD. **Tokens-per-day bind first.** Jobs apply 80% headroom, enforce a daily token budget per model, truncate document text, and stop before the next call that would breach the working cap. See [quota-plan.md](./phases/phase-2-extraction/quota-plan.md).
 
 ---
 
@@ -311,13 +314,32 @@ Every material technical or business decision for the AI-Powered Discovery Engin
 
 ---
 
+## D-021
+**Phase 2 drains every Groq strict-schema model’s independent daily token budget for the relevance gate, so the corpus can finish in ~2 UTC days.**
+
+*Type:* Tech · *Status:* Accepted · *Date:* 2026-09-02 · *Amends:* [D-013](#d-013), [D-017](#d-017), [D-019](#d-019)
+
+**Context.** The free-tier cap (200k TPD) is **per model**, not shared. Gating ~1,900 `dedupe_group`s on `gpt-oss-20b` alone is ~6 UTC days. Using only `gpt-oss-120b` is the same delay with a worse quality/cost trade for a binary gate. The deadline is two days, not a week.
+
+**Decision.** The gate picker spends whichever pooled model has the most remaining UTC-day tokens: `gpt-oss-20b`, `qwen/qwen3.8-27b`, `gpt-oss-safeguard-20b`, then `gpt-oss-120b`. Extraction still **prefers** `gpt-oss-120b` and only falls back if that bucket is empty. The bulk run uses `--skip-agreement` so qwen’s TPD goes to gating, not the 100-unit slice.
+
+**Rationale.** Four independent ~160k working buckets ≈ 1,140 gate calls/day, which covers the remaining corpus in two UTC days. Collapsing to one model would cut throughput by 3–4×. `gpt-oss-safeguard-20b` is on Groq’s structured-output list, so it stays inside `D-017`.
+
+**Consequences.** Some gate labels are not from `gpt-oss-20b`. Record the model in the cache key. Re-run the agreement slice after the bulk pass. A paid Groq tier remains the only way to finish in a single UTC day (`O-05`).
+
+---
+
 ## Open decisions
 
 | ID | Question | Needed by |
 | --- | --- | --- |
 | O-01 | Which segment to take into interviews if the top two opportunities skew to different segments | End of Phase 4 |
 | O-02 | Whether to include a comparison corpus (AJIO/Nykaa) as a contrast set or leave it out for scope | Phase 1 |
-| O-03 | Scoring weights: initial values are judgment; do stability tests justify keeping them or flattening them | Phase 4 eval |
+| O-03 | ~~Scoring weights: initial values are judgment; do stability tests justify keeping them or flattening them~~ | **Closed** — keep published weights (`scoring-v1`); ±25% perturbation left top 3 unchanged in 100% of trials; bootstrap kept ≥2 of top 3 in 98.8% of 500 draws. Flattening not justified. |
 | O-04 | Whether the live demo run accepts arbitrary user-pasted URLs or only a curated source list | Phase 6 |
 | O-05 | Whether the free Groq tier's daily request ceiling can carry a full production run, or a paid developer tier is required | End of Phase 2, once real per-document request counts are known |
 | O-06 | Whether Hinglish extraction on `gpt-oss-120b` clears the Phase 2 bar, or needs few-shot examples or a separate pass | Phase 2 eval (T2.18) |
+
+### O-03 (closed)
+
+**Keep the published `scoring-v1` weights; do not flatten.** Phase 4 stability: ±25% perturbation of each weight left the recommended top 3 unchanged in 12/12 trials. Document bootstrap (500 draws) kept at least two of the top three members in 98.8% of resamples. Leave-one-platform-out shifts are labeled `source_dependent` rather than hidden. Flattening weights would discard signal without improving rank stability.

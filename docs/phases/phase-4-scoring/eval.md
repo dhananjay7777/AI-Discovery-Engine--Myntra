@@ -1,6 +1,6 @@
 # Phase 4 Eval — Scoring
 
-<!-- phase-status: not_started -->
+<!-- phase-status: complete -->
 
 **Phase goal.** A ranked shortlist of opportunity areas, each linked to the metric it would move, each stable enough to bet interview time on.
 

@@ -35,6 +35,25 @@ Put `GROQ_API_KEY` in `.env` ([setup](docs/groq-api-setup.md)). Then `npm run de
 | `npm run phase0:smoke` | Strict-schema calls + embedding round-trip + run insert | Yes |
 | `npm run test:throttle` | Token-bucket limiter + 429 backoff | No |
 
+## Phase 2
+
+Plan the Groq calendar first, then run extraction (multi-day, checkpointed):
+
+| Script | Purpose | Needs Groq key? |
+| --- | --- | --- |
+| `npm run phase2:plan` | Print quota-safe call calendar for current corpus | No |
+| `npm run phase2:extract` | Gate (pooled models) → extract → verify; runs until every model’s UTC cap, then pauses | Yes |
+| `npm run phase2:eval` | Automated Phase 2 checks | No |
+| `npm run phase2:gold-sample` | Export stratified samples for human gold set | No |
+
+```bash
+npm run phase2:plan
+npm run phase2:extract -- --skip-agreement   # bulk run; resumes after UTC midnight
+npm run phase2:extract -- --limit 5          # smoke test on 5 groups
+```
+
+See [quota plan](docs/phases/phase-2-extraction/quota-plan.md).
+
 ## Deploy (Phase 6)
 
 Push to GitHub, import in Vercel, set `GROQ_API_KEY` as a **server-only** env var. The published corpus ships with the repo as JSON.

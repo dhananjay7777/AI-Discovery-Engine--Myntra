@@ -5,10 +5,11 @@
  *   meta/sources.json
  *   meta/corpus_stats.json
  */
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import type { Document, RawDocument, Source } from "@/lib/store/schema";
 import type { StoreNamespace } from "@/lib/store/fs";
+import { writeJsonAtomic } from "@/lib/store/fs";
 import { ALL_CONNECTORS } from "./connectors";
 
 export const CORPUS_PLATFORMS = ALL_CONNECTORS.map((c) => c.meta.platform);
@@ -48,10 +49,7 @@ function readJsonFile<T>(path: string): T[] {
 }
 
 function writeJsonFile<T>(path: string, rows: T[]): void {
-  mkdirSync(join(path, ".."), { recursive: true });
-  const tmp = `${path}.tmp`;
-  writeFileSync(tmp, `${JSON.stringify(rows, null, 2)}\n`, "utf-8");
-  writeFileSync(path, readFileSync(tmp, "utf-8"), "utf-8");
+  writeJsonAtomic(path, rows);
 }
 
 export function listCorpusPlatforms(

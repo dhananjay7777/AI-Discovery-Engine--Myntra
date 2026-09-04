@@ -4,7 +4,7 @@
  */
 import { randomUUID } from "crypto";
 import { readCollection, writeCollection, type StoreNamespace } from "./fs";
-import type { EmbeddingSmoke, Run } from "./schema";
+import type { EmbeddingSmoke, EvidenceUnit, Run } from "./schema";
 
 export function insertRun(
   data: {
@@ -19,6 +19,9 @@ export function insertRun(
     estimatedCostUsd: number;
     status: string;
     timings?: Record<string, number>;
+    promptVersions?: Record<string, string>;
+    documentCount?: number;
+    unitCount?: number;
   },
   namespace: StoreNamespace = "published",
 ): string {
@@ -30,9 +33,9 @@ export function insertRun(
     extraction_model: data.extractionModel,
     agreement_model: data.agreementModel,
     embedding_model: data.embeddingModel,
-    prompt_versions: null,
-    document_count: 0,
-    unit_count: 0,
+    prompt_versions: data.promptVersions ?? null,
+    document_count: data.documentCount ?? 0,
+    unit_count: data.unitCount ?? 0,
     request_count: data.requestCount,
     prompt_tokens: data.promptTokens,
     completion_tokens: data.completionTokens,
@@ -47,6 +50,50 @@ export function insertRun(
   runs.push(run);
   writeCollection("runs", runs, namespace);
   return run.id;
+}
+
+export function updateRun(
+  runId: string,
+  patch: {
+    status?: string;
+    document_count?: number;
+    unit_count?: number;
+    request_count?: number;
+    prompt_tokens?: number;
+    completion_tokens?: number;
+    estimated_cost_usd?: number;
+    prompt_versions?: Record<string, string>;
+    timings?: Record<string, number>;
+  },
+  namespace: StoreNamespace = "published",
+): void {
+  const runs = readCollection("runs", namespace);
+  const idx = runs.findIndex((r) => r.id === runId);
+  if (idx < 0) throw new Error(`Run not found: ${runId}`);
+
+  const current = runs[idx];
+  runs[idx] = {
+    ...current,
+    ...patch,
+    completed_at: patch.status === "completed" ? new Date().toISOString() : current.completed_at,
+  };
+  writeCollection("runs", runs, namespace);
+}
+
+export function insertEvidenceUnits(
+  units: Omit<EvidenceUnit, "id" | "created_at">[],
+  namespace: StoreNamespace = "published",
+): string[] {
+  const now = new Date().toISOString();
+  const ids: string[] = [];
+  const rows = readCollection("evidence_units", namespace);
+  for (const unit of units) {
+    const id = randomUUID();
+    ids.push(id);
+    rows.push({ ...unit, id, created_at: now });
+  }
+  writeCollection("evidence_units", rows, namespace);
+  return ids;
 }
 
 export function insertEmbeddingSmoke(

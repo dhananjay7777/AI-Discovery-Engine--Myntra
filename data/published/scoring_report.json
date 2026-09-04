@@ -1,0 +1,744 @@
+{
+  "version": "scoring-v1",
+  "generated_at": "2026-09-03T17:17:09.224Z",
+  "weights": {
+    "prevalence": 0.3,
+    "severity": 0.2,
+    "segment_concentration": 0.1,
+    "proximity": 0.2,
+    "actionability": 0.15,
+    "source_bias": 0.15
+  },
+  "recommended_slugs": [
+    "styling_occasion_confidence",
+    "social_proof_on_shortlist",
+    "post_save_resolution",
+    "save_intent_quality",
+    "fulfilment_confidence"
+  ],
+  "component_correlations": {
+    "prevalence": {
+      "prevalence": 1,
+      "severity": -0.2987,
+      "segment_concentration": 0.8498,
+      "proximity": 0.0342,
+      "actionability": 0.4297,
+      "source_bias_penalty": -0.0458
+    },
+    "severity": {
+      "prevalence": -0.2987,
+      "severity": 1,
+      "segment_concentration": -0.0124,
+      "proximity": 0.8969,
+      "actionability": -0.5767,
+      "source_bias_penalty": -0.6231
+    },
+    "segment_concentration": {
+      "prevalence": 0.8498,
+      "severity": -0.0124,
+      "segment_concentration": 1,
+      "proximity": 0.1788,
+      "actionability": 0.2489,
+      "source_bias_penalty": -0.0588
+    },
+    "proximity": {
+      "prevalence": 0.0342,
+      "severity": 0.8969,
+      "segment_concentration": 0.1788,
+      "proximity": 1,
+      "actionability": -0.3985,
+      "source_bias_penalty": -0.6866
+    },
+    "actionability": {
+      "prevalence": 0.4297,
+      "severity": -0.5767,
+      "segment_concentration": 0.2489,
+      "proximity": -0.3985,
+      "actionability": 1,
+      "source_bias_penalty": 0.1667
+    },
+    "source_bias_penalty": {
+      "prevalence": -0.0458,
+      "severity": -0.6231,
+      "segment_concentration": -0.0588,
+      "proximity": -0.6866,
+      "actionability": 0.1667,
+      "source_bias_penalty": 1
+    }
+  },
+  "stability": {
+    "weight_perturbation": {
+      "trials": 12,
+      "top3_unchanged_pct": 100,
+      "pass": true
+    },
+    "bootstrap": {
+      "draws": 500,
+      "top3_stable_pct": 98.8,
+      "pass": true
+    },
+    "leave_one_platform_out": [
+      {
+        "platform": "app_store",
+        "entered": [],
+        "left": [],
+        "source_dependent_slugs": []
+      },
+      {
+        "platform": "hacker_news",
+        "entered": [
+          "save_intent_quality"
+        ],
+        "left": [
+          "fulfilment_confidence"
+        ],
+        "source_dependent_slugs": [
+          "save_intent_quality",
+          "fulfilment_confidence"
+        ]
+      },
+      {
+        "platform": "play_store",
+        "entered": [],
+        "left": [],
+        "source_dependent_slugs": []
+      },
+      {
+        "platform": "reddit",
+        "entered": [
+          "save_intent_quality"
+        ],
+        "left": [
+          "fulfilment_confidence"
+        ],
+        "source_dependent_slugs": [
+          "save_intent_quality",
+          "fulfilment_confidence"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "entered": [],
+        "left": [],
+        "source_dependent_slugs": []
+      }
+    ]
+  },
+  "areas": [
+    {
+      "slug": "fit_size_confidence",
+      "label": "Fit and size confidence before purchase",
+      "hypothesis": "Users stall on saved fashion items because they cannot tell whether a size will fit. Reducing that uncertainty could raise decision-resolution among returners — a hypothesis to validate in interviews, not a declared root cause.",
+      "intervention": "Size/fit tools on PDP and wishlist (measurements, model stats, size-on-you cues). Not discounts.",
+      "is_non_monetary": true,
+      "prevalence": 0.2192513368983957,
+      "severity": 0.1248148148148149,
+      "segment_concentration": 0,
+      "proximity": 0.39222222222222214,
+      "actionability": 1,
+      "source_bias_penalty": 0.5430384087791494,
+      "score": 0.23772704716005372,
+      "confidence": 0.8099365569272977,
+      "document_count": 41,
+      "unit_count": 54,
+      "platform_mix": {
+        "hacker_news": 1,
+        "play_store": 2,
+        "reddit": 42,
+        "youtube": 9
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": false,
+      "recommended": false,
+      "counter_quotes": [
+        {
+          "unit_id": "0ccce01c-9b78-4dfb-baba-64e0d191faad",
+          "document_id": "9f4089c5-cbce-4249-8a29-099c3e8164ad",
+          "quote": "Am I too skinny for this top ??"
+        },
+        {
+          "unit_id": "a36f5e93-3465-4694-bccb-fedd2f45b42f",
+          "document_id": "c232e773-e66f-44ed-92c5-ef7d242cd872",
+          "quote": "They are so LONGGG, cant wear a polo casually without tucking it in which looks so semi formal and uncomfortable to say the least"
+        },
+        {
+          "unit_id": "636a011e-72bc-4df5-a174-31cebb03d173",
+          "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+          "quote": "had to take a pair to the tailor just to get the hem right because every high waisted cut i tried pooled at the ankle in the weirdest way"
+        },
+        {
+          "unit_id": "c67534ee-dc9d-499b-a7c6-fc74a0a69c6e",
+          "document_id": "61eda797-661d-47c9-8b52-6b5a4ecf40b9",
+          "quote": "if you do order, measure your inseam first and compare it to their size chart, that's saved me more times than i can count"
+        }
+      ],
+      "open_questions": [
+        "When users say 'size', do they mean chart confusion, brand inconsistency, or body-shape fit?",
+        "Would they return to a wishlisted item if a size-on-you cue appeared, or do they already decide elsewhere?",
+        "Which garment categories concentrate the hesitation (ethnic wear vs western vs footwear)?"
+      ],
+      "outcome_node_slugs": [
+        "fit_size_confidence",
+        "decision_resolution_rate"
+      ],
+      "rationale": "Assumed mechanism: clearer fit information at save or return-to-wishlist reduces deferral. Evidence is fit/size language in consideration text. We do not estimate a conversion lift.",
+      "code_slugs": [
+        "fit_size_uncertainty"
+      ]
+    },
+    {
+      "slug": "styling_occasion_confidence",
+      "label": "Styling and occasion confidence",
+      "hypothesis": "Saved items stall when users cannot picture an occasion or outfit pairing. Occasion context on the save — not a price cut — is the intervention to test. Hypothesis for interviews, not a root cause.",
+      "intervention": "Occasion tags, outfit pairing, and 'wear with' suggestions on saved items.",
+      "is_non_monetary": true,
+      "prevalence": 0.33689839572192515,
+      "severity": 0.18037974683544283,
+      "segment_concentration": 0.21875,
+      "proximity": 0.43240506329113904,
+      "actionability": 1,
+      "source_bias_penalty": 0.5858035571222561,
+      "score": 0.30763094717355555,
+      "confidence": 0.7949687550072104,
+      "document_count": 63,
+      "unit_count": 79,
+      "platform_mix": {
+        "app_store": 6,
+        "hacker_news": 1,
+        "play_store": 2,
+        "reddit": 64,
+        "youtube": 6
+      },
+      "segment_label": "occasion_shopper:yes",
+      "source_dependent": false,
+      "recommended": true,
+      "counter_quotes": [
+        {
+          "unit_id": "ac5472c6-6850-4aa4-8591-0e971c5ef157",
+          "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+          "quote": "There is often a big difference between jewellery that looks great in a photo and jewellery that you genuinely reach for several times a week."
+        },
+        {
+          "unit_id": "f74b5e4d-eb50-46ea-9a2c-02b338f31a62",
+          "document_id": "c67a4e0e-ad8f-4fe3-b20f-27dca065c2cd",
+          "quote": "Also, i wear dark coloured inner wear, so may be that helps as well"
+        },
+        {
+          "unit_id": "d61fc127-38d6-4f3b-b7c8-58eabb2b7802",
+          "document_id": "5747ebef-e175-4140-81c8-ae1fd951c01e",
+          "quote": "how do u avoid it"
+        },
+        {
+          "unit_id": "636a011e-72bc-4df5-a174-31cebb03d173",
+          "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+          "quote": "had to take a pair to the tailor just to get the hem right because every high waisted cut i tried pooled at the ankle in the weirdest way"
+        }
+      ],
+      "open_questions": [
+        "Is the doubt 'will this suit the event' or 'will this suit me'?",
+        "Do occasion shoppers return to the wishlist as the date approaches, or start a new search?",
+        "Would pairing suggestions change the save, or only the browse?"
+      ],
+      "outcome_node_slugs": [
+        "styling_occasion_confidence",
+        "decision_resolution_rate"
+      ],
+      "rationale": "Assumed mechanism: occasion/styling doubt is a decision-resolution leak. Gift/occasion parking also lowers save quality. No effect size is claimed.",
+      "code_slugs": [
+        "styling_occasion_doubt",
+        "gift_occasion_parking"
+      ]
+    },
+    {
+      "slug": "fabric_quality_proof",
+      "label": "Fabric and quality proof before buying",
+      "hypothesis": "Users hesitate because product photos do not resolve material, stitching, or durability questions. Quality evidence on the PDP could move fabric-confidence — a hypothesis to validate, not assumed.",
+      "intervention": "Close-up fabric media, material specs, and wash/feel cues before checkout. Not coupons.",
+      "is_non_monetary": true,
+      "prevalence": 0.10695187165775401,
+      "severity": 0.1911538461538462,
+      "segment_concentration": 0,
+      "proximity": 0.41461538461538466,
+      "actionability": 1,
+      "source_bias_penalty": 0.7374260355029585,
+      "score": 0.19262550232572864,
+      "confidence": 0.642811038412627,
+      "document_count": 20,
+      "unit_count": 26,
+      "platform_mix": {
+        "hacker_news": 2,
+        "reddit": 23,
+        "youtube": 1
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": false,
+      "recommended": false,
+      "counter_quotes": [
+        {
+          "unit_id": "148fce3b-00a8-43da-a6e1-30b73e81e588",
+          "document_id": "acada195-e529-4b46-a6d1-e05e0923e8f7",
+          "quote": "there will still be realiability gap"
+        },
+        {
+          "unit_id": "1c42a8be-9abd-4662-babc-58bd07d7b946",
+          "document_id": "5e2290b5-f5d9-4e40-b8fc-9354e1fbdd76",
+          "quote": "i wear linen pants all the time in summer and yeah the lining can show sometimes when you stand up, mostly if the pants are light color or thin fabric."
+        },
+        {
+          "unit_id": "4496f76c-2147-4f74-8de4-195c7c5515e4",
+          "document_id": "5e2290b5-f5d9-4e40-b8fc-9354e1fbdd76",
+          "quote": "also check the pants before buying, put your hand inside the fabric and see how much it shows through, some linen is thicker than others"
+        },
+        {
+          "unit_id": "ebce6f22-256f-4de8-87eb-2bee8d5fd7ae",
+          "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+          "quote": "For fabric, try checking out the shops around T Nagar if you're ever in the area, they usually have stacks of authentic madras checks by the meter."
+        },
+        {
+          "unit_id": "46d088a4-ecbf-4cdf-af57-0c07c42269d3",
+          "document_id": "64e595df-8217-451e-9771-8a6e99567312",
+          "quote": "my trick is to wear hot pink ugs so it will be visible if its see through lol"
+        }
+      ],
+      "open_questions": [
+        "Which quality cue is missing — fabric feel, transparency, stitching, or color accuracy?",
+        "Do users trust brand-owned close-ups, or only peer photos?",
+        "Is quality doubt concentrated in a price band or category?"
+      ],
+      "outcome_node_slugs": [
+        "quality_fabric_confidence",
+        "decision_resolution_rate"
+      ],
+      "rationale": "Assumed mechanism: unresolved quality doubt blocks decision resolution. Evidence is fabric/quality language in units. Magnitude unknown.",
+      "code_slugs": [
+        "fabric_quality_doubt"
+      ]
+    },
+    {
+      "slug": "social_proof_on_shortlist",
+      "label": "Social proof and comparison on the shortlist",
+      "hypothesis": "Users look off-platform for reviews and comparisons before buying a saved item. In-context social proof on the wishlist could keep decision-making on-site — a hypothesis, not a proven cause.",
+      "intervention": "Review photos, Q&A, and comparison aids on wishlist/shortlist views.",
+      "is_non_monetary": true,
+      "prevalence": 0.1711229946524064,
+      "severity": 0.17058823529411773,
+      "segment_concentration": 0,
+      "proximity": 0.4564705882352941,
+      "actionability": 1,
+      "source_bias_penalty": 0.48096885813148793,
+      "score": 0.25460333438188115,
+      "confidence": 0.7995124787437702,
+      "document_count": 32,
+      "unit_count": 34,
+      "platform_mix": {
+        "app_store": 1,
+        "hacker_news": 1,
+        "play_store": 7,
+        "reddit": 25
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": false,
+      "recommended": true,
+      "counter_quotes": [
+        {
+          "unit_id": "67f92a93-0be8-48b2-ad00-603cd57d34f1",
+          "document_id": "7a7a0236-939b-4783-9c64-396869bf13af",
+          "quote": "compare it with leopold"
+        },
+        {
+          "unit_id": "c67534ee-dc9d-499b-a7c6-fc74a0a69c6e",
+          "document_id": "61eda797-661d-47c9-8b52-6b5a4ecf40b9",
+          "quote": "if you do order, measure your inseam first and compare it to their size chart, that's saved me more times than i can count"
+        },
+        {
+          "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+          "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+          "quote": "Very nice and very helpful to know about every type of Style"
+        }
+      ],
+      "open_questions": [
+        "Do they leave Myntra for reviews, photos, or price comparison?",
+        "Whose proof matters — peer reviews, influencer, or a trusted friend?",
+        "Is comparison across Myntra SKUs or across Amazon/AJIO/Flipkart?"
+      ],
+      "outcome_node_slugs": [
+        "social_validation",
+        "decision_resolution_rate"
+      ],
+      "rationale": "Assumed mechanism: missing social proof and comparison tools send users out, lowering resolution and return-to-save. We do not claim how large that leak is.",
+      "code_slugs": [
+        "reviews_social_validation",
+        "comparison_behavior"
+      ]
+    },
+    {
+      "slug": "post_save_resolution",
+      "label": "Post-save stall and unresolved doubt",
+      "hypothesis": "After saving or shortlisting, users remain stuck without a named factor. A return path that helps resolve doubt (not a reminder-to-buy coupon) is a hypothesis to research, not a root cause.",
+      "intervention": "Post-save surfaces that reopen the specific doubt (fit, style, quality) rather than a generic nudge.",
+      "is_non_monetary": true,
+      "prevalence": 0.5454545454545454,
+      "severity": 0.2502649006622517,
+      "segment_concentration": 0.25925925925925924,
+      "proximity": 0.5158940397350996,
+      "actionability": 1,
+      "source_bias_penalty": 0.29147844392789785,
+      "score": 0.44907231105257517,
+      "confidence": 0.8979825446252357,
+      "document_count": 102,
+      "unit_count": 151,
+      "platform_mix": {
+        "app_store": 10,
+        "hacker_news": 4,
+        "play_store": 22,
+        "reddit": 94,
+        "youtube": 21
+      },
+      "segment_label": "first_time_vs_repeat:first_time",
+      "source_dependent": false,
+      "recommended": true,
+      "counter_quotes": [
+        {
+          "unit_id": "b7e27c0c-4d1b-4c4a-8076-82dc276a0e98",
+          "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+          "quote": "I have a Dell small business sales rep, who usually gets me better prices"
+        },
+        {
+          "unit_id": "ebeb3ee3-6912-47de-88b1-5163480446a8",
+          "document_id": "cda2d2f1-5f9a-44df-b777-d6a72f3048bd",
+          "quote": "7 din se paresan hu"
+        },
+        {
+          "unit_id": "4e9b041c-c494-4f80-8c44-ff4afc46b177",
+          "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+          "quote": "new update of app sucks"
+        },
+        {
+          "unit_id": "264fa69b-6393-4b10-981c-b14ee8b2ec1c",
+          "document_id": "800799cf-776f-497d-9901-fa735a42176e",
+          "quote": "Something about them just feels off to me."
+        },
+        {
+          "unit_id": "df331236-fbbd-4892-99b5-ff671c721142",
+          "document_id": "7a7a0236-939b-4783-9c64-396869bf13af",
+          "quote": "its a let down"
+        },
+        {
+          "unit_id": "148fce3b-00a8-43da-a6e1-30b73e81e588",
+          "document_id": "acada195-e529-4b46-a6d1-e05e0923e8f7",
+          "quote": "there will still be realiability gap"
+        },
+        {
+          "unit_id": "d2f27b94-c0f8-44f9-a42c-f1b3826f2c68",
+          "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+          "quote": "we always have sales and marketing stuff down"
+        },
+        {
+          "unit_id": "f74b5e4d-eb50-46ea-9a2c-02b338f31a62",
+          "document_id": "c67a4e0e-ad8f-4fe3-b20f-27dca065c2cd",
+          "quote": "Also, i wear dark coloured inner wear, so may be that helps as well"
+        }
+      ],
+      "open_questions": [
+        "When they save and leave, what would make them come back within 30 days?",
+        "Is the stall forgetting, unresolved doubt, or waiting for a non-product event?",
+        "What do they do instead — another app, a store visit, or nothing?"
+      ],
+      "outcome_node_slugs": [
+        "return_to_wishlist_rate",
+        "checkout_completion"
+      ],
+      "rationale": "Assumed mechanism: post-save hesitation and unnamed blockers sit on return-to-wishlist and checkout nodes. Workaround-off-platform is a severity marker of the same stall. No root cause asserted.",
+      "code_slugs": [
+        "checkout_hesitation",
+        "unstated_blocker",
+        "general_uncertainty",
+        "purchase_trigger",
+        "workaround_behavior"
+      ]
+    },
+    {
+      "slug": "save_intent_quality",
+      "label": "Save quality: bookmark vs purchase intent",
+      "hypothesis": "A share of saves are bookmarks or inspiration, not near-term intent. Treating all saves as buy-intent inflates the conversion denominator. Separating intent at save time is the hypothesis to test.",
+      "intervention": "Intent labeling at save (buy later vs inspire/bookmark) so later surfaces target real intent.",
+      "is_non_monetary": true,
+      "prevalence": 0.24598930481283424,
+      "severity": 0.13152173913043488,
+      "segment_concentration": 0,
+      "proximity": 0.4178260869565218,
+      "actionability": 1,
+      "source_bias_penalty": 0.36200378071833644,
+      "score": 0.2793657895534911,
+      "confidence": 0.8732986767485822,
+      "document_count": 46,
+      "unit_count": 46,
+      "platform_mix": {
+        "app_store": 3,
+        "hacker_news": 1,
+        "play_store": 7,
+        "reddit": 31,
+        "youtube": 4
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": true,
+      "recommended": true,
+      "counter_quotes": [
+        {
+          "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+          "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+          "quote": "Very nice and very helpful to know about every type of Style"
+        },
+        {
+          "unit_id": "db4eadde-2ae5-4381-b3ef-e08ec38f9a9b",
+          "document_id": "6b557d88-58a2-4d1b-8423-5b71e67dd724",
+          "quote": "Very good deals and variety of options"
+        },
+        {
+          "unit_id": "123d9835-edd2-44da-b74e-44b68758a2dc",
+          "document_id": "ed9f0af3-dc24-46d9-aeb3-637bd3bd649c",
+          "quote": "Lots of variety and options available"
+        }
+      ],
+      "open_questions": [
+        "What prompt at save would they actually use — buy, gift, inspire, price-watch?",
+        "Do bookmark saves ever convert, just on a longer clock?",
+        "Would hiding bookmark saves from 'buy now' reminders feel helpful or punitive?"
+      ],
+      "outcome_node_slugs": [
+        "save_quality"
+      ],
+      "rationale": "Assumed mechanism: bookmark-like saves cannot convert in 30 days; improving save quality (or segmenting it) changes the metric definition as much as the product. Interviews must confirm the mix.",
+      "code_slugs": [
+        "bookmark_vs_intent",
+        "general_consideration_job"
+      ]
+    },
+    {
+      "slug": "fulfilment_confidence",
+      "label": "Delivery timing and returns risk at decision",
+      "hypothesis": "Some pre-purchase hesitation is about ETA or exchange hassle, not the product. Making those policies visible at decision time is a hypothesis that could help checkout completion — to validate with users, not a root cause.",
+      "intervention": "ETA and return/exchange clarity on PDP and wishlist, before they bounce.",
+      "is_non_monetary": true,
+      "prevalence": 0.026737967914438502,
+      "severity": 0.35500000000000004,
+      "segment_concentration": 0,
+      "proximity": 0.5533333333333333,
+      "actionability": 1,
+      "source_bias_penalty": 0.2361111111111111,
+      "score": 0.3042713903743316,
+      "confidence": 0.63273032715813,
+      "document_count": 5,
+      "unit_count": 6,
+      "platform_mix": {
+        "hacker_news": 1,
+        "play_store": 3,
+        "reddit": 2
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": true,
+      "recommended": true,
+      "counter_quotes": [
+        {
+          "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+          "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+          "quote": "Very nice and very helpful to know about every type of Style"
+        },
+        {
+          "unit_id": "db4eadde-2ae5-4381-b3ef-e08ec38f9a9b",
+          "document_id": "6b557d88-58a2-4d1b-8423-5b71e67dd724",
+          "quote": "Very good deals and variety of options"
+        },
+        {
+          "unit_id": "123d9835-edd2-44da-b74e-44b68758a2dc",
+          "document_id": "ed9f0af3-dc24-46d9-aeb3-637bd3bd649c",
+          "quote": "Lots of variety and options available"
+        }
+      ],
+      "open_questions": [
+        "Is the fear late delivery for an occasion, or reverse-pickup hassle after a size miss?",
+        "Would a clearer return window change the save-to-buy path?",
+        "How often is stock/size gone when they return to the wishlist?"
+      ],
+      "outcome_node_slugs": [
+        "availability_at_return",
+        "checkout_completion"
+      ],
+      "rationale": "Assumed mechanism: delivery/return uncertainty blocks checkout even after product doubt is resolved. Cell counts may be thin; treat as a secondary hypothesis.",
+      "code_slugs": [
+        "returns_risk",
+        "delivery_timing"
+      ]
+    },
+    {
+      "slug": "value_uncertainty",
+      "label": "Value uncertainty — is it worth it?",
+      "hypothesis": "Hypothesis: some users are not asking for a lower price; they cannot tell whether quality justifies the current price. Worth-it signals (not coupons) are in-scope under D-010.",
+      "intervention": "Quality-for-price evidence (materials, durability, peer value comments) without discounting.",
+      "is_non_monetary": true,
+      "prevalence": 0.016042780748663103,
+      "severity": 0.16333333333333333,
+      "segment_concentration": 0,
+      "proximity": 0.36000000000000004,
+      "actionability": 1,
+      "source_bias_penalty": 0.4444444444444444,
+      "score": 0.19281283422459894,
+      "confidence": 0.4997620968072821,
+      "document_count": 3,
+      "unit_count": 3,
+      "platform_mix": {
+        "play_store": 1,
+        "reddit": 2
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": false,
+      "recommended": false,
+      "counter_quotes": [
+        {
+          "unit_id": "8a0942c2-2d63-420e-8c63-972d606fbd83",
+          "document_id": "8e9a1052-aae1-4f54-a752-2cb708720fe2",
+          "quote": "their price is too much"
+        },
+        {
+          "unit_id": "7a2ca5f1-465e-457c-923f-c1cf52061ca4",
+          "document_id": "7cfdfeb8-70f2-4a17-86ef-56968a18a3a1",
+          "quote": "If it is trendy - No Thank you! Trendy - not worth it."
+        },
+        {
+          "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+          "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+          "quote": "Very nice and very helpful to know about every type of Style"
+        }
+      ],
+      "open_questions": [
+        "What would make it 'worth it' — fabric, brand, longevity, or versatility?",
+        "Do they compare to a specific alternative or to a mental price anchor?",
+        "Would a quality guarantee change the decision more than a sale wait?"
+      ],
+      "outcome_node_slugs": [
+        "decision_resolution_rate",
+        "save_quality"
+      ],
+      "rationale": "Assumed mechanism: value uncertainty is distinct from price level and sale-waiting. It stays in the recommended pool because it is solvable without monetary incentives. Evidence volume is small — confidence should reflect that.",
+      "code_slugs": [
+        "value_uncertainty_worth_it"
+      ]
+    },
+    {
+      "slug": "price_level",
+      "label": "Price level — too expensive",
+      "hypothesis": "Hypothesis: users reject the absolute price. The only direct fix is discounting, which is out of scope. Shown for honesty, excluded from the recommended set (D-010).",
+      "intervention": "None in-scope — monetary only.",
+      "is_non_monetary": false,
+      "prevalence": 0.026737967914438502,
+      "severity": 0.25200000000000006,
+      "segment_concentration": 0,
+      "proximity": 0.4600000000000001,
+      "actionability": 0,
+      "source_bias_penalty": 0.6000000000000002,
+      "score": 0.06042139037433156,
+      "confidence": 0.44536921604701896,
+      "document_count": 5,
+      "unit_count": 5,
+      "platform_mix": {
+        "hacker_news": 1,
+        "reddit": 4
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": false,
+      "recommended": false,
+      "counter_quotes": [
+        {
+          "unit_id": "ea0780d6-d360-412b-b13d-359a27fcdf44",
+          "document_id": "33a50aa1-f7ca-455d-bd90-7ad2da4c8e71",
+          "quote": "I had no idea lululemon was that expensive, I’ve never shopped there because I thought it was fast fashion and associated it with athleisure."
+        },
+        {
+          "unit_id": "f5763188-208c-4ae3-87bb-7a313ff27b5b",
+          "document_id": "8937d6ee-4489-44bd-af83-26b5a3666c9b",
+          "quote": "the prices are high but affordable"
+        },
+        {
+          "unit_id": "d6c4c49e-6c26-4367-bd3f-85e3301e7afb",
+          "document_id": "68f666a6-45d2-45f7-b8f6-28c6dd3f505b",
+          "quote": "Need to buy baggy joggers for cheap but good quality in india"
+        },
+        {
+          "unit_id": "561d6cfc-2bec-4fc9-8ed7-31f63be5cabb",
+          "document_id": "4063a52e-fd59-478f-a8b6-98032ab552d1",
+          "quote": "QC on Dior pullover for 21€ Its cheap but I would still like to know if there is anything wrong with it?"
+        },
+        {
+          "unit_id": "69e916a4-379e-4497-a460-9ed7f7d3fea6",
+          "document_id": "7c023aa6-6f5c-46cd-a515-d0a2a2a58f41",
+          "quote": "Looking for affordable Y2K/punk thrift stores in India"
+        }
+      ],
+      "open_questions": [
+        "Is 'expensive' vs a competitor, vs last season, or vs income?",
+        "Would non-price value proof change this, or is it a hard budget cap?",
+        "Which categories drive the level objection?"
+      ],
+      "outcome_node_slugs": [],
+      "rationale": "Out of scope for recommended interventions. Kept visible so the ranking cannot hide a price-level finding.",
+      "code_slugs": [
+        "price_level_concern"
+      ]
+    },
+    {
+      "slug": "price_timing",
+      "label": "Price timing — waiting for a sale",
+      "hypothesis": "Hypothesis: users defer for a discount event. Sale-waiting is scored and shown, not recommended as a discount program (D-010). Distinct from value uncertainty.",
+      "intervention": "None in-scope as a discount mechanic; optional non-price 'why buy now' proof only.",
+      "is_non_monetary": false,
+      "prevalence": 0.0427807486631016,
+      "severity": 0.385,
+      "segment_concentration": 0,
+      "proximity": 0.5499999999999999,
+      "actionability": 0,
+      "source_bias_penalty": 0.17968749999999997,
+      "score": 0.17288109959893047,
+      "confidence": 0.6525301547312004,
+      "document_count": 8,
+      "unit_count": 8,
+      "platform_mix": {
+        "app_store": 1,
+        "play_store": 2,
+        "reddit": 1,
+        "youtube": 4
+      },
+      "segment_label": "segment unclear",
+      "source_dependent": false,
+      "recommended": false,
+      "counter_quotes": [
+        {
+          "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+          "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+          "quote": "Very nice and very helpful to know about every type of Style"
+        },
+        {
+          "unit_id": "db4eadde-2ae5-4381-b3ef-e08ec38f9a9b",
+          "document_id": "6b557d88-58a2-4d1b-8423-5b71e67dd724",
+          "quote": "Very good deals and variety of options"
+        },
+        {
+          "unit_id": "123d9835-edd2-44da-b74e-44b68758a2dc",
+          "document_id": "ed9f0af3-dc24-46d9-aeb3-637bd3bd649c",
+          "quote": "Lots of variety and options available"
+        }
+      ],
+      "open_questions": [
+        "Do they have a sale calendar in mind, or an open-ended wait?",
+        "If the item sold out, would they buy a substitute at full price?",
+        "Is wait-for-sale a cover for unresolved fit/quality doubt?"
+      ],
+      "outcome_node_slugs": [
+        "return_to_wishlist_rate"
+      ],
+      "rationale": "Present in scoring so price timing is not swept into price level. Excluded from recommended because the obvious intervention is monetary.",
+      "code_slugs": [
+        "price_timing_wait_for_sale"
+      ]
+    }
+  ]
+}

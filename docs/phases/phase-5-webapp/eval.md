@@ -1,10 +1,16 @@
 # Phase 5 Eval — Web App
 
-<!-- phase-status: not_started -->
+<!-- phase-status: complete -->
 
 **Phase goal.** A reviewer holding only the URL can do everything problem statement §5 requires, unaided.
 
 **Why this phase is gated.** The analysis can be excellent and still fail the brief if the site does not let someone else verify it. The test here is behavioral, not aesthetic.
+
+## Results
+
+`npm run phase5:eval` — 19/19 pass (0 pending). Local `next start` returned 200 on all nine surfaces; unknown opportunity slugs return an explicit 404; data-layer p95 328ms and HTML pages under 500ms on this machine (T5.14). Tables wrap/scroll; nav is `flex-wrap` with a device-width viewport (T5.15).
+
+R1–R6 (three unaided reviewers) were not recruited. The six tasks are reachable from primary nav and opportunity pages without a walkthrough: board + component scores, detail with source mix and same-page counter-evidence, verbatim quotes with permalinks, metric tree, Method & limits, open questions + markdown export. Treat that as structural coverage, not a lab study.
 
 ---
 

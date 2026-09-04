@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "id": "eff8a878-43d2-4c05-97af-333ff57bb838",
+    "config_hash": "gate-v1extract-v1",
+    "gate_model": "openai/gpt-oss-20b",
+    "extraction_model": "openai/gpt-oss-120b",
+    "agreement_model": "qwen/qwen3.8-27b",
+    "embedding_model": "Xenova/bge-small-en-v1.5",
+    "prompt_versions": {
+      "gate": "gate-v1",
+      "extract": "extract-v1",
+      "agreement": "agreement-v1"
+    },
+    "document_count": 1969,
+    "unit_count": 274,
+    "request_count": 131,
+    "prompt_tokens": 49331,
+    "completion_tokens": 48720,
+    "estimated_cost_usd": 0.04591852500000001,
+    "timings": null,
+    "status": "completed",
+    "started_at": "2026-09-01T20:57:26.187Z",
+    "completed_at": "2026-09-03T13:52:14.548Z"
+  },
+  {
+    "id": "4412d175-06b1-4497-8e48-eb11739d88ef",
+    "config_hash": "gate-v1extract-v1",
+    "gate_model": "openai/gpt-oss-20b",
+    "extraction_model": "openai/gpt-oss-120b",
+    "agreement_model": "qwen/qwen3.8-27b",
+    "embedding_model": "Xenova/bge-small-en-v1.5",
+    "prompt_versions": {
+      "gate": "gate-v1",
+      "extract": "extract-v1",
+      "agreement": "agreement-v1"
+    },
+    "document_count": 1969,
+    "unit_count": 307,
+    "request_count": 114,
+    "prompt_tokens": 18510,
+    "completion_tokens": 43137,
+    "estimated_cost_usd": 0.06564589999999998,
+    "timings": null,
+    "status": "completed",
+    "started_at": "2026-09-03T13:52:59.600Z",
+    "completed_at": "2026-09-03T14:29:15.403Z"
+  }
+]

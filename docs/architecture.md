@@ -67,19 +67,19 @@ It is a **research instrument**, not a chatbot and not a sentiment dashboard. It
 | Hosting | Vercel | Public URL, zero-config CI from git, server-side secrets |
 | Store | JSON files in `data/published/` (git) | Corpus is a few thousand docs; precompute-then-serve; no extra vendor (`D-020`) |
 | Inference | **Groq (GroqCloud)**, OpenAI-compatible API | Sole LLM provider: very fast, cheap per token, strict schema decoding on the models we use (`D-017`) |
-| Relevance gate model | `openai/gpt-oss-20b`, `strict: true` | Cheapest per token, highest throughput; the gate is a high-volume binary call |
-| Extraction model | `openai/gpt-oss-120b`, `strict: true` | Constrained decoding guarantees schema-valid units; 131k context handles long threads |
-| Agreement labeler | `qwen/qwen3.8-27b`, `strict: true` | Different model family, so cross-model agreement means something (used only on the eval slice) |
+| Relevance gate pool | `gpt-oss-20b`, `qwen3.8-27b`, `gpt-oss-safeguard-20b`, leftover `gpt-oss-120b` | Each model has its own 200k TPD. Pooling them is required to finish in ~2 UTC days (`D-021`); a single-model gate is the slow path |
+| Extraction model | `openai/gpt-oss-120b` preferred, `strict: true` | Constrained decoding; only gate passers; falls back to 20b/qwen if 120b’s bucket is empty |
+| Agreement labeler | `qwen/qwen3.8-27b`, `strict: true` | Different family for independence; **skipped during the bulk 2-day run** so qwen TPD can gate |
 | Embeddings | Local ONNX model (`bge-small-en-v1.5`, 384-dim) in the batch job | Groq serves no embeddings endpoint; local keeps it free, offline, and single-vendor (`D-018`) |
 | Batch jobs | TypeScript scripts run via GitHub Actions (cron + manual), checkpointed | Long pipelines must not run inside a web request, and must survive rate limits (`D-006`, `D-019`) |
 | Charts | Recharts | Sufficient for share-of-voice and score comparisons |
 
 ### Groq constraints the design has to respect
 
-1. **Strict schema is model-specific.** Constrained decoding (`strict: true`) is available on `gpt-oss-20b`, `gpt-oss-120b`, and `qwen3.8-27b`. Every pipeline call uses one of these, so schema-invalid output is a non-event rather than a retry loop.
+1. **Strict schema is model-specific.** Constrained decoding (`strict: true`) is available on `gpt-oss-20b`, `gpt-oss-120b`, `gpt-oss-safeguard-20b`, and `qwen3.8-27b`. Every pipeline call uses one of these, so schema-invalid output is a non-event rather than a retry loop.
 2. **Strict mode restricts the schema.** All properties must be `required` with `additionalProperties: false`. Optional fields are therefore modelled as nullable unions (`workaround: string | null`), never as absent keys.
 3. **No streaming or tool use with structured outputs.** The pipeline never needs both in one call; the live demo streams *stage progress* from the server, not model tokens.
-4. **Rate limits, not cost, are the binding constraint.** Free-tier requests-per-day ceilings will stop a full run long before the dollar budget does. Jobs are checkpointed, resumable, and throttled (`D-019`).
+4. **Rate limits, not cost, are the binding constraint.** Caps are **per model**: 30 RPM, 8k TPM, 1k RPD, and **200k TPD** — tokens-per-day bind first. The Phase 2 gate spends every independent TPD bucket (`D-021`) so the remaining corpus fits in ~2 UTC days. Jobs spend at most 80% of each cap and checkpoint per document ([quota plan](./phases/phase-2-extraction/quota-plan.md), `D-019`).
 5. **No embeddings endpoint.** Clustering embeddings are computed locally (`D-018`).
 
 Collection uses public endpoints and libraries (Play Store scraper, App Store review RSS, Reddit public JSON, YouTube Data API). Nothing behind a login; nothing that violates a platform's terms (`D-011`). API keys: [Groq](./groq-api-setup.md) for Phase 0 smoke and later analysis; [YouTube](./youtube-api-setup.md) for Phase 1 comments.
@@ -97,10 +97,10 @@ Queries are seeded around consideration language, not brand sentiment: *wishlist
 Whitespace and emoji removal (emojis carry no analytic meaning), language detection (English and Hinglish retained, `D-015`), boilerplate stripping, minimum **6 words** per document, exact-hash dedupe, then near-duplicate collapse via embedding cosine ≥ 0.95 into a `dedupe_group`. One document per group survives counting.
 
 ### Stage 3 — Relevance gate
-`gpt-oss-20b` answers, in a strict two-field schema: *is this about the pre-purchase consideration window — shortlisting, saving, hesitating, comparing, deciding?* Post-delivery quality rants and pure delivery complaints are marked irrelevant but retained for the bias report. Gating before extraction is the main lever on both spend and request count.
+A pooled strict-schema model answers, in a two-field schema: *is this about the pre-purchase consideration window — shortlisting, saving, hesitating, comparing, deciding?* **One call per unique `dedupe_group`**, not every near-duplicate row. Input is truncated to 600 characters (~560 tokens/call). Post-delivery quality rants and pure delivery complaints are marked irrelevant but retained for the bias report. The picker uses the model with the most remaining TPD; four buckets ≈ 1,140 gate calls/UTC day (`D-021`).
 
 ### Stage 4 — Extract evidence units
-`gpt-oss-120b` with `strict: true` returns units against a fixed schema. The unit of analysis is the **evidence unit**: one verbatim span expressing one thing (`D-007`). A single Reddit comment can yield several. Each unit is labeled on independent axes:
+`gpt-oss-120b` with `strict: true` is preferred for units. **Only documents the gate keeps** are sent; input truncated to 900 characters (~1,400 tokens/call). Pass rate so far is low, so extract does not bind the 2-day calendar. The unit of analysis is the **evidence unit**: one verbatim span expressing one thing (`D-007`). A single Reddit comment can yield several. Each unit is labeled on independent axes:
 
 | Axis | Values (indicative) |
 | --- | --- |
@@ -220,11 +220,11 @@ The **counter-evidence** and **Method & limits** surfaces are non-negotiable. Th
 
 - **Site**: Vercel (Phase 6), public and read-only. No API keys reach the browser. Published JSON is traced into the serverless bundle.
 - **Store**: `data/published/corpus/` for corpus (per-source `raw/` and `normalized/` folders); flat `data/published/*.json` for analysis outputs. The website imports the read API only. Batch jobs write files. Live demo writes `data/sandbox/` and never the published corpus (`D-020`).
-- **Jobs**: GitHub Actions — manual `workflow_dispatch` for full runs, cron for incremental collection. Secrets live in Actions and Vercel only. Every job is checkpointed per document, so a run halted by a Groq rate limit resumes instead of restarting (`D-019`).
-- **Throttling**: a token-bucket limiter sized to the account's requests-per-minute and tokens-per-minute allowance, with exponential backoff and jitter on HTTP 429, and a daily-request budget that stops the job cleanly rather than burning the allowance on retries.
+- **Jobs**: GitHub Actions — manual `workflow_dispatch` for full runs, cron for incremental collection. Secrets live in Actions and Vercel only. Every job is checkpointed per document, so a run halted by a Groq rate limit or daily token budget resumes the next UTC day instead of restarting (`D-019`). Per-model UTC-day spend is tracked in `data/sandbox/groq_daily_budget.json`.
+- **Throttling**: a token-bucket limiter sized to **80%** of the account's requests-per-minute and tokens-per-minute (`30` / `8,000` on `gpt-oss-20b` and `gpt-oss-120b`), with exponential backoff and jitter on HTTP 429 (max 3 retries), and **daily request (1,000) and token (200,000) budgets** that stop the job cleanly rather than burning the allowance on retries. See [Phase 2 quota plan](./phases/phase-2-extraction/quota-plan.md).
 - **Live demo run**: server-side route, hard-capped (documents per run, tokens per run, requests per IP per hour) and short-circuited by cache on repeat inputs. Demo results are written to a sandbox namespace, never into the published corpus. The demo shares the same Groq allowance as the pipeline, so it gets a reserved slice of the daily budget — a curious visitor must not be able to starve a production run.
 - **Caching**: gate and extraction results keyed by `content_hash + prompt_version + model_id`. Re-runs after a prompt or model change recompute; re-runs otherwise consume neither tokens nor requests.
-- **Cost and quota control**: 20B for the gate, 120B only past it, 27B only on the eval slice; per-run token budget and per-day request budget both enforced in code (`D-013`, `D-019`).
+- **Cost and quota control**: gate spends every independent TPD bucket (`D-021`); extract prefers 120B in the same job; agreement is skipped during the bulk run. Per-run and per-day **request + token** budgets are enforced in code (`D-013`, `D-019`). Remaining corpus: **~2 UTC days** if the pool stays intact; ~6 days if collapsed to one model.
 
 ---
 
@@ -237,7 +237,7 @@ The **counter-evidence** and **Method & limits** surfaces are non-negotiable. Th
 | App-store complaint bias swamping consideration insight | Relevance gate, source-bias penalty, published source mix |
 | Model drift between runs | Pinned Groq model ids + prompt versions per `run`, config hash |
 | Groq deprecates or renames a model mid-project | Model id in config, not in code; a run records the exact id; gate and extraction models chosen from production-tier models |
-| Rate limit kills a long run halfway | Per-document checkpointing, resumable jobs, throttling, 429 backoff (`D-019`) |
+| Rate limit or daily token budget kills a long run halfway | Per-document checkpointing, resumable jobs, 80% headroom, daily request + token budgets, 429 backoff (`D-019`) |
 | Schema-invalid model output | `strict: true` constrained decoding on all pipeline models; schema written to strict-mode rules (`D-017`) |
 | Taxonomy sprawl | Versioned codebook, human acceptance of inductive codes, coverage and "other"-bucket thresholds |
 | Score that flatters a favorite hypothesis | Published weights, bootstrap and weight-perturbation stability tests |

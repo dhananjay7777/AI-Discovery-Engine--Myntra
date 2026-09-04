@@ -64,7 +64,7 @@ export async function withRetry<T>(
   fn: () => Promise<T>,
   options: { maxRetries?: number; baseDelayMs?: number } = {},
 ): Promise<T> {
-  const maxRetries = options.maxRetries ?? 5;
+  const maxRetries = options.maxRetries ?? 3;
   const baseDelayMs = options.baseDelayMs ?? 1_000;
   let lastError: unknown;
 

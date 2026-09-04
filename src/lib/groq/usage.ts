@@ -51,6 +51,19 @@ export class UsageTracker {
       { promptTokens: 0, completionTokens: 0, totalTokens: 0, estimatedCostUsd: 0, requestCount: 0 },
     );
   }
+
+  /** Requests and tokens spent per model in this run. */
+  getPerModelTotals(): Record<string, { requests: number; tokens: number }> {
+    const byModel: Record<string, { requests: number; tokens: number }> = {};
+    for (const r of this.records) {
+      const current = byModel[r.model] ?? { requests: 0, tokens: 0 };
+      byModel[r.model] = {
+        requests: current.requests + 1,
+        tokens: current.tokens + r.totalTokens,
+      };
+    }
+    return byModel;
+  }
 }
 
 function estimateCost(model: string, promptTokens: number, completionTokens: number): number {

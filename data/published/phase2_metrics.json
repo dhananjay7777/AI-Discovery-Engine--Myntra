@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-03T14:51:43.589Z",
+  "corpus": {
+    "normalized_documents": 1969,
+    "unique_dedupe_groups": 1918,
+    "relevant_documents": 345,
+    "irrelevant_documents": 1624,
+    "gate_pass_rate": 0.17521584560690706
+  },
+  "extraction": {
+    "published_units": 307,
+    "units_dropped_verbatim": 6,
+    "pre_drop_hallucination_rate": 0.019169329073482427
+  },
+  "gate_savings": {
+    "extract_calls_without_gate": 1969,
+    "extract_calls_with_gate": 345,
+    "extract_request_savings_pct": 82.47841543930929,
+    "extract_token_savings_pct": 82.47841543930929
+  },
+  "usage": {
+    "run_id": "4412d175-06b1-4497-8e48-eb11739d88ef",
+    "request_count": 114,
+    "requests_per_group": 0.05943691345151199,
+    "prompt_tokens": 18510,
+    "completion_tokens": 43137,
+    "gate_model": "openai/gpt-oss-20b",
+    "extraction_model": "openai/gpt-oss-120b",
+    "agreement_model": "qwen/qwen3.8-27b",
+    "prompt_versions": {
+      "gate": "gate-v1",
+      "extract": "extract-v1",
+      "agreement": "agreement-v1"
+    }
+  },
+  "checkpoint": {
+    "status": "completed",
+    "gate_calls": 0,
+    "gate_cache_hits": 1918,
+    "extract_calls": 14,
+    "extract_cache_hits": 294,
+    "agreement_calls": 100
+  },
+  "agreement_slice": {
+    "size": 100,
+    "kappa_unit_type": 0.04751936361733305,
+    "kappa_decision_factor": 0.3514150943396227,
+    "passes_t2_11": false
+  },
+  "o05_note": "Free tier carried full run over ~2 UTC days with model pooling (D-021). Measured ~0.06 requests/group."
+}

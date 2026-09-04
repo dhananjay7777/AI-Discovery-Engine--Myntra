@@ -1,15 +1,9 @@
 import { z } from "zod";
 
-/**
- * Relevance gate smoke schema — strict-mode compliant (D-017):
- * all properties required, additionalProperties false, optionals as nullable.
- */
-export const relevanceGateSchema = z.object({
-  is_relevant: z.boolean(),
-  reason: z.string(),
-});
-
-export type RelevanceGateResult = z.infer<typeof relevanceGateSchema>;
+export {
+  relevanceGateSchema,
+  type RelevanceGateResult,
+} from "@/lib/extraction/schemas";
 
 /**
  * Minimal extraction smoke schema for Phase 0.

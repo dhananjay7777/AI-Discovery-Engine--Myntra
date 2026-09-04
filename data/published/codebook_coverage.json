@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-03T14:56:47.521Z",
+  "codebook_version": "codebook-v1",
+  "embedding_model": "Xenova/bge-small-en-v1.5",
+  "total_units": 307,
+  "coded_units": 300,
+  "coverage_pct": 97.71986970684038,
+  "other_units": 7,
+  "other_pct": 2.2801302931596092,
+  "per_code": {
+    "styling_occasion_doubt": 73,
+    "purchase_trigger": 50,
+    "general_consideration_job": 39,
+    "checkout_hesitation": 61,
+    "reviews_social_validation": 12,
+    "price_timing_wait_for_sale": 8,
+    "fit_size_uncertainty": 54,
+    "price_level_concern": 5,
+    "delivery_timing": 4,
+    "workaround_behavior": 17,
+    "comparison_behavior": 23,
+    "fabric_quality_doubt": 26,
+    "bookmark_vs_intent": 7,
+    "unstated_blocker": 23,
+    "returns_risk": 2,
+    "value_uncertainty_worth_it": 3,
+    "other": 7,
+    "general_uncertainty": 22,
+    "gift_occasion_parking": 9
+  },
+  "price_codes": [
+    "price_level_concern",
+    "price_timing_wait_for_sale",
+    "value_uncertainty_worth_it"
+  ],
+  "inductive_proposed": 0,
+  "inductive_status": []
+}

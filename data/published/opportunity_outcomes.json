@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "id": "fit_size_confidence__fit_size_confidence",
+    "opportunity_id": "fit_size_confidence",
+    "outcome_node_id": "fit_size_confidence",
+    "rationale": "Assumed mechanism: clearer fit information at save or return-to-wishlist reduces deferral. Evidence is fit/size language in consideration text. We do not estimate a conversion lift."
+  },
+  {
+    "id": "fit_size_confidence__decision_resolution_rate",
+    "opportunity_id": "fit_size_confidence",
+    "outcome_node_id": "decision_resolution_rate",
+    "rationale": "Assumed mechanism: clearer fit information at save or return-to-wishlist reduces deferral. Evidence is fit/size language in consideration text. We do not estimate a conversion lift."
+  },
+  {
+    "id": "styling_occasion_confidence__styling_occasion_confidence",
+    "opportunity_id": "styling_occasion_confidence",
+    "outcome_node_id": "styling_occasion_confidence",
+    "rationale": "Assumed mechanism: occasion/styling doubt is a decision-resolution leak. Gift/occasion parking also lowers save quality. No effect size is claimed."
+  },
+  {
+    "id": "styling_occasion_confidence__decision_resolution_rate",
+    "opportunity_id": "styling_occasion_confidence",
+    "outcome_node_id": "decision_resolution_rate",
+    "rationale": "Assumed mechanism: occasion/styling doubt is a decision-resolution leak. Gift/occasion parking also lowers save quality. No effect size is claimed."
+  },
+  {
+    "id": "fabric_quality_proof__quality_fabric_confidence",
+    "opportunity_id": "fabric_quality_proof",
+    "outcome_node_id": "quality_fabric_confidence",
+    "rationale": "Assumed mechanism: unresolved quality doubt blocks decision resolution. Evidence is fabric/quality language in units. Magnitude unknown."
+  },
+  {
+    "id": "fabric_quality_proof__decision_resolution_rate",
+    "opportunity_id": "fabric_quality_proof",
+    "outcome_node_id": "decision_resolution_rate",
+    "rationale": "Assumed mechanism: unresolved quality doubt blocks decision resolution. Evidence is fabric/quality language in units. Magnitude unknown."
+  },
+  {
+    "id": "social_proof_on_shortlist__social_validation",
+    "opportunity_id": "social_proof_on_shortlist",
+    "outcome_node_id": "social_validation",
+    "rationale": "Assumed mechanism: missing social proof and comparison tools send users out, lowering resolution and return-to-save. We do not claim how large that leak is."
+  },
+  {
+    "id": "social_proof_on_shortlist__decision_resolution_rate",
+    "opportunity_id": "social_proof_on_shortlist",
+    "outcome_node_id": "decision_resolution_rate",
+    "rationale": "Assumed mechanism: missing social proof and comparison tools send users out, lowering resolution and return-to-save. We do not claim how large that leak is."
+  },
+  {
+    "id": "post_save_resolution__return_to_wishlist_rate",
+    "opportunity_id": "post_save_resolution",
+    "outcome_node_id": "return_to_wishlist_rate",
+    "rationale": "Assumed mechanism: post-save hesitation and unnamed blockers sit on return-to-wishlist and checkout nodes. Workaround-off-platform is a severity marker of the same stall. No root cause asserted."
+  },
+  {
+    "id": "post_save_resolution__checkout_completion",
+    "opportunity_id": "post_save_resolution",
+    "outcome_node_id": "checkout_completion",
+    "rationale": "Assumed mechanism: post-save hesitation and unnamed blockers sit on return-to-wishlist and checkout nodes. Workaround-off-platform is a severity marker of the same stall. No root cause asserted."
+  },
+  {
+    "id": "save_intent_quality__save_quality",
+    "opportunity_id": "save_intent_quality",
+    "outcome_node_id": "save_quality",
+    "rationale": "Assumed mechanism: bookmark-like saves cannot convert in 30 days; improving save quality (or segmenting it) changes the metric definition as much as the product. Interviews must confirm the mix."
+  },
+  {
+    "id": "fulfilment_confidence__availability_at_return",
+    "opportunity_id": "fulfilment_confidence",
+    "outcome_node_id": "availability_at_return",
+    "rationale": "Assumed mechanism: delivery/return uncertainty blocks checkout even after product doubt is resolved. Cell counts may be thin; treat as a secondary hypothesis."
+  },
+  {
+    "id": "fulfilment_confidence__checkout_completion",
+    "opportunity_id": "fulfilment_confidence",
+    "outcome_node_id": "checkout_completion",
+    "rationale": "Assumed mechanism: delivery/return uncertainty blocks checkout even after product doubt is resolved. Cell counts may be thin; treat as a secondary hypothesis."
+  },
+  {
+    "id": "value_uncertainty__decision_resolution_rate",
+    "opportunity_id": "value_uncertainty",
+    "outcome_node_id": "decision_resolution_rate",
+    "rationale": "Assumed mechanism: value uncertainty is distinct from price level and sale-waiting. It stays in the recommended pool because it is solvable without monetary incentives. Evidence volume is small — confidence should reflect that."
+  },
+  {
+    "id": "value_uncertainty__save_quality",
+    "opportunity_id": "value_uncertainty",
+    "outcome_node_id": "save_quality",
+    "rationale": "Assumed mechanism: value uncertainty is distinct from price level and sale-waiting. It stays in the recommended pool because it is solvable without monetary incentives. Evidence volume is small — confidence should reflect that."
+  },
+  {
+    "id": "price_timing__return_to_wishlist_rate",
+    "opportunity_id": "price_timing",
+    "outcome_node_id": "return_to_wishlist_rate",
+    "rationale": "Present in scoring so price timing is not swept into price level. Excluded from recommended because the obvious intervention is monetary."
+  }
+]

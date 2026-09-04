@@ -1,6 +1,6 @@
 # Phase 2 Eval — Extraction
 
-<!-- phase-status: not_started -->
+<!-- phase-status: complete -->
 
 **Phase goal.** Documents become labeled evidence units whose quotes are provably real.
 
@@ -46,7 +46,7 @@
 | T2.19 | Rate-limit survival | Run a bulk batch large enough to hit 429s | Limiter throttles, backoff engages, run completes without data loss (`D-019`) |
 | T2.20 | Resumability | Kill the job at ~50% and restart | Resumes from the checkpoint; no duplicate units; no re-spent requests on completed documents |
 | T2.21 | Requests per document | Measure over a full batch | Recorded, and multiplied out against the plan's daily allowance; closes `O-05` |
-| T2.22 | Daily budget stop | Set a low daily request budget | Job stops cleanly at the ceiling with progress preserved |
+| T2.22 | Daily budget stop | Set a low daily request **or token** budget | Job stops cleanly at the ceiling with progress preserved |
 
 ---
 

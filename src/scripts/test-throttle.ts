@@ -53,9 +53,53 @@ async function testBackoffOn429(): Promise<void> {
   console.log(`✓ Backoff retried ${attempts} times over ${elapsed}ms`);
 }
 
+async function testDailyBudgetAbort(): Promise<void> {
+  const { mkdtempSync, rmSync } = await import("fs");
+  const { tmpdir } = await import("os");
+  const { join } = await import("path");
+  const dir = mkdtempSync(join(tmpdir(), "groq-budget-"));
+  process.env.GROQ_BUDGET_PATH = join(dir, "budget.json");
+
+  const { assertDailyBudget, recordDailyUsage, DailyBudgetExceededError } =
+    await import("@/lib/groq/budget");
+
+  recordDailyUsage("openai/gpt-oss-20b", 200_000);
+  let threw = false;
+  try {
+    assertDailyBudget("openai/gpt-oss-20b", 500);
+  } catch (error) {
+    threw = error instanceof DailyBudgetExceededError;
+  }
+  rmSync(dir, { recursive: true, force: true });
+  delete process.env.GROQ_BUDGET_PATH;
+  if (!threw) {
+    throw new Error("Daily budget did not abort after token ceiling");
+  }
+  console.log("✓ Daily token budget aborts before the next call");
+}
+
+async function testRunBudgetAbort(): Promise<void> {
+  const { RunBudget, RunBudgetExceededError } = await import("@/lib/groq/budget");
+  const budget = new RunBudget(2, 10_000);
+  budget.assertBeforeCall({ requestCount: 0, totalTokens: 0 }, 500);
+  budget.assertBeforeCall({ requestCount: 1, totalTokens: 500 }, 500);
+  let threw = false;
+  try {
+    budget.assertBeforeCall({ requestCount: 2, totalTokens: 1000 }, 500);
+  } catch (error) {
+    threw = error instanceof RunBudgetExceededError;
+  }
+  if (!threw) {
+    throw new Error("Run budget did not abort at request ceiling");
+  }
+  console.log("✓ Per-run request budget aborts before the next call");
+}
+
 async function main() {
   await testLimiterDelays();
   await testBackoffOn429();
+  await testDailyBudgetAbort();
+  await testRunBudgetAbort();
   console.log("\n✓ Throttle tests passed");
 }
 

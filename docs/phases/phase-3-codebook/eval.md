@@ -1,6 +1,6 @@
 # Phase 3 Eval — Codebook
 
-<!-- phase-status: not_started -->
+<!-- phase-status: complete -->
 
 **Phase goal.** A hybrid taxonomy that ties evidence to the wishlist-conversion metric while still allowing a genuine surprise to surface.
 

@@ -1,0 +1,2742 @@
+[
+  {
+    "unit_id": "0176ccd3-ba26-496c-8a70-600c1ac7b39c",
+    "document_id": "b849694f-d763-4ce5-bb0e-463ec97af30a",
+    "platform": "youtube",
+    "quote_verbatim": "Uniqlo gives free alterations for most pants on the sight.",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "123d9835-edd2-44da-b74e-44b68758a2dc",
+    "document_id": "ed9f0af3-dc24-46d9-aeb3-637bd3bd649c",
+    "platform": "app_store",
+    "quote_verbatim": "Lots of variety and options available",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "fd9b3922-5566-4360-af7a-1ed6cd6180ba",
+    "document_id": "5d5149cb-47ab-4a8c-89ca-039a570c2eb0",
+    "platform": "hacker_news",
+    "quote_verbatim": "Most clothing sites have a sizing table, that lists the hip, waist, inseam, neck, etc for each of their sizes.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "a509fc73-9a96-409d-acec-d2755ba5b45e",
+    "document_id": "00b6d3d9-cea1-419c-9847-9abe8ada842c",
+    "platform": "play_store",
+    "quote_verbatim": "Asking for rs 15 if you choose cash on delivery payment method",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "7ccff3b4-18a5-4c41-a55a-daf7c258b285",
+    "document_id": "5d0b8e8d-4646-47cb-9597-94514390fdac",
+    "platform": "play_store",
+    "quote_verbatim": "not much review for the product to compare",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "reviews",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "reviews",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "f9b5fa46-bdcc-4f1c-a1b7-ef1f3a3cf5a3",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "platform": "reddit",
+    "quote_verbatim": "once they're dialed in though they become the most worn thing in your closet, swear i've done full weeks rotating the same pair",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "680309fe-469c-4297-90c4-9dd573bf83d6",
+    "document_id": "79760717-878d-40a0-9266-3396f89980f7",
+    "platform": "play_store",
+    "quote_verbatim": "not able to see the product details getting errors like \" oops something went wrong plz try after sometime.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "abandoned"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "abandoned"
+    }
+  },
+  {
+    "unit_id": "e5ade810-c14d-4ab7-b5c9-17f100be7929",
+    "document_id": "71e05ba2-2612-46f5-abf3-66dad142f73c",
+    "platform": "play_store",
+    "quote_verbatim": "I have not yet experienced it.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "b7e27c0c-4d1b-4c4a-8076-82dc276a0e98",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "platform": "hacker_news",
+    "quote_verbatim": "I have a Dell small business sales rep, who usually gets me better prices",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "resolved_by_workaround"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "resolved_by_workaround"
+    }
+  },
+  {
+    "unit_id": "ddc3c42f-3d93-4317-b4a4-fdbb0043ff27",
+    "document_id": "fccc4f39-1819-430c-b846-5aae8ac27413",
+    "platform": "app_store",
+    "quote_verbatim": "It’s really good and must buy",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "def358d8-f2c3-47a0-b7a7-de2a3b841f62",
+    "document_id": "3b318b47-ea2f-4ff8-84a2-c35bd8360fef",
+    "platform": "app_store",
+    "quote_verbatim": "Recommended",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "social_validation",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "social_validation",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "c182b71d-b5cc-4d08-b307-f8c00c9129ff",
+    "document_id": "d0b3347d-c8e6-4ffc-b39c-2f8be835d4d9",
+    "platform": "reddit",
+    "quote_verbatim": "Whats the best batch for this LV Duffle Bag?",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ea0780d6-d360-412b-b13d-359a27fcdf44",
+    "document_id": "33a50aa1-f7ca-455d-bd90-7ad2da4c8e71",
+    "platform": "hacker_news",
+    "quote_verbatim": "I had no idea lululemon was that expensive, I’ve never shopped there because I thought it was fast fashion and associated it with athleisure.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance"
+    }
+  },
+  {
+    "unit_id": "01a37e23-b7ff-4eb1-b09a-a849c054b75e",
+    "document_id": "89fc5b62-b6d7-4a1b-b800-d3c95e6bf2cb",
+    "platform": "reddit",
+    "quote_verbatim": "Can anyone recommend me sneakers/shoes??",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "027738a3-256c-4d23-81ae-2068ccaada5d",
+    "document_id": "5d0b8e8d-4646-47cb-9597-94514390fdac",
+    "platform": "play_store",
+    "quote_verbatim": "not much colour options for products",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "4619c6d5-be79-483e-a3aa-5fb937472fdf",
+    "document_id": "e37a7ff3-a4ed-4323-ab40-183d5504d9f9",
+    "platform": "reddit",
+    "quote_verbatim": "I walk 10-15 km daily and have ankles that twist too often.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "f5763188-208c-4ae3-87bb-7a313ff27b5b",
+    "document_id": "8937d6ee-4489-44bd-af83-26b5a3666c9b",
+    "platform": "play_store",
+    "quote_verbatim": "the prices are high but affordable",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "2e0a9e43-98bd-44c0-a5b8-8903caf4a70c",
+    "document_id": "902768f2-213c-41e5-a0b2-8e430c439324",
+    "platform": "youtube",
+    "quote_verbatim": "Na price btaya",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "444a9db8-79be-4b7e-8d85-88d0a9eadcf6",
+    "document_id": "03961bc1-ecb0-4dfa-913f-628a88c45f66",
+    "platform": "reddit",
+    "quote_verbatim": "Last one has a different silhouette, its more roomy and wide...can make you look a bit shorter.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ced90b90-c860-4766-b1d5-4eedb0c83e73",
+    "document_id": "c52167d8-25a7-4697-bd23-307d71b26481",
+    "platform": "reddit",
+    "quote_verbatim": "Good Fabric, a brand that has good colour options.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "dc098e94-02d5-40c2-bc85-cbf610ba110e",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "platform": "youtube",
+    "quote_verbatim": "it’s definitely a little pricy",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "9c63e9f5-00a2-45a4-84e9-8e270c9bf4ee",
+    "document_id": "25d10230-98a0-421a-a488-aa4a5896f11d",
+    "platform": "youtube",
+    "quote_verbatim": "add 3rd item into cart",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "a64b09e2-f338-4713-8a86-8edc6da3af76",
+    "document_id": "de7e94ae-baf4-40f3-a09f-68476d6d934a",
+    "platform": "reddit",
+    "quote_verbatim": "Looking for perfect beige trouser",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "40b4136c-3b14-4b2f-9df5-61a7800a5f30",
+    "document_id": "d9415dd9-997d-490f-8d84-2c43e14e1ddc",
+    "platform": "reddit",
+    "quote_verbatim": "beige trousers would look great, nice choice",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "12394761-dcae-48eb-99b7-37d5f5059a11",
+    "document_id": "cda2d2f1-5f9a-44df-b777-d6a72f3048bd",
+    "platform": "play_store",
+    "quote_verbatim": "upi se bhi EMI ka option diya kro",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "42f2987a-6273-4d2d-afb4-efddbc829ea7",
+    "document_id": "5347ee42-21e6-4339-8d7b-aedf9150ce7b",
+    "platform": "app_store",
+    "quote_verbatim": "Every time I got nice offers",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ebce6f22-256f-4de8-87eb-2bee8d5fd7ae",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "platform": "reddit",
+    "quote_verbatim": "For fabric, try checking out the shops around T Nagar if you're ever in the area, they usually have stacks of authentic madras checks by the meter.",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "4a0d7612-0ff4-485d-b7c2-88103456a16d",
+    "document_id": "5198dd1d-5573-4c73-9d85-4b6864870314",
+    "platform": "youtube",
+    "quote_verbatim": "Nahi H Kafi Dino Se Offer Ka Intejar Ka Rah Hun",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "2206f33b-de29-44d0-b106-39a544090d30",
+    "document_id": "d4f9f086-c069-4e22-8f29-e560bfccbaab",
+    "platform": "youtube",
+    "quote_verbatim": "My band size is 29 Bust size 30 Please tell my bra size",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "c30be5c6-0004-463a-a873-8f7d324e360c",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "platform": "hacker_news",
+    "quote_verbatim": "instant gratification problem",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "delivery_timing",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "abandoned"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "delivery_timing",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "abandoned"
+    }
+  },
+  {
+    "unit_id": "c44ee9cd-d2f3-4a4f-9e91-028f8f5912cb",
+    "document_id": "40569440-1236-4c85-9be5-b12b16bdd14a",
+    "platform": "reddit",
+    "quote_verbatim": "I am planning to build a formal wardrobe. Whenever I go to office , I currently kurta, jeans or shirts with formal pants ! But I feel it’s not good enough corporate !",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "1723784d-2daa-408e-a749-cf830edeb1bd",
+    "document_id": "800799cf-776f-497d-9901-fa735a42176e",
+    "platform": "reddit",
+    "quote_verbatim": "if I should get the new WWTOP or stay with the ones I have.",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "4e9b041c-c494-4f80-8c44-ff4afc46b177",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "platform": "play_store",
+    "quote_verbatim": "new update of app sucks",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "mild_annoyance"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "mild_annoyance"
+    }
+  },
+  {
+    "unit_id": "51fa46fc-f8d7-4baa-b48a-f8b99b68b283",
+    "document_id": "e4668ef9-b02d-422f-9398-9df6eda2976e",
+    "platform": "reddit",
+    "quote_verbatim": "wedding will be in December..it's quite cold in December here in punjab..but this cold in Assam...what should I wear..",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "88904caa-5de7-4d9d-a380-aaf3b017fa7a",
+    "document_id": "7838babd-7bc6-4884-b238-f73557904426",
+    "platform": "youtube",
+    "quote_verbatim": "dd or e size kya ake hai?",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "d36b594d-4053-4461-b7dc-47ded21122b2",
+    "document_id": "ce351815-6e9c-45c1-8124-3af6b400a3a8",
+    "platform": "reddit",
+    "quote_verbatim": "that you think would look good on a short girl",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "6f7b9073-7b3a-4273-bd3e-415ac10d24c2",
+    "document_id": "b4a45ebd-11ce-4eec-8780-dcc2c7a6dcde",
+    "platform": "youtube",
+    "quote_verbatim": "I'm really confused that i need to use any of these app for my mom's shopping.. she is using online shopping for the first time.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "c67534ee-dc9d-499b-a7c6-fc74a0a69c6e",
+    "document_id": "61eda797-661d-47c9-8b52-6b5a4ecf40b9",
+    "platform": "reddit",
+    "quote_verbatim": "if you do order, measure your inseam first and compare it to their size chart, that's saved me more times than i can count",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "5e2921d0-0a51-49a5-9267-5beb2125dd74",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "platform": "reddit",
+    "quote_verbatim": "i'm 5'6 too and it's a surprising pain to find beige trousers that don't look shapeless",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "7f3ee459-674e-495c-a96f-40179f0af457",
+    "document_id": "2c2499e0-6a14-467c-930b-f79043dd9feb",
+    "platform": "reddit",
+    "quote_verbatim": "Has anyone tried Suvaa?",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "7baa093a-2afb-416a-adfd-c792386d0f61",
+    "document_id": "b6294d64-2cca-4ac0-96e7-ae2e38435371",
+    "platform": "youtube",
+    "quote_verbatim": "In Mai SB se bara cup size kn sa h Tell me please",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "816c219d-1510-474b-a56a-eb39f3c4728e",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "platform": "hacker_news",
+    "quote_verbatim": "Most folks have a buying process something like: Want, shop around for a few minutes to a few hours, buy, have it within a week.",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "603af219-a8c3-40ec-b4ca-2c01404f91d9",
+    "document_id": "902768f2-213c-41e5-a0b2-8e430c439324",
+    "platform": "youtube",
+    "quote_verbatim": "na link diya",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "ab855c5a-1d32-419a-ae72-f9b4650c907d",
+    "document_id": "0788be14-debe-43a3-8f61-6fb988ad7405",
+    "platform": "youtube",
+    "quote_verbatim": "sir u added first product into cart but i want to add third one,how to add index to identify 3rd one uniquely",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "ba8929fd-c566-409a-bb4a-d860cd85676c",
+    "document_id": "4ae3d44f-d379-4733-bbd7-b61adfde5cb6",
+    "platform": "youtube",
+    "quote_verbatim": "Mujhe coupon chahiye",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "8b9b4381-8e87-4b7f-864b-c6646804fc5f",
+    "document_id": "25e6d13d-ea38-4051-ad38-2bbaa0b1f57e",
+    "platform": "play_store",
+    "quote_verbatim": "myntra have all trending Pinterest dresses ywr",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "0c2b3745-208a-49ab-ab98-2726eca57adf",
+    "document_id": "fc4386eb-1e15-49df-8410-6467bc73efeb",
+    "platform": "reddit",
+    "quote_verbatim": "Don’t know if i should ship or return this bag, the strap colors look kinda terrible. not sure if it’s just the warehouse lighting though. please let me know",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "b85d5920-8a26-4687-909b-2be107495f0f",
+    "document_id": "7514bac3-9acd-44fb-9144-3deedea321fc",
+    "platform": "reddit",
+    "quote_verbatim": "Otherwise some of the weaver co-ops in Tamil Nadu sell online now and will mail it straight to you.",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "f4ef7c69-9c07-4ccd-916c-c8b1f103fadb",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "platform": "youtube",
+    "quote_verbatim": "Go to banana republic",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "5ab8b6b4-cf71-4fac-8be5-547e76faf471",
+    "document_id": "bd643401-1802-4e5d-8503-3263119ae104",
+    "platform": "reddit",
+    "quote_verbatim": "it looks a little different on each shoe",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "81531058-9508-42ee-bab5-ae0ccb9db776",
+    "document_id": "ce351815-6e9c-45c1-8124-3af6b400a3a8",
+    "platform": "reddit",
+    "quote_verbatim": "I’m 4’11",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "74244e45-08b5-4d8d-b9f3-360451b64556",
+    "document_id": "0e93a6a7-9ef2-4f43-9483-0e5e266cda5a",
+    "platform": "play_store",
+    "quote_verbatim": "Fantastic offers and best price compared to others.",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "d003fe8a-27ec-4166-9fa0-91179ce166e4",
+    "document_id": "83e214ae-cca9-4750-a9fd-b2ffba0006d1",
+    "platform": "play_store",
+    "quote_verbatim": "best app for shopping and discount",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "636a011e-72bc-4df5-a174-31cebb03d173",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "platform": "reddit",
+    "quote_verbatim": "had to take a pair to the tailor just to get the hem right because every high waisted cut i tried pooled at the ankle in the weirdest way",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "5e698f62-4863-447a-88b2-327be35e7ae8",
+    "document_id": "0062a4bb-f577-4534-96e6-213b7634153e",
+    "platform": "play_store",
+    "quote_verbatim": "best app for shopping of branded clothes",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "0c2cf97f-1ad1-4878-8eee-bbf515376904",
+    "document_id": "0f4a4a69-7ca0-46ff-b685-779a8c997cb1",
+    "platform": "play_store",
+    "quote_verbatim": "I ll get every product I need .. .",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "a6babd42-1c53-437c-be44-83e032ee73c3",
+    "document_id": "73e35376-165f-4b98-b223-2ee701e72e60",
+    "platform": "reddit",
+    "quote_verbatim": "How do I pair these pants?",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "eb01d244-61ce-4959-8182-46617ac25ce7",
+    "document_id": "6e8238e6-0b94-4315-998d-f640234a643a",
+    "platform": "reddit",
+    "quote_verbatim": "They also take forever to dry during the monsoon",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "f6751588-51e5-4c16-b9b3-da303055abf6",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "platform": "play_store",
+    "quote_verbatim": "old version is good..",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ad2c75d1-21c5-46d3-acda-f64ee3ca3736",
+    "document_id": "36e3a029-e6db-4cbd-aa63-f137eb0b3257",
+    "platform": "reddit",
+    "quote_verbatim": "Baggy fit for 26 hours of flight hopping",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "47379637-532f-4588-8efe-a2ab8e266e3f",
+    "document_id": "186b5aca-7877-40be-8f0a-048660a5e7c4",
+    "platform": "play_store",
+    "quote_verbatim": "Please add a filter to search results that shows only items that are currently available and deliverable to my location.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "delivery_timing",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "delivery_timing",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "b303379e-c724-4048-a22e-a36e85be561d",
+    "document_id": "f0980c2d-64b1-41bd-85b9-5d3625f3a85d",
+    "platform": "reddit",
+    "quote_verbatim": "Hello, I'm looking for the sole of the givenchy tyson shoe number 43 - maybe someone knows if I can buy it somewhere.. Greetings",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "512fb647-8653-48cf-b434-e149cf02ce1e",
+    "document_id": "2f848347-69f2-44c4-aff0-360daddccbb0",
+    "platform": "reddit",
+    "quote_verbatim": "try holding them up against a white tshirt in store lighting before committing, it sounds fussy but saves you from donating them six months later",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "cabc5251-143b-4dda-a141-bee237a30157",
+    "document_id": "defe1315-e66a-492c-a969-6b8eccd8b75d",
+    "platform": "reddit",
+    "quote_verbatim": "Honestly, it really depends on your budget and what you're using it for (office, travel, or just casual use).",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "e0f1b3a8-b597-471f-8241-d1a79c9248f4",
+    "document_id": "89fc5b62-b6d7-4a1b-b800-d3c95e6bf2cb",
+    "platform": "reddit",
+    "quote_verbatim": "I dont have a big budget its around 3k!",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "7a2ca5f1-465e-457c-923f-c1cf52061ca4",
+    "document_id": "7cfdfeb8-70f2-4a17-86ef-56968a18a3a1",
+    "platform": "youtube",
+    "quote_verbatim": "If it is trendy - No Thank you! Trendy - not worth it.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "d2f27b94-c0f8-44f9-a42c-f1b3826f2c68",
+    "document_id": "cb370e11-f0bc-4a1a-9995-2bec42a6127a",
+    "platform": "youtube",
+    "quote_verbatim": "we always have sales and marketing stuff down",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "resolved_by_workaround"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "resolved_by_workaround"
+    }
+  },
+  {
+    "unit_id": "05fec51a-058b-462c-b6e3-504ff09eb5de",
+    "document_id": "51d47bc9-af13-4a9e-a54b-276836fdac8e",
+    "platform": "play_store",
+    "quote_verbatim": "wide options with lots ok likes.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "201152db-85c4-422e-a9fd-536778b0c433",
+    "document_id": "0f6810a0-ed73-469c-a076-3c0ac66adf19",
+    "platform": "reddit",
+    "quote_verbatim": "That's how I remember it being advertised as well",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "20aa484b-5f40-4f4b-b825-33aff0a13cab",
+    "document_id": "337c7889-1189-4b23-b7da-f3fbe936c5f1",
+    "platform": "youtube",
+    "quote_verbatim": "Saturday ko markit kulti h kya",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "8fb6da2b-5b09-428a-9abc-1e7a0107c25f",
+    "document_id": "9f9fb821-3a5e-4faa-9a02-136787d100db",
+    "platform": "reddit",
+    "quote_verbatim": "Help me accessorize this simple pastel-blue suit from Myntra",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "0f7f5701-de78-40c7-aee0-7f7b6e0d410a",
+    "document_id": "800799cf-776f-497d-9901-fa735a42176e",
+    "platform": "reddit",
+    "quote_verbatim": "Are my GATS good?",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "0fe5c8ba-c359-4c2d-9857-ec0f4a88b4f9",
+    "document_id": "1ff964fd-1a5f-49c6-bddf-4fc411b3b76d",
+    "platform": "play_store",
+    "quote_verbatim": "This app give more offer then other apps",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ef3f67b6-2eb6-45ea-8a05-716bfbcab7a6",
+    "document_id": "03961bc1-ecb0-4dfa-913f-628a88c45f66",
+    "platform": "reddit",
+    "quote_verbatim": "Maybe try other brands.",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "fefefa02-5ee4-4fa0-8928-00632cde8e53",
+    "document_id": "a1bd820e-69c3-4be3-907b-31f1afc6d495",
+    "platform": "play_store",
+    "quote_verbatim": "compares to other",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "34cedc13-4bf8-4c54-971f-69abeb33ee13",
+    "document_id": "acada195-e529-4b46-a6d1-e05e0923e8f7",
+    "platform": "reddit",
+    "quote_verbatim": "have you bought from salty?",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "social_validation",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "social_validation",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "7bf6b0c9-3791-4d29-868e-01df966ee9eb",
+    "document_id": "44d11050-b2a7-40ea-a838-e18fb23f0b0f",
+    "platform": "youtube",
+    "quote_verbatim": "My bust size-37-38",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "707a412d-8530-4b85-912b-54b52dd73161",
+    "document_id": "e4668ef9-b02d-422f-9398-9df6eda2976e",
+    "platform": "reddit",
+    "quote_verbatim": "Hey.i am from punjab and my sister In law is from Assam and ceremony will also take place in a hindu temple in Assam..",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "d61fc127-38d6-4f3b-b7c8-58eabb2b7802",
+    "document_id": "5747ebef-e175-4140-81c8-ae1fd951c01e",
+    "platform": "reddit",
+    "quote_verbatim": "how do u avoid it",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "fb2911a4-203c-4bed-b16a-87c532652bd0",
+    "document_id": "ef481c01-7e57-4bf6-9629-65f8a1f623f2",
+    "platform": "reddit",
+    "quote_verbatim": "Finally felt bold enough to go with a tank top",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "67cc7cb5-af80-4ab1-a2e4-387b798eac1b",
+    "document_id": "6e8238e6-0b94-4315-998d-f640234a643a",
+    "platform": "reddit",
+    "quote_verbatim": "I'm a fan of Bonkers too, but",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "0bbf63e0-9e41-4d35-8814-8bdfcf6bb8b5",
+    "document_id": "be01d217-16c7-4e9a-886d-407fa27efc6a",
+    "platform": "youtube",
+    "quote_verbatim": "Anna ugga gym vest enna size anna varum",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "943edd5f-a7e6-4062-a0b1-865a47bf63fc",
+    "document_id": "a51865b5-d1de-4bc2-a306-92cc564281ff",
+    "platform": "reddit",
+    "quote_verbatim": "Taurusreps, the 300y voucher option is actually solid for picking something cleaner from the Yupoo albums.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "2ce95787-bf29-4dda-977a-4efe6d63b6bb",
+    "document_id": "68f666a6-45d2-45f7-b8f6-28c6dd3f505b",
+    "platform": "reddit",
+    "quote_verbatim": "but they're all over 1300, my upper limit is 1k to 1.2k",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "a87b92b3-500a-4c9b-bfd8-afba1ed74aa6",
+    "document_id": "25d10230-98a0-421a-a488-aa4a5896f11d",
+    "platform": "youtube",
+    "quote_verbatim": "how to do it",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "2263ec0b-3311-4678-8baa-e67e6e7ba651",
+    "document_id": "5b9ec8d9-e7fe-4b50-b52d-18c8667cbdf0",
+    "platform": "play_store",
+    "quote_verbatim": "no risk of product buying and return",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "returns_risk",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "returns_risk",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "d6c4c49e-6c26-4367-bd3f-85e3301e7afb",
+    "document_id": "68f666a6-45d2-45f7-b8f6-28c6dd3f505b",
+    "platform": "reddit",
+    "quote_verbatim": "Need to buy baggy joggers for cheap but good quality in india",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "1522fc20-0bcc-4b92-afce-f3cb4dc18b71",
+    "document_id": "408af659-76f7-46b6-a57e-feda9ef5f08a",
+    "platform": "reddit",
+    "quote_verbatim": "I have not bought shoes from this brand before, so I am confused if i should go ahead or not.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "50b7da1f-b897-40ea-8fd3-314797a724e1",
+    "document_id": "43821eeb-7735-4839-88a1-3d09269452e0",
+    "platform": "reddit",
+    "quote_verbatim": "it seems they dont have COD option",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "1ac3dacb-6ef5-42ee-95f9-d67de032a76f",
+    "document_id": "0a733eec-c418-4fab-821d-809a44ac8b95",
+    "platform": "app_store",
+    "quote_verbatim": "Very nice and very helpful to know about every type of Style",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "0e82cde5-d063-495f-8b88-dd1f2557987d",
+    "document_id": "08cd7db2-8a27-413e-94e5-1d225152993a",
+    "platform": "app_store",
+    "quote_verbatim": "Always check the brand ans seller.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "a8825674-e30b-4879-be74-7a6e1dfaae5b",
+    "document_id": "14f2c788-0596-4aad-a4fb-6e7fdd697001",
+    "platform": "hacker_news",
+    "quote_verbatim": "I don&#x27;t think I can get a good overview of the apparel even from my S5 .",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "c8e3ebf1-ee52-4036-ba53-b96435744265",
+    "document_id": "5b9ec8d9-e7fe-4b50-b52d-18c8667cbdf0",
+    "platform": "play_store",
+    "quote_verbatim": "very good app",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "62a536f6-804d-411b-8b18-ea90dfa68e7b",
+    "document_id": "bb14725d-b14d-463a-a0ef-5d77c73a7b35",
+    "platform": "reddit",
+    "quote_verbatim": "Couple of Outfit checks from last week",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "a59de5ea-ec86-46d5-8bd6-984d3c393feb",
+    "document_id": "b849694f-d763-4ce5-bb0e-463ec97af30a",
+    "platform": "youtube",
+    "quote_verbatim": "Ir is bless for short person like me.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "8fa93ecc-90a1-403f-81b2-114580171aeb",
+    "document_id": "148efd19-7049-4630-bdd2-35e78a084ac3",
+    "platform": "app_store",
+    "quote_verbatim": "loved it very nice products available",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ac5472c6-6850-4aa4-8591-0e971c5ef157",
+    "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+    "platform": "reddit",
+    "quote_verbatim": "There is often a big difference between jewellery that looks great in a photo and jewellery that you genuinely reach for several times a week.",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "b2997d44-ba7f-4520-9906-7439fb279933",
+    "document_id": "8ef30260-13aa-47c6-b245-549bb653f8e2",
+    "platform": "play_store",
+    "quote_verbatim": "new update does not show save for later all order...",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "6ca0a672-436f-4746-8579-12dd1c5be372",
+    "document_id": "e26dc355-41c6-4ccf-9f96-a20031c169c6",
+    "platform": "play_store",
+    "quote_verbatim": "So very low price all things",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "d1072824-91f0-4f76-866d-e6d281456ea4",
+    "document_id": "88fbd3fa-87ca-4cc2-ba22-cfdf62be2dc5",
+    "platform": "reddit",
+    "quote_verbatim": "Nocta Nylon Windbreaker Tracksuit",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "da076d62-ecdb-4422-a551-3b506debed41",
+    "document_id": "40569440-1236-4c85-9be5-b12b16bdd14a",
+    "platform": "reddit",
+    "quote_verbatim": "I want to be more poised ! Where do you all shop for daily formal wears ? . **On my first day :** I have few formal pants and tops.",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ba459f07-bb89-456c-ae1c-4836f80e6460",
+    "document_id": "98cfc64d-04e0-4b6c-89ad-253cae6abdf7",
+    "platform": "youtube",
+    "quote_verbatim": "Bhai jo apne jo jacket prhni h uska name kya h kr keha milti h is type ki",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "4d64dd5d-acae-4535-8494-5e6beef76c4e",
+    "document_id": "c232e773-e66f-44ed-92c5-ef7d242cd872",
+    "platform": "reddit",
+    "quote_verbatim": "What are these fcuking polos man.",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "3bb137a7-f453-4d07-bf95-ce46d7a7a021",
+    "document_id": "71e05ba2-2612-46f5-abf3-66dad142f73c",
+    "platform": "play_store",
+    "quote_verbatim": "Overall it looks like Ajio has a good collection",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "09669486-13dd-4766-a0b5-9823f4ddcaf1",
+    "document_id": "8c327bf6-259e-4e4d-b6fb-8fd5c7a1518a",
+    "platform": "hacker_news",
+    "quote_verbatim": "lead generation",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "9ba4bb71-a2e2-4f18-a40c-edf2c26cde7f",
+    "document_id": "66303260-da4a-4940-ba7c-c0b24cddc882",
+    "platform": "play_store",
+    "quote_verbatim": "everytime while ordering products get out of stock nd platform fee s als high",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "cc35a30f-1d0a-4397-8751-eecaabb51609",
+    "document_id": "c52167d8-25a7-4697-bd23-307d71b26481",
+    "platform": "reddit",
+    "quote_verbatim": "My friend is a cyclist so he has broad thighs",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "1d915d9c-3427-4409-b182-20adf208aca5",
+    "document_id": "de858adb-a584-4e77-a775-0bf09db28528",
+    "platform": "reddit",
+    "quote_verbatim": "Wdy guys think, which one looks better ?",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "963a10f0-828f-42b4-8fda-9ad27998497d",
+    "document_id": "a7f4b763-a01b-46f6-a200-0e18e5384607",
+    "platform": "play_store",
+    "quote_verbatim": "big discount or they are fooling you",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "4496f76c-2147-4f74-8de4-195c7c5515e4",
+    "document_id": "5e2290b5-f5d9-4e40-b8fc-9354e1fbdd76",
+    "platform": "reddit",
+    "quote_verbatim": "also check the pants before buying, put your hand inside the fabric and see how much it shows through, some linen is thicker than others",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fabric_quality",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "fabric_quality",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "f9ec853b-4154-499c-b2ca-c4f2bfaa460a",
+    "document_id": "974c6f7f-3da1-4934-9d59-c64c9a23bca7",
+    "platform": "youtube",
+    "quote_verbatim": "Bhai ye vest mat pehna kar c lagta hai",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "6e7a0d4c-fc60-441f-abe9-f9cd8c2bd57c",
+    "document_id": "e2397547-a43b-4e73-a586-5cdfad185045",
+    "platform": "youtube",
+    "quote_verbatim": "My band size is 32 Bust size is 36/37 What will b bra size and cup shape",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "6324e90f-422e-4d32-b12b-6aa639b0b329",
+    "document_id": "b4a45ebd-11ce-4eec-8780-dcc2c7a6dcde",
+    "platform": "youtube",
+    "quote_verbatim": "Which app is good to use but in low prices? Should I check for meesho? Pls need some help",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "43516724-3fd8-46e0-97d4-362bce13f2ac",
+    "document_id": "4ae3d44f-d379-4733-bbd7-b61adfde5cb6",
+    "platform": "youtube",
+    "quote_verbatim": "discount nhi mil rha",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "price",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "df32a984-73e2-4885-9f7a-590670e87c79",
+    "document_id": "75d6f1a4-a7ce-4c0e-89ee-6218aa7b5ce0",
+    "platform": "youtube",
+    "quote_verbatim": "Hi, Can you please let me know when I haven't search button then how to add item on card ?",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "checkout",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "561e6177-81d1-4475-9298-887ad9b36890",
+    "document_id": "44d11050-b2a7-40ea-a838-e18fb23f0b0f",
+    "platform": "youtube",
+    "quote_verbatim": "My band size 33",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "fit",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "f7eba81d-df84-4e64-9d14-3bb474094a20",
+    "document_id": "565b89c6-402b-4a97-8e67-7728937cd464",
+    "platform": "app_store",
+    "quote_verbatim": "Cool filters to choose from wide range of products...",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "f74b5e4d-eb50-46ea-9a2c-02b338f31a62",
+    "document_id": "c67a4e0e-ad8f-4fe3-b20f-27dca065c2cd",
+    "platform": "reddit",
+    "quote_verbatim": "Also, i wear dark coloured inner wear, so may be that helps as well",
+    "model_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "workaround",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "39efe1e1-38df-4c33-ba9c-e72e71309690",
+    "document_id": "148efd19-7049-4630-bdd2-35e78a084ac3",
+    "platform": "app_store",
+    "quote_verbatim": "My stress for going out for shopping is now reduced due to this app",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "c2106f7f-1e65-4ada-b213-4035bdb1fe50",
+    "document_id": "d1b0327e-da0a-4663-a25f-084a4d3cae15",
+    "platform": "youtube",
+    "quote_verbatim": "Quince? I’ve had a mix, but nothing great. I’d love to know what you think!",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "deb5bf2b-76c3-4367-b313-ab1a2a63abda",
+    "document_id": "b16b4fb6-b307-4c79-815c-8eaa577a4e76",
+    "platform": "reddit",
+    "quote_verbatim": "A simple silver necklace is probably one of the easiest pieces to integrate into a wardrobe.",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "styling",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "09160e70-4c60-48c2-9a37-7d2fe9a98687",
+    "document_id": "16ea4af2-6acb-40bc-972f-c1ad03b948c2",
+    "platform": "play_store",
+    "quote_verbatim": "nice collection but please all sizes are available if it's possible",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "size",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "24b79ac5-9a5e-405c-880f-225112fc1503",
+    "document_id": "14f2c788-0596-4aad-a4fb-6e7fdd697001",
+    "platform": "hacker_news",
+    "quote_verbatim": "I generally want to look at the images of the clothes in good quality on a bigger screen before I buy.",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "fabric_quality",
+      "intent_type": "genuine_intent",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "c38a64db-a07d-4523-8163-1741cfd44017",
+    "document_id": "08cd7db2-8a27-413e-94e5-1d225152993a",
+    "platform": "app_store",
+    "quote_verbatim": "Overall reliable",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "67f92a93-0be8-48b2-ad00-603cd57d34f1",
+    "document_id": "7a7a0236-939b-4783-9c64-396869bf13af",
+    "platform": "reddit",
+    "quote_verbatim": "compare it with leopold",
+    "model_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance"
+    },
+    "human_labels": {
+      "unit_type": "comparison",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "discovery",
+      "severity_signal": "mild_annoyance"
+    }
+  },
+  {
+    "unit_id": "09110d21-d287-45ee-96ba-a60dfcea2c1c",
+    "document_id": "e51a7e1d-b3b1-49f8-968f-28dc9f48b16a",
+    "platform": "play_store",
+    "quote_verbatim": "still app scorling issue not resolve",
+    "model_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "blocker",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "77952d54-b1a3-40e2-a691-4e5103ccc994",
+    "document_id": "cd157b9d-fbee-4066-af10-a5c1632b6482",
+    "platform": "reddit",
+    "quote_verbatim": "Is it worth keeping?",
+    "model_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "still_deferring"
+    },
+    "human_labels": {
+      "unit_type": "uncertainty",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "post_purchase",
+      "severity_signal": "still_deferring"
+    }
+  },
+  {
+    "unit_id": "dc428b94-913c-4796-a2f0-fb5860a46a2b",
+    "document_id": "3f69e8b9-80df-4a1c-85d9-ee6b124c4cbe",
+    "platform": "app_store",
+    "quote_verbatim": "I find this hand bag is way to cool",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "a46cd931-f7ef-4dab-9241-9bd602bbcef8",
+    "document_id": "c702beec-0dde-4c6c-9539-74d6e5bc6ddd",
+    "platform": "youtube",
+    "quote_verbatim": "Didi ye pink dress achche pehnke dikhaona please",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "93ccfaa6-b9ba-4ec3-8a31-39c6fb523c14",
+    "document_id": "f52f1073-d68b-4a56-9de2-74ac21cb9ba6",
+    "platform": "app_store",
+    "quote_verbatim": "best solution to all my occasions… Myntra !!",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "occasion",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "occasion",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "ebeb3ee3-6912-47de-88b1-5163480446a8",
+    "document_id": "cda2d2f1-5f9a-44df-b777-d6a72f3048bd",
+    "platform": "play_store",
+    "quote_verbatim": "7 din se paresan hu",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "mild_annoyance"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "checkout",
+      "severity_signal": "mild_annoyance"
+    }
+  },
+  {
+    "unit_id": "b898feff-32d4-4476-8475-c33675d842f3",
+    "document_id": "3b318b47-ea2f-4ff8-84a2-c35bd8360fef",
+    "platform": "app_store",
+    "quote_verbatim": "can be worn with western as well as ethnic wear.",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "styling",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "e319545e-4025-4e23-837d-5e555523d066",
+    "document_id": "8583ad1f-c7b8-42aa-9206-a2e782be29d0",
+    "platform": "youtube",
+    "quote_verbatim": "Aap suit bhejti Hain Kya mujhe chahie",
+    "model_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "job",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "68d125db-1a6e-4c05-914f-d0cabbea935a",
+    "document_id": "1f472ef7-08df-44c8-b329-12847a865079",
+    "platform": "youtube",
+    "quote_verbatim": "Will there be sale on watches?",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "56856d19-4739-4f20-ae0c-e1289e3a3b66",
+    "document_id": "79760717-878d-40a0-9266-3396f89980f7",
+    "platform": "play_store",
+    "quote_verbatim": "after updating to the latest version.",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "none",
+      "journey_stage": "shortlist",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "2635347c-7dc3-43b9-977d-096bc0558854",
+    "document_id": "80f18b96-b6fe-47f3-8ccf-e0c0433fe836",
+    "platform": "app_store",
+    "quote_verbatim": "first order discount price",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "price",
+      "intent_type": "genuine_intent",
+      "journey_stage": "discovery",
+      "severity_signal": "none"
+    }
+  },
+  {
+    "unit_id": "cfc1e0ed-bbda-4e47-b83d-06b200ec17a1",
+    "document_id": "08cd7db2-8a27-413e-94e5-1d225152993a",
+    "platform": "app_store",
+    "quote_verbatim": "You won't regret.",
+    "model_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    },
+    "human_labels": {
+      "unit_type": "trigger",
+      "decision_factor": "none",
+      "intent_type": "genuine_intent",
+      "journey_stage": "none",
+      "severity_signal": "none"
+    }
+  }
+]
