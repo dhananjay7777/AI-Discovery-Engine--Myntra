@@ -61,10 +61,12 @@ Vercel will rebuild on every push to the production branch.
 | Setting | Value |
 | --- | --- |
 | Root Directory | `.` (repo root) |
-| Build Command | `npm run build` |
+| **Install Command** | `npm install` — **not** `npm run build` |
+| **Build Command** | `npm run build` |
 | Output Directory | *(default — Next.js)* |
-| Install Command | `npm install` |
 | Node.js | 20.x (or current LTS Vercel offers) |
+
+`vercel.json` at the repo root sets those two commands so a swapped dashboard field cannot skip `npm install`.
 
 5. Do **not** click Deploy yet if you still need to add env vars — open **Environment Variables** first (Step 3), then deploy.
 
@@ -158,6 +160,7 @@ The first public URL is not the end of Phase 6. Still required for “safe to le
 
 | Symptom | Likely cause | Fix |
 | --- | --- | --- |
+| `next: command not found` / install log shows `npm run build` | **Install Command** in Vercel is set to `npm run build` | Project Settings → General → Build & Development: Install = `npm install`, Build = `npm run build`. Redeploy. `vercel.json` in the repo also pins this. |
 | Build fails on Vercel | Local `npm run build` also fails, or Node mismatch | Fix locally; set Node 20 in Project Settings |
 | Site up, empty findings | `data/published` missing from bundle or git | Commit published JSON; keep `outputFileTracingIncludes` |
 | 503 on `/api/health` | Store path / tracing | Check function logs; verify published files in deployment |
