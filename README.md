@@ -81,7 +81,7 @@ Phase map and status: [docs/implementationplan.md](docs/implementationplan.md).
 
 ## Deploy (Phase 6)
 
-Push to GitHub, import in Vercel, set `GROQ_API_KEY` as a **server-only** env var. The published corpus ships with the repo as JSON.
+Step-by-step: [docs/Deploymentplan.md](docs/Deploymentplan.md). Short version: push to GitHub, import in Vercel, set `GROQ_API_KEY` as a **server-only** env var when the live demo is wired. The published corpus ships with the repo as JSON.
 
 ## GitHub Actions
 
